@@ -1,6 +1,6 @@
 {
  "since": "monthly",
- "fetched_at": "2026-10-17T14:31:16+00:00",
+ "fetched_at": "2026-10-17T23:19:55+00:00",
  "changed_at": "2026-10-17T14:14:24+00:00",
  "count": 21,
  "items": [
@@ -10,26 +10,19 @@
    "lang": "JavaScript",
    "stars": "24,844",
    "topics": [],
-   "total_stars": 30479,
+   "total_stars": "",
    "homepage": "",
-   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+   "readme": ""
   },
   {
    "repo": "paperclipai/paperclip",
    "desc": "The open-source app everyone uses to manage agents at work",
    "lang": "TypeScript",
    "stars": "22,617",
-   "topics": [
-    "acpx",
-    "agent-orchestration",
-    "agent-skills",
-    "agentic-ai",
-    "ai-agents",
-    "ai-engineering"
-   ],
-   "total_stars": 103413,
-   "homepage": "https://paperclip.ing",
-   "readme": "Quickstart &middot; Docs &middot; GitHub &middot; Discord &middot; Twitter &middot; Website Sign up for the Paperclip Cloud waitlist → Paperclip is the app people use to manage AI agents for work. Open-source orchestration for teams of AI agents. If OpenClaw is an _employee_, Paperclip is the _company_.** Paperclip is a Node.js server and React UI that orchestrates a team of AI agents to run a business. Bring your own agents, assign goals, and track work and costs from one dashboard. Choose models and harnesses per agent while keeping your team's tasks, skills, permissions, and history in one place. It looks like a task manager. Under the hood: org charts, budgets, governance, goal alignment"
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "anthropics/financial-services",
@@ -37,58 +30,39 @@
    "lang": "Python",
    "stars": "5,343",
    "topics": [],
-   "total_stars": 40148,
+   "total_stars": "",
    "homepage": "",
-   "readme": "Claude for Financial Services Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management. Everything here is available **two ways from one source**: install it as a Claude Cowork plugin, or deploy it through the Claude Managed Agents API behind your own workflow engine. Same system prompt, same skills — you choose where it runs. [!IMPORTANT] Nothing in this repository constitutes investment, legal, tax, or accounting advice. These agents draft analyst work product — models, memos, research notes, reconciliations — for review by a qualified professional. They do not make investment"
+   "readme": ""
   },
   {
    "repo": "heygen-com/hyperframes",
    "desc": "Write HTML. Render video. Built for agents.",
    "lang": "TypeScript",
    "stars": "14,754",
-   "topics": [
-    "ai",
-    "animation",
-    "ffmpeg",
-    "framework",
-    "gsap",
-    "html"
-   ],
-   "total_stars": 65703,
-   "homepage": "https://hyperframes.dev",
-   "readme": "Write HTML. Render video. Built for agents. Studio | Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Quick Start With an AI coding agent For Claude Code, install the versioned plugin: Enable auto-update for the **hyperframes** marketplace in `/plugin` → **Marketplaces**, then use `/hyperframes:hyperframes`. See the plugin guide for Copilot, VS Code, Cursor, Gemini CLI, updates, and migration. For standalone skills (including OpenCode"
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "debpalash/VoiceStudio",
    "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
    "lang": "Python",
    "stars": "38,923",
-   "topics": [
-    "ai",
-    "audiobook",
-    "cuda",
-    "dubbing",
-    "elevenlabs-alternative",
-    "huggingface"
-   ],
-   "total_stars": 72417,
-   "homepage": "https://voicestudio.sh",
-   "readme": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Your voice. Your workflow. | Create | Produce | Connect | | :--- | :--- | :--- | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with **VoiceStudio** (default, powered by k2-fsa/OmniVoice), or choose another engine. Features & engine catalog. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent. "
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "vectorize-io/hindsight",
    "desc": "Hindsight: Agent Memory That Learns",
    "lang": "Python",
    "stars": "26,912",
-   "topics": [
-    "agentic-ai",
-    "agents",
-    "ai-memory",
-    "memory"
-   ],
-   "total_stars": 50719,
-   "homepage": "https://hindsight.vectorize.io/",
-   "readme": "Documentation • Integrations • Cookbook • Benchmarks • Paper • Hindsight Cloud What is Hindsight? Hindsight™ is an agent memory system built to create smarter agents that learn over time. Most agent memory systems focus on recalling conversation history. Hindsight is focused on making agents that learn, not just remember. It eliminates the shortcomings of alternative techniques such as RAG and knowledge graph and delivers state-of-the-art performance on long term memory tasks. Contents** Memory Performance & Accuracy Quick Start — server · clients · platforms · embedded Adding Hindsight to Your Agent — LLM Wrapper · integrations · coding agents · MCP Core Concepts — memory types · retain / r"
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "agent-substrate/substrate",
@@ -96,7 +70,7 @@
    "lang": "Go",
    "stars": "3,417",
    "topics": [],
-   "total_stars": 5373,
+   "total_stars": "",
    "homepage": "",
    "readme": ""
   },

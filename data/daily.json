@@ -1,7 +1,7 @@
 {
  "since": "daily",
- "fetched_at": "2026-10-17T14:31:04+00:00",
- "changed_at": "2026-10-17T14:14:21+00:00",
+ "fetched_at": "2026-10-17T23:19:49+00:00",
+ "changed_at": "2026-10-17T23:19:49+00:00",
  "count": 13,
  "items": [
   {
@@ -14,7 +14,7 @@
     "mcp",
     "skills"
    ],
-   "total_stars": 41265,
+   "total_stars": 41695,
    "homepage": "https://code.claude.com/docs/en/plugins",
    "readme": "Claude Code Plugins Directory A curated directory of high-quality plugins for Claude Code. ⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. Structure `/plugins`** - Internal plugins developed and maintained by Anthropic `/external_plugins`** - Third-party plugins from partners and the community Installation Plugins can be installed directly from this marketplace via Claude Code's plugin system. To install, run `/plugin install {plugin-nam"
   },
@@ -31,7 +31,7 @@
     "cover-letter",
     "cv"
    ],
-   "total_stars": 49471,
+   "total_stars": 50309,
    "homepage": "",
    "readme": "AI Job Search The job search that runs on your machine.* An AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews. Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses. This project has **no affiliated cryptocurrency, token, or paid sponsorship program**. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link"
   },
@@ -48,7 +48,7 @@
     "developer-tools",
     "llm"
    ],
-   "total_stars": 282041,
+   "total_stars": 282459,
    "homepage": "https://ecc.tools",
    "readme": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা [!WARNING] Official sources only.** Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages `ecc-universal` and `ecc-agentshield`, the GitHub App, the plugin slug `ecc@ecc`, and the project website ecc.tools. Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware. Install with Claude Code Use the guided setup or native plugin commands. Both install the same `ecc@ecc` plugin. Choose one and do not stack a full manual Claude "
   },
@@ -58,7 +58,7 @@
    "lang": "Python",
    "stars": "580",
    "topics": [],
-   "total_stars": 53842,
+   "total_stars": 54033,
    "homepage": "https://clianything.cc/",
    "readme": "&nbsp; CLI-Anything: Making ALL Software Agent-Native &#32; &#32; Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub**: `pip install cli-anything-hub` then `cli-hub install ` — browse, install, and manage all community-built CLIs. Want to add your own? Open a PR — the hub updates instantly. 🎬 See Demos**: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more. 🙋 [Become a Contributor, or Request a CLI]**: Join us! Sign up to build a new CLI harness — once reviewed and merge"
   },
@@ -75,7 +75,7 @@
     "claude",
     "claude-skills"
    ],
-   "total_stars": 52005,
+   "total_stars": 52216,
    "homepage": "https://arxiv.org/abs/2609.00065",
    "readme": "Scientific Agent Skills 🔔 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility — now works with any AI agent that supports the open Agent Skills standard, not just Claude. New: K-Dense BYOK** — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads. Get started here. 🎥 Webinar recording — Getting Started with K-Dense BYO"
   },
@@ -85,7 +85,7 @@
    "lang": "Rust",
    "stars": "208",
    "topics": [],
-   "total_stars": 9737,
+   "total_stars": 9897,
    "homepage": "",
    "readme": "Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. Website: aimemory.sh** Why ai-memory Your coding agent probably has a memory feature already. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. They all have the same limits: the notes live on one machine, belong to one agent, and drop out of view when you switch tools or hand the work to a teammate. ai-memory removes those limits. It follows you across agents.** More than twenty harnesses (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Grok,"
   },
@@ -97,15 +97,15 @@
    "topics": [
     "skills"
    ],
-   "total_stars": 8297,
+   "total_stars": 8406,
    "homepage": "",
    "readme": "Android skills Android skills** are a dedicated repository of **AI-optimized, modular instructions** and resources, to help agents better understand and execute specific patterns that follow the best practices and guidance on Android development from developer.android.com. Android skills follow the open-standard agent skills - markdown files (SKILL.md) that provide a technical specification of a task, and **ground LLMs** with information on specialized domains and workflows. Our Android skill development focuses on **use cases and workflows where evaluations show LLMs underperform**. We aren't prioritizing well-established areas where LLMs are already proficient, such as basic Jetpack Compos"
   },
   {
    "repo": "stablyai/orca",
-   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
    "lang": "TypeScript",
-   "stars": "1,102",
+   "stars": "829",
    "topics": [
     "ade",
     "agent-ide",
@@ -114,7 +114,7 @@
     "bot",
     "claude-code"
    ],
-   "total_stars": 94969,
+   "total_stars": 95357,
    "homepage": "https://orca.dev",
    "readme": "Orca 中文 · 日本語 · 한국어 · Español · Français · Português The AI Orchestrator for 100x builders. Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. Download Orca Features Mobile Companion Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. iOS App Store · Android APK · Docs → Parallel Worktrees Fan one prompt across five agents, each in its own isolated git worktree — compare the results and merge the winner. Docs → Terminal Splits Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback that survives restarts. Docs → Design Mode Click any UI element in a real "
   },
@@ -124,7 +124,7 @@
    "lang": "TypeScript",
    "stars": "168",
    "topics": [],
-   "total_stars": 151434,
+   "total_stars": 151700,
    "homepage": "https://code.claude.com/docs/en/overview",
    "readme": "Claude Code [![npm]](https://www.npmjs.com/package/@anthropic-ai/claude-code) [npm]: https://img.shields.io/npm/v/@anthropic-ai/claude-code.svg?style=flat-square Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github. Learn more in the official documentation**. Get started [!NOTE] Installation via npm is deprecated. Use one of the recommended methods below. For more installation options, uninstall steps, and troubleshooting, see the setup documentation. "
   },
@@ -141,7 +141,7 @@
     "elevenlabs-alternative",
     "huggingface"
    ],
-   "total_stars": 72417,
+   "total_stars": 73248,
    "homepage": "https://voicestudio.sh",
    "readme": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Your voice. Your workflow. | Create | Produce | Connect | | :--- | :--- | :--- | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with **VoiceStudio** (default, powered by k2-fsa/OmniVoice), or choose another engine. Features & engine catalog. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent. "
   },
@@ -149,9 +149,9 @@
    "repo": "anomalyco/opencode",
    "desc": "The open source coding agent.",
    "lang": "TypeScript",
-   "stars": "488",
+   "stars": "576",
    "topics": [],
-   "total_stars": 214731,
+   "total_stars": 215244,
    "homepage": "https://opencode.ai",
    "readme": "The open source AI coding agent. English | 简体中文 | 繁體中文 | 한국어 | Deutsch | Español | Français | Italiano | Dansk | 日本語 | Polski | Русский | Bosanski | العربية | Norsk | Português (Brasil) | ไทย | Türkçe | Українська | বাংলা | Ελληνικά | Tiếng Việt Installation [!TIP] Remove versions older than 0.1.x before installing. Desktop App (BETA) OpenCode is also available as a desktop application. Download directly from the releases page or opencode.ai/download. | Platform | Download | | --------------------- | ---------------------------------- | | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg` | | macOS (Intel) | `opencode-desktop-mac-x64.dmg` | | Windows | `opencode-desktop-windows-x64.exe"
   },
@@ -168,7 +168,7 @@
     "ai-agents",
     "ai-assistant"
    ],
-   "total_stars": 75866,
+   "total_stars": 76039,
    "homepage": "https://Cognitum.One",
    "readme": "An agent meta-harness for Claude Code and Codex.** Get started with Ruflo Start in Claude Code** with core tools, the visual console and runtime mods. Requires Claude Code **2.1.287 or later**. Run inside Claude Code: Core** provides foundation tools. **Console** opens the agent cockpit. **Mods** add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review their code before installing. Using Codex or another MCP enabled tool?** Use NPX for Ruflo project setup and connect your client to the Ruflo MCP server. Run the setup wizard in your project terminal: For clients that support local stdio MCP servers, configure **command** `npx` and **arguments** `"
   },
@@ -185,9 +185,9 @@
     "ai-search-module",
     "ai-search-optimization"
    ],
-   "total_stars": 7457,
+   "total_stars": 7763,
    "homepage": "https://xerj.org",
-   "readme": "XERJ English | 简体中文 XERJ is a community-trusted local AI search that indexes any folder automatically, so your coding agent stops burning tokens reading files one by one and pulls the exact code it needs instead. Reference coding is its main use case and the clearest win: point an agent at a task and it downloads the open-source repos closest to it, indexes them, and reuses how they solved the problem before writing its own code. In a controlled study that cut a coding agent's output tokens by 2.7x at the same 16/16 solve rate (case study), and people report roughly 5x in everyday work (field reports). It is enough for a smaller, cheaper model to out-code a pricier one working from memory, w"
+   "readme": "XERJ English | 简体中文 | 日本語 XERJ is a community-trusted local AI search that indexes any folder automatically, so your coding agent stops burning tokens reading files one by one and pulls the exact code it needs instead. Reference coding is its main use case and the clearest win: point an agent at a task and it downloads the open-source repos closest to it, indexes them, and reuses how they solved the problem before writing its own code. In a controlled study that cut a coding agent's output tokens by 2.7x at the same 16/16 solve rate (case study), and people report roughly 5x in everyday work (field reports). It is enough for a smaller, cheaper model to out-code a pricier one working from mem"
   }
  ]
 }
