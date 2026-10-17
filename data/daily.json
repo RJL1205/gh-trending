@@ -1,0 +1,86 @@
+{
+ "since": "daily",
+ "fetched_at": "2026-10-17T14:14:21+00:00",
+ "changed_at": "2026-10-17T14:14:21+00:00",
+ "count": 13,
+ "items": [
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": "1,383"
+  },
+  {
+   "repo": "MadsLorentzen/ai-job-search",
+   "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+   "lang": "Python",
+   "stars": "1,397"
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "1,145"
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars": "580"
+  },
+  {
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medici",
+   "lang": "Python",
+   "stars": "879"
+  },
+  {
+   "repo": "akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars": "208"
+  },
+  {
+   "repo": "android/skills",
+   "desc": "",
+   "lang": "Kotlin",
+   "stars": "368"
+  },
+  {
+   "repo": "stablyai/orca",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars": "1,102"
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natura",
+   "lang": "TypeScript",
+   "stars": "168"
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": "2,135"
+  },
+  {
+   "repo": "anomalyco/opencode",
+   "desc": "The open source coding agent.",
+   "lang": "TypeScript",
+   "stars": "488"
+  },
+  {
+   "repo": "ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG int",
+   "lang": "TypeScript",
+   "stars": "406"
+  },
+  {
+   "repo": "xerj-org/xerj",
+   "desc": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audi",
+   "lang": "Rust",
+   "stars": "1,102"
+  }
+ ]
+}
