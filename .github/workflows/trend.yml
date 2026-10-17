@@ -1,7 +1,7 @@
 name: trending
 on:
   schedule:
-    - cron: '20 22 * * *'   # 每天 06:20 北京
+    - cron: '30 21 * * *'   # 每天 05:30 北京（比云端 06:30 推送早 1 小时，留出 GitHub 排队延迟的余量）
   workflow_dispatch:
 
 permissions:
