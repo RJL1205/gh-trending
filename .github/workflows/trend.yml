@@ -1,0 +1,30 @@
+name: trending
+on:
+  schedule:
+    - cron: '20 22 * * *'   # 每天 06:20 北京
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 抓三种榜单
+        run: |
+          python3 scrape.py daily
+          python3 scrape.py weekly
+          python3 scrape.py monthly
+      - name: 有变化才提交
+        run: |
+          git config user.name "gh-trending-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore: trending $(date -u +%F)"
+            git push
+          fi
