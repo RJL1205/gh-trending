@@ -1,14 +1,14 @@
 {
  "since": "weekly",
- "fetched_at": "2026-10-17T23:19:53+00:00",
- "changed_at": "2026-10-17T14:14:23+00:00",
+ "fetched_at": "2026-10-18T23:33:09+00:00",
+ "changed_at": "2026-10-18T23:33:09+00:00",
  "count": 10,
  "items": [
   {
    "repo": "morluto/rea",
    "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "lang": "TypeScript",
-   "stars": "248,962",
+   "stars": "239,923",
    "topics": [
     "agent-skills",
     "ai-agents",
@@ -17,7 +17,7 @@
     "cli",
     "codex"
    ],
-   "total_stars": 307192,
+   "total_stars": 321780,
    "homepage": "https://rea.tools",
    "readme": "English** · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം REA: Reverse Engineer Anything One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level.** Website · Guides · Showcases** Quick start · How REA works · What you can analyze · Showcases · FAQ · Documentation npx rea-agents setup [!IMPORTANT] Get REA from morluto/rea, rea.tools, or the rea-agents npm package. Follow the installation and release links from these official sources. A "
   },
@@ -25,7 +25,7 @@
    "repo": "storytold/artcraft",
    "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
    "lang": "Rust",
-   "stars": "20,267",
+   "stars": "18,479",
    "topics": [
     "3d-graphics",
     "ai",
@@ -33,7 +33,7 @@
     "filmmaking",
     "imagegeneration"
    ],
-   "total_stars": 31733,
+   "total_stars": 32689,
    "homepage": "https://getartcraft.com",
    "readme": "ArtCraft The IDE for artists. https://github.com/user-attachments/assets/7339bd09-3e0d-44a7-a024-af9de64e4c11 Watch the two-minute ArtCraft demo on YouTube Download ArtCraft · GitHub releases · Build from source ArtCraft is the IDE for interactive AI image and video creation. Compose in 2D, stage scenes in 3D, and choose the models that fit your work. Turn prompting into *crafting* with visual tools for precise, repeatable results. Show, Don't Tell: Advanced Crafting Features Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size. | Feature | Preview | | -------------------------------"
   },
@@ -41,7 +41,7 @@
    "repo": "boykopovar/AnyPS5",
    "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
    "lang": "C++",
-   "stars": "20,518",
+   "stars": "16,250",
    "topics": [
     "anyps5",
     "dynamic-library",
@@ -50,63 +50,29 @@
     "ps5-tools",
     "spir-v"
    ],
-   "total_stars": 41667,
+   "total_stars": 43169,
    "homepage": "https://boykopovar.github.io/AnyPS5/",
-   "readme": "About Tool for automatic executables porting to Linux and Windows. Web converter** - files stay on your device. Includes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process. Discord**, Usage, Build instructions, Architecture, Technical debt of the project, code style conventions, contributing Status Progress history System libraries: percentage of the functions known to the project so far (declared in core/libs/prx), not of every PS5 system function. The total grows as more functions are declared. Unsupported or unexpected states strictly throw `std::runtime"
-  },
-  {
-   "repo": "cathrynlavery/diagram-design",
-   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-   "lang": "HTML",
-   "stars": "9,024",
-   "topics": [
-    "agent-skills",
-    "claude-code",
-    "codex",
-    "data-visualization",
-    "diagrams",
-    "drawio"
-   ],
-   "total_stars": 56980,
-   "homepage": "https://diagramdesign.dev",
-   "readme": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 45 diagram types. No shadows. No Mermaid slop.** Website · Gallery · Changelog** Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\"* \"I need a quadrant showing Q2 projects by impact vs effort.\"* \"Give me a sequence of a bearer call with token refresh on 401.\"* \"Onboard diagram-design to https://yoursite.com\"* (pulls your palette and fonts so every diagram after this one matches your site) The agent picks the"
+   "readme": "About Tool for automatic executables porting to Linux and Windows. The relinker-only build runs on macOS, including Apple silicon. Web converter** - files stay on your device. Includes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process. Discord**, Usage, Build instructions, Architecture, Technical debt of the project, code style conventions, contributing Status Progress history System libraries: percentage of the functions known to the project so far (declared in core/libs/prx), not of every PS5 system function. The total grows as more functions are declare"
   },
   {
    "repo": "anthropics/claude-plugins-official",
    "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
    "lang": "Python",
-   "stars": "2,328",
+   "stars": "3,581",
    "topics": [
     "claude-code",
     "mcp",
     "skills"
    ],
-   "total_stars": 41695,
+   "total_stars": 42653,
    "homepage": "https://code.claude.com/docs/en/plugins",
    "readme": "Claude Code Plugins Directory A curated directory of high-quality plugins for Claude Code. ⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. Structure `/plugins`** - Internal plugins developed and maintained by Anthropic `/external_plugins`** - Third-party plugins from partners and the community Installation Plugins can be installed directly from this marketplace via Claude Code's plugin system. To install, run `/plugin install {plugin-nam"
-  },
-  {
-   "repo": "heygen-com/hyperframes",
-   "desc": "Write HTML. Render video. Built for agents.",
-   "lang": "TypeScript",
-   "stars": "5,601",
-   "topics": [
-    "ai",
-    "animation",
-    "ffmpeg",
-    "framework",
-    "gsap",
-    "html"
-   ],
-   "total_stars": 65970,
-   "homepage": "https://hyperframes.dev",
-   "readme": "Write HTML. Render video. Built for agents. Studio | Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Quick Start With an AI coding agent For Claude Code, install the versioned plugin: Enable auto-update for the **hyperframes** marketplace in `/plugin` → **Marketplaces**, then use `/hyperframes:hyperframes`. See the plugin guide for Copilot, VS Code, Cursor, Gemini CLI, updates, and migration. For standalone skills (including OpenCode"
   },
   {
    "repo": "mksglu/context-mode",
    "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
    "lang": "TypeScript",
-   "stars": "4,207",
+   "stars": "4,438",
    "topics": [
     "antigravity",
     "claude",
@@ -115,45 +81,84 @@
     "claude-code-plugins",
     "claude-code-skill"
    ],
-   "total_stars": 30507,
+   "total_stars": 30745,
    "homepage": "https://context-mode.com",
    "readme": "Context Mode The other half of the context problem.** Used across teams at The Problem Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides. How Context Mode Solves It Context Mode is an MCP server that solves all four sides of this problem: Context Saving** — Sandb"
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars": "8,382",
+   "topics": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "data-visualization",
+    "diagrams",
+    "drawio"
+   ],
+   "total_stars": 57663,
+   "homepage": "https://diagramdesign.dev",
+   "readme": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 45 diagram types. No shadows. No Mermaid slop.** Website · Gallery · Changelog** Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\"* \"I need a quadrant showing Q2 projects by impact vs effort.\"* \"Give me a sequence of a bearer call with token refresh on 401.\"* \"Onboard diagram-design to https://yoursite.com\"* (pulls your palette and fonts so every diagram after this one matches your site) The agent picks the"
   },
   {
    "repo": "NationalSecurityAgency/ghidra",
    "desc": "Ghidra is a software reverse engineering (SRE) framework",
    "lang": "Java",
-   "stars": "7,510",
+   "stars": "7,608",
    "topics": [
     "disassembler",
     "reverse-engineering",
     "software-analysis"
    ],
-   "total_stars": 90240,
+   "total_stars": 90871,
    "homepage": "",
    "readme": "Ghidra Software Reverse Engineering Framework Ghidra is a software reverse engineering (SRE) framework created and maintained by the [National Security Agency][nsa] Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension compon"
   },
   {
-   "repo": "mattpocock/skills",
-   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-   "lang": "Shell",
-   "stars": "11,937",
-   "topics": [],
-   "total_stars": 295063,
-   "homepage": "https://aihero.dev/skills",
-   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
+   "repo": "heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": "5,639",
+   "topics": [
+    "ai",
+    "animation",
+    "ffmpeg",
+    "framework",
+    "gsap",
+    "html"
+   ],
+   "total_stars": 66710,
+   "homepage": "https://hyperframes.dev",
+   "readme": "Write HTML. Render video. Built for agents. Studio | Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Quick Start With an AI coding agent For Claude Code, install the versioned plugin: Enable auto-update for the **hyperframes** marketplace in `/plugin` → **Marketplaces**, then use `/hyperframes:hyperframes`. See the plugin guide for Copilot, VS Code, Cursor, Gemini CLI, updates, and migration. For standalone skills (including OpenCode"
   },
   {
-   "repo": "ranxianglei/billion-context",
-   "desc": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十",
+   "repo": "cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
    "lang": "TypeScript",
-   "stars": "779",
-   "topics": [
-    "dsh-plugin"
-   ],
-   "total_stars": 1712,
+   "stars": "1,536",
+   "topics": [],
+   "total_stars": 12721,
    "homepage": "",
-   "readme": ""
+   "readme": "Cursor plugins Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest. Plugins | `name` | Plugin | Author | Category | `description` (from marketplace) | |:-------|:-------|:-------|:---------|:-------------------------------------| | `teaching` | Teaching | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | `continual-learning` | Continual Learning | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | `cursor-team-kit` | Cursor Team K"
+  },
+  {
+   "repo": "MadsLorentzen/ai-job-search",
+   "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+   "lang": "Python",
+   "stars": "4,200",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "career",
+    "claude-code",
+    "cover-letter",
+    "cv"
+   ],
+   "total_stars": 53036,
+   "homepage": "",
+   "readme": "AI Job Search The job search that runs on your machine.* An AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews. Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses. This project has **no affiliated cryptocurrency, token, or paid sponsorship program**. Anything claiming otherwise is unauthorized and should be treated as a scam. The only ways to support the project are the Ko-fi link"
   }
  ]
 }
