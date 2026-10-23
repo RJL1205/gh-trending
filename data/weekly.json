@@ -1,7 +1,7 @@
 {
  "since": "weekly",
- "fetched_at": "2026-10-23T00:05:07+00:00",
- "changed_at": "2026-10-23T00:05:07+00:00",
+ "fetched_at": "2026-10-23T23:56:07+00:00",
+ "changed_at": "2026-10-23T23:56:07+00:00",
  "count": 15,
  "items": [
   {
@@ -17,9 +17,9 @@
     "cli",
     "codex"
    ],
-   "total_stars": 366101,
+   "total_stars": 373094,
    "homepage": "https://rea.tools",
-   "readme": "English** · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം REA: Reverse Engineer Anything One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level.** Website · Guides · Showcases** Quick start · How REA works · What you can analyze · Showcases · FAQ · Documentation npx rea-agents setup [!IMPORTANT] Get REA from morluto/rea, rea.tools, or the rea-agents npm package. Follow the installation and release links from these official sources. A "
+   "readme": "English** · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu REA: Reverse Engineer Anything One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level.** Website · Guides · Showcases** Quick start · How REA works · What you can analyze · Showcases · FAQ · Documentation npx rea-agents setup [!IMPORTANT] Get REA from morluto/rea, rea.tools, or the rea-agents npm package. Follow the installation and release links from these officia"
   },
   {
    "repo": "anthropics/claude-plugins-official",
@@ -31,7 +31,7 @@
     "mcp",
     "skills"
    ],
-   "total_stars": 43886,
+   "total_stars": 44114,
    "homepage": "https://code.claude.com/docs/en/plugins",
    "readme": "Claude Code Plugins Directory A curated directory of high-quality plugins for Claude Code. ⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. Structure `/plugins`** - Internal plugins developed and maintained by Anthropic `/external_plugins`** - Third-party plugins from partners and the community Installation Plugins can be installed directly from this marketplace via Claude Code's plugin system. To install, run `/plugin install {plugin-nam"
   },
@@ -48,7 +48,7 @@
     "ai-agents",
     "ai-assistant"
    ],
-   "total_stars": 78483,
+   "total_stars": 78777,
    "homepage": "https://Cognitum.One",
    "readme": "An agent meta-harness for Claude Code and Codex.** Get started with Ruflo Start in Claude Code** with core tools, the visual console and runtime mods. Requires Claude Code **2.1.287 or later**. Run inside Claude Code: Core** provides foundation tools. **Console** opens the agent cockpit. **Mods** add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review their code before installing. Using Codex or another MCP enabled tool?** Use NPX for Ruflo project setup and connect your client to the Ruflo MCP server. Run the setup wizard in your project terminal: For clients that support local stdio MCP servers, configure **command** `npx` and **arguments** `"
   },
@@ -60,26 +60,9 @@
    "topics": [
     "skills"
    ],
-   "total_stars": 9245,
+   "total_stars": 9415,
    "homepage": "",
    "readme": "Android skills Android skills** are a dedicated repository of **AI-optimized, modular instructions** and resources, to help agents better understand and execute specific patterns that follow the best practices and guidance on Android development from developer.android.com. Android skills follow the open-standard agent skills - markdown files (SKILL.md) that provide a technical specification of a task, and **ground LLMs** with information on specialized domains and workflows. Our Android skill development focuses on **use cases and workflows where evaluations show LLMs underperform**. We aren't prioritizing well-established areas where LLMs are already proficient, such as basic Jetpack Compos"
-  },
-  {
-   "repo": "K-Dense-AI/scientific-agent-skills",
-   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medici",
-   "lang": "Python",
-   "stars": "3,967",
-   "topics": [
-    "agent-skills",
-    "ai-scientist",
-    "bioinformatics",
-    "chemoinformatics",
-    "claude",
-    "claude-skills"
-   ],
-   "total_stars": 53887,
-   "homepage": "https://arxiv.org/abs/2609.00065",
-   "readme": "Scientific Agent Skills 🔔 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility — now works with any AI agent that supports the open Agent Skills standard, not just Claude. New: K-Dense BYOK** — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads. Get started here. 🎥 Webinar recording — Getting Started with K-Dense BYO"
   },
   {
    "repo": "anomalyco/opencode",
@@ -87,19 +70,26 @@
    "lang": "TypeScript",
    "stars": "6,750",
    "topics": [],
-   "total_stars": 220201,
+   "total_stars": 220614,
    "homepage": "https://opencode.ai",
    "readme": "The open source AI coding agent. English | 简体中文 | 繁體中文 | 한국어 | Deutsch | Español | Français | Italiano | Dansk | 日本語 | Polski | Русский | Bosanski | العربية | Norsk | Português (Brasil) | ไทย | Türkçe | Українська | বাংলা | Ελληνικά | Tiếng Việt Installation [!TIP] Remove versions older than 0.1.x before installing. Desktop App (BETA) OpenCode is also available as a desktop application. Download it from opencode.ai/download. | Platform | Download | | --------------------- | ---------------------------------- | | macOS (Apple Silicon) | `opencode-desktop-mac-arm64.dmg` | | macOS (Intel) | `opencode-desktop-mac-x64.dmg` | | Windows | `opencode-desktop-win-x64.exe` | | Linux | `.deb`, `.rpm`, o"
   },
   {
-   "repo": "HKUDS/CLI-Anything",
-   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-   "lang": "Python",
-   "stars": "3,275",
-   "topics": [],
-   "total_stars": 56230,
-   "homepage": "https://clianything.cc/",
-   "readme": "&nbsp; CLI-Anything: Making ALL Software Agent-Native &#32; &#32; Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub**: `pip install cli-anything-hub` then `cli-hub install ` — browse, install, and manage all community-built CLIs. Want to add your own? Open a PR — the hub updates instantly. 🎬 See Demos**: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more. 🙋 [Become a Contributor, or Request a CLI]**: Join us! Sign up to build a new CLI harness — once reviewed and merge"
+   "repo": "stablyai/orca",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars": "9,401",
+   "topics": [
+    "ade",
+    "agent-ide",
+    "ai-agents",
+    "automation",
+    "bot",
+    "claude-code"
+   ],
+   "total_stars": 103844,
+   "homepage": "https://orca.dev",
+   "readme": "Orca 中文 · 日本語 · 한국어 · Español · Français · Português The AI Orchestrator for 100x builders. Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. Download Orca Features Mobile Companion Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. iOS App Store · Android APK · Docs → Parallel Worktrees Fan one prompt across five agents, each in its own isolated git worktree — compare the results and merge the winner. Docs → Terminal Splits Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback that survives restarts. Docs → Design Mode Click any UI element in a real "
   },
   {
    "repo": "cursor/plugins",
@@ -107,7 +97,7 @@
    "lang": "TypeScript",
    "stars": "2,046",
    "topics": [],
-   "total_stars": 13606,
+   "total_stars": 13780,
    "homepage": "",
    "readme": "Cursor plugins Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest. Plugins | `name` | Plugin | Author | Category | `description` (from marketplace) | |:-------|:-------|:-------|:---------|:-------------------------------------| | `teaching` | Teaching | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | `continual-learning` | Continual Learning | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | `cursor-team-kit` | Cursor Team K"
   },
@@ -117,9 +107,36 @@
    "lang": "Rust",
    "stars": "3,322",
    "topics": [],
-   "total_stars": 12773,
+   "total_stars": 13035,
    "homepage": "",
    "readme": "Long-term memory for AI coding agents. Quit Claude Code mid-task, start OpenAI Codex in the same directory, continue without re-explaining the architecture, the failed approaches, or the open questions. Website: aimemory.sh** Why ai-memory Your coding agent probably has a memory feature already. Claude Code takes its own notes, Cursor remembers some things, and every platform is adding more. They all have the same limits: the notes live on one machine, belong to one agent, and drop out of view when you switch tools or hand the work to a teammate. ai-memory removes those limits. It follows you across agents.** More than twenty harnesses (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Grok,"
+  },
+  {
+   "repo": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars": "3,275",
+   "topics": [],
+   "total_stars": 56590,
+   "homepage": "https://clianything.cc/",
+   "readme": "&nbsp; CLI-Anything: Making ALL Software Agent-Native &#32; &#32; Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub**: `pip install cli-anything-hub` then `cli-hub install ` — browse, install, and manage all community-built CLIs. Want to add your own? Open a PR — the hub updates instantly. 🎬 See Demos**: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more. 🙋 [Become a Contributor, or Request a CLI]**: Join us! Sign up to build a new CLI harness — once reviewed and merge"
+  },
+  {
+   "repo": "Comfy-Org/ComfyUI",
+   "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+   "lang": "Python",
+   "stars": "4,375",
+   "topics": [
+    "ai",
+    "comfy",
+    "comfyui",
+    "python",
+    "pytorch",
+    "stable-diffusion"
+   ],
+   "total_stars": 142342,
+   "homepage": "https://www.comfy.org/",
+   "readme": "ComfyUI The most powerful and modular AI engine for content creation.** [![Website][website-shield]][website-url] [![Dynamic JSON Badge][discord-shield]][discord-url] [![Twitter][twitter-shield]][twitter-url] [![Matrix][matrix-shield]][matrix-url] [![][github-release-shield]][github-release-link] [![][github-release-date-shield]][github-release-link] [![][github-downloads-shield]][github-downloads-link] [![][github-downloads-latest-shield]][github-downloads-link] [matrix-shield]: https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=white [matrix-url]: https://app.element.io/#/room/%23comfyui_space%3Amatrix.org [website-shield]: https://img.shields.io/badge/ComfyOrg-428"
   },
   {
    "repo": "debpalash/VoiceStudio",
@@ -134,7 +151,7 @@
     "elevenlabs-alternative",
     "huggingface"
    ],
-   "total_stars": 81737,
+   "total_stars": 83297,
    "homepage": "https://voicestudio.sh",
    "readme": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Your voice. Your workflow. | Create | Produce | Connect | | :--- | :--- | :--- | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with **VoiceStudio** (default, powered by k2-fsa/OmniVoice), or choose another engine. Features & engine catalog. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent. "
   },
@@ -151,9 +168,26 @@
     "ffmpeg",
     "framework"
    ],
-   "total_stars": 70000,
+   "total_stars": 70790,
    "homepage": "https://hyperframes.dev",
    "readme": "Write HTML. Render video. Built for agents. Studio | Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Using Claude Code, Codex, Cursor, or another coding agent? Run `npx hyperframes skills update` once, then ask your agent to make a video. Quick Start With an AI coding agent For Claude Code, install the versioned plugin: Enable auto-update for the **hyperframes** marketplace in `/plugin` → **Marketplaces**, then use `/hyperframes:hype"
+  },
+  {
+   "repo": "K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medici",
+   "lang": "Python",
+   "stars": "3,967",
+   "topics": [
+    "agent-skills",
+    "ai-scientist",
+    "bioinformatics",
+    "chemoinformatics",
+    "claude",
+    "claude-skills"
+   ],
+   "total_stars": 54208,
+   "homepage": "https://arxiv.org/abs/2609.00065",
+   "readme": "Scientific Agent Skills 🔔 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility — now works with any AI agent that supports the open Agent Skills standard, not just Claude. New: K-Dense BYOK** — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 177 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via Modal for heavy workloads. Get started here. 🎥 Webinar recording — Getting Started with K-Dense BYO"
   },
   {
    "repo": "NationalSecurityAgency/ghidra",
@@ -165,60 +199,26 @@
     "reverse-engineering",
     "software-analysis"
    ],
-   "total_stars": 93148,
+   "total_stars": 93641,
    "homepage": "",
    "readme": "Ghidra Software Reverse Engineering Framework Ghidra is a software reverse engineering (SRE) framework created and maintained by the [National Security Agency][nsa] Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension compon"
   },
   {
-   "repo": "stablyai/orca",
-   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "repo": "elie222/rakazo",
+   "desc": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
    "lang": "TypeScript",
-   "stars": "9,401",
+   "stars": "1,166",
    "topics": [
-    "ade",
-    "agent-ide",
     "ai-agents",
-    "automation",
-    "bot",
-    "claude-code"
+    "chatgpt",
+    "docker",
+    "electron",
+    "expo",
+    "grok"
    ],
-   "total_stars": 102731,
-   "homepage": "https://orca.dev",
-   "readme": "Orca 中文 · 日本語 · 한국어 · Español · Français · Português The AI Orchestrator for 100x builders. Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. Download Orca Features Mobile Companion Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. iOS App Store · Android APK · Docs → Parallel Worktrees Fan one prompt across five agents, each in its own isolated git worktree — compare the results and merge the winner. Docs → Terminal Splits Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback that survives restarts. Docs → Design Mode Click any UI element in a real "
-  },
-  {
-   "repo": "Comfy-Org/ComfyUI",
-   "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-   "lang": "Python",
-   "stars": "4,375",
-   "topics": [
-    "ai",
-    "comfy",
-    "comfyui",
-    "python",
-    "pytorch",
-    "stable-diffusion"
-   ],
-   "total_stars": 142011,
-   "homepage": "https://www.comfy.org/",
-   "readme": "ComfyUI The most powerful and modular AI engine for content creation.** [![Website][website-shield]][website-url] [![Dynamic JSON Badge][discord-shield]][discord-url] [![Twitter][twitter-shield]][twitter-url] [![Matrix][matrix-shield]][matrix-url] [![][github-release-shield]][github-release-link] [![][github-release-date-shield]][github-release-link] [![][github-downloads-shield]][github-downloads-link] [![][github-downloads-latest-shield]][github-downloads-link] [matrix-shield]: https://img.shields.io/badge/Matrix-000000?style=flat&logo=matrix&logoColor=white [matrix-url]: https://app.element.io/#/room/%23comfyui_space%3Amatrix.org [website-shield]: https://img.shields.io/badge/ComfyOrg-428"
-  },
-  {
-   "repo": "mksglu/context-mode",
-   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-   "lang": "TypeScript",
-   "stars": "2,271",
-   "topics": [
-    "antigravity",
-    "claude",
-    "claude-code",
-    "claude-code-hooks",
-    "claude-code-plugins",
-    "claude-code-skill"
-   ],
-   "total_stars": 31827,
-   "homepage": "https://context-mode.com",
-   "readme": "Context Mode The other half of the context problem.** Used across teams at The Problem Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides. How Context Mode Solves It Context Mode is an MCP server that solves all four sides of this problem: Context Saving** — Sandb"
+   "total_stars": 5440,
+   "homepage": "https://rakazo.com",
+   "readme": "Rakazo English | 简体中文 | 日本語 Rakazo is an open source AI agent for persistent teammates, and a self-hosted AI assistant you can run on your own machine. It is available on the web, as an Electron desktop app, and on iPhone and Android. Bring your own model and computer provider, or run the complete stack locally. It is an open source, self-hosted alternative to Grok Bot, Meta Muse, OpenAI Dots, Instinct, OpenClaw, Hermes Agent, and Claude Duet. Rakazo is in beta. Learn more at rakazo.com. Features Persistent bots with their own conversations, memory, routines, and history Voice mode: speak replies, dictate, and call a bot. Bring your own ElevenLabs, OpenAI, Cartesia, or Fish Audio key Shared "
   }
  ]
 }

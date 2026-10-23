@@ -1,16 +1,26 @@
 {
  "since": "daily",
- "fetched_at": "2026-10-23T00:05:02+00:00",
- "changed_at": "2026-10-23T00:05:02+00:00",
- "count": 9,
+ "fetched_at": "2026-10-23T23:55:56+00:00",
+ "changed_at": "2026-10-23T23:55:56+00:00",
+ "count": 8,
  "items": [
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": "2,706",
+   "topics": [],
+   "total_stars": 42091,
+   "homepage": "",
+   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+  },
   {
    "repo": "php/php-src",
    "desc": "The PHP Interpreter",
    "lang": "C",
-   "stars": "287",
+   "stars": "722",
    "topics": [],
-   "total_stars": 41140,
+   "total_stars": 41557,
    "homepage": "https://www.php.net",
    "readme": "The PHP Interpreter PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. PHP is distributed under the Modified BSD License (SPDX-License-Identifier: `BSD-3-Clause`). Documentation The PHP manual is available at php.net/docs. Installation Prebuilt packages and binaries Prebuilt packages and binaries can be used to get up and running fast with PHP. For Windows, the PHP binaries can be obtained from windows.php.net. After extracting the archive the `*.exe` files are ready to use. For other systems, see the installation chapter. Building PHP s"
   },
@@ -18,117 +28,89 @@
    "repo": "anthropics/knowledge-work-plugins",
    "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
    "lang": "Python",
-   "stars": "303",
+   "stars": "643",
    "topics": [],
-   "total_stars": 31573,
+   "total_stars": 32197,
    "homepage": "",
    "readme": "Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork, also compatible with Claude Code. Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes when you cus"
   },
   {
-   "repo": "DietrichGebert/ponytail",
-   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "lang": "JavaScript",
-   "stars": "1,948",
-   "topics": [
-    "agent-skills",
-    "ai-agents",
-    "claude",
-    "claude-code",
-    "claude-code-plugin",
-    "cursor-rules"
-   ],
-   "total_stars": 173429,
-   "homepage": "https://ponytail.dev",
-   "readme": "Ponytail He says nothing. He writes one line. It works. Ponytail 5: rebuilt from the ground up. % code &middot; -41% time &middot; -26% cost &middot; -45% tokens And yet: 98% of risky logic ships with a test. Without Ponytail: 68%. Benchmarked in Claude Code, the same agent with and without the skill: 39 tasks including a real FastAPI + React repo, Opus 5.5, 5 runs each. Details . Español &middot; 한국어 &middot; 简体中文 &middot; 日本語 Already built with Ponytail You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one. Ponytail puts him inside your AI agent. Numbers Two th"
-  },
-  {
-   "repo": "cloudflare/security-audit-skill",
-   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-   "lang": "JavaScript",
-   "stars": "2,979",
+   "repo": "NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars": "1,240",
    "topics": [],
-   "total_stars": 39522,
-   "homepage": "",
-   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+   "total_stars": 18765,
+   "homepage": "https://docs.nvidia.com/openshell/latest/",
+   "readme": "[!IMPORTANT] New in OpenShell 0.1.x:** a stable release cadence, new isolation primitives, an expanded extension surface, and new APIs. Read the 0.1.0 upgrade guide. OpenShell is the safe, private runtime for fleets of autonomous AI agents. Agents are most useful when they can read files, install packages, call APIs, and use credentials. OpenShell gives them that capability without giving them unrestricted access to your data, secrets, or network. You declare what each agent can touch in a policy, and OpenShell enforces it. How It Works OpenShell governs what agents can do in two ways: it instruments the kernel to enforce policy on every file access, system call, and network connection at ru"
   },
   {
-   "repo": "Graphify-Labs/graphify",
-   "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained,",
-   "lang": "Python",
-   "stars": "1,408",
-   "topics": [
-    "ai-agents",
-    "antigravity",
-    "ast",
-    "claude-code",
-    "code-analysis",
-    "code-search"
-   ],
-   "total_stars": 132924,
-   "homepage": "https://www.graphify.com",
-   "readme": "Read this in other languages English | 简体中文 | 日本語 | 한국어 | Deutsch | Français | Español | हिन्दी | Português | Русский | العربية | فارسی | Italiano | Polski | Nederlands | Türkçe | Українська | Tiếng Việt | Bahasa Indonesia | Svenska | Ελληνικά | Română | Čeština | Suomi | Dansk | Norsk | Magyar | ภาษาไทย | Oʻzbekcha | 繁體中文 | Filipino | עברית Cut agent token spend by 80%. Graphify Cloud is always-on memory that governs your agents, keeps code quality high, and proves correctness with formal verification. Start a free 14-day trial &rarr; Type `/graphify` in your AI coding assistant and it maps your entire project (code, docs, PDFs, images, videos) into a **knowledge graph** you can **query ins"
-  },
-  {
-   "repo": "supabase/supabase",
-   "desc": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+   "repo": "Renhuai123/ziwei-doushu",
+   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
    "lang": "TypeScript",
-   "stars": "693",
+   "stars": "547",
    "topics": [
-    "ai",
-    "alternative",
-    "auth",
-    "database",
-    "deno",
-    "embeddings"
+    "bazi",
+    "chinese-astrology",
+    "divination",
+    "fortune-telling",
+    "nextjs",
+    "open-source"
    ],
-   "total_stars": 113473,
-   "homepage": "https://supabase.com",
-   "readme": "Supabase Supabase is the Postgres development platform. We're building the features of Firebase using enterprise-grade open source tools. [x] Hosted Postgres Database. Docs [x] Authentication and Authorization. Docs [x] Auto-generated APIs. [x] REST. Docs [x] GraphQL. Docs [x] Realtime subscriptions. Docs [x] Functions. [x] Database Functions. Docs [x] Edge Functions Docs [x] File Storage. Docs [x] AI + Vector/Embeddings Toolkit. Docs [x] Dashboard Watch \"releases\" of this repo to get notified of major updates. Documentation For full documentation, visit supabase.com/docs To see how to Contribute, visit Getting Started Community & Support Community Forum. Best for: help with building, discus"
+   "total_stars": 6843,
+   "homepage": "https://metisziwei.com/?from=gh-about",
+   "readme": "紫微斗数 · 开源排盘引擎 中文** · English 基于 倪海厦《天纪》 教学体系的紫微斗数排盘系统，包含完整排盘算法、四化系统、格局知识库、古籍原文数据，以及一套完整开源的紫微斗数解读数据：**v4.0 解读数据集——67.5 万张命盘 × 13 维 = 877 万段解读，正文约 204 亿字，解压后 56.6 GB**（2026-10-15 发布）。 | 数据集 | 命盘 | 解读段数 | 解压后 | 覆盖年份 | 每张盘解读字数 | |---|---|---|---|---|---| | **v4.0 解读数据集**（2026-10-15） | **674,976** | **8,774,688** | **56.6 GB** | **1950–2026**（只含真实日期） | **约 3.0 万字** | | v3.0 样本数据集 | 518,400 | 6,739,200 | 33.1 GB | 1924–1983 | 约 2.1 万字 | | 变化 | +30% | +30% | **+71%** | +17 年 | +44% | v3.0 每张盘解读字数按 2,160 张盘抽样估算，其余数字为全量统计；两版每张盘都是 13 维。 在线体验：metisziwei.com，排盘、AI 解读、命盘历史全部开放。 注：关于六亲判断** 紫微斗数在六亲（父母、兄弟、子女等）判断上存在一定局限。倪师在《天纪》中指出：“斗数批六亲本来就比较差一点。”（2上 · 00:25:27）在传统术数中，铁板神数在核对六亲方面有其独特优势（2上 · 00:03:15）；倪师仍以紫微斗"
   },
   {
-   "repo": "fastapi/fastapi",
-   "desc": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+   "repo": "SnailSploit/Claude-Red",
+   "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface ",
    "lang": "Python",
-   "stars": "101",
+   "stars": "209",
    "topics": [
-    "api",
-    "async",
-    "asyncio",
-    "fastapi",
-    "framework",
-    "json"
+    "claude-ai",
+    "claude-pt",
+    "claude-skills",
+    "redteam",
+    "redteam-tools",
+    "skills"
    ],
-   "total_stars": 103729,
-   "homepage": "https://fastapi.tiangolo.com/",
-   "readme": "FastAPI framework, high performance, easy to learn, fast to code, ready for production Documentation**: https://fastapi.tiangolo.com Source Code**: https://github.com/fastapi/fastapi FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints. The key features are: Fast**: Very high performance, on par with **NodeJS** and **Go** (thanks to Starlette and Pydantic). One of the fastest Python frameworks available. Fast to code**: Increase the speed to develop features by about 200% to 300%. * Fewer bugs**: Reduce about 40% of human (developer) induced errors. * Intuitive**: Great editor support. Completion everywhere. Less time d"
+   "total_stars": 8463,
+   "homepage": "",
+   "readme": "claude-red Offensive security skills for Claude — drop-in `SKILL.md` files that turn Claude into a context-aware red team operator.** Overview &bull; Quickstart &bull; Categories &bull; Skill Index &bull; Roadmap &bull; Contributing Overview `claude-red` is a curated library of offensive security skills for the Claude Skills system. Each skill is a structured `SKILL.md` file that primes Claude with expert-level methodology for a specific attack surface — from SQL injection to shellcode, EDR evasion to ADCS abuse. Drop a skill into your Claude environment and it behaves like a domain specialist: it knows the techniques, the tooling, the edge cases, and the escalation paths. Skills load on dem"
   },
   {
-   "repo": "luongnv89/claude-howto",
-   "desc": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+   "repo": "OpenBMB/VoxCPM",
+   "desc": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
    "lang": "Python",
-   "stars": "177",
+   "stars": "144",
    "topics": [
-    "claude-code",
-    "guide",
-    "tutorial"
+    "audio",
+    "deeplearning",
+    "minicpm",
+    "multilingual",
+    "python",
+    "pytorch"
    ],
-   "total_stars": 43176,
-   "homepage": "http://luongnv.com/claude-howto/",
-   "readme": "🌐 **Language / Ngôn ngữ / 语言 / Мова:** English | Tiếng Việt | 中文 | Українська | 日本語 Master Claude Code in a Weekend Go from typing `claude` to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. Get Started in 15 Minutes** | **Find Your Level** | **Browse the Feature Catalog** Table of Contents The Problem How Claude How To Fixes This How It Works Not Sure Where to Start? Get Started in 15 Minutes What Can You Build With This? FAQ Contributing License The Problem You installed Claude Code. You ran a few prompts. Now what? The official docs describe features — but don't show you how to combine them.** You know slash c"
+   "total_stars": 40243,
+   "homepage": "https://voxcpm.com",
+   "readme": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support! Feishu &nbsp;|&nbsp; Discord &nbsp;|&nbsp; 📚 MiniCPM Wiki VoxCPM is a **tokenizer-free** Text-to-Speech system that directly generates continuous speech representations via an end-to-end **diffusion autoregressive architecture**, bypassing discrete tokenization to achieve highly natural and expressive synthesis. VoxCPM2** is the latest major release — a **2B** parameter model trained on **over 2 million hours** of multilingual speech data, now supporting **30 languages**, **Voice Design**, **Controllable Voice Cloning**,"
   },
   {
-   "repo": "Meloong-Git/PCL",
-   "desc": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
-   "lang": "Visual Basic .NET",
-   "stars": "119",
+   "repo": "nodejs/node",
+   "desc": "Node.js JavaScript runtime ✨🐢🚀✨",
+   "lang": "JavaScript",
+   "stars": "93",
    "topics": [
-    "launcher",
-    "minecraft",
-    "minecraft-launcher"
+    "javascript",
+    "js",
+    "linux",
+    "macos",
+    "mit",
+    "node"
    ],
-   "total_stars": 8682,
-   "homepage": "https://meloong.com/PCL",
-   "readme": "Plain Craft Launcher 包含 PCL 的大部分源代码，包括 UI 库、动画模块、下载模块、Minecraft 启动模块等！ 代码并不是实时更新的，它会在每次 PCL 发布更新时同步一次。 非常感谢社区的大力支持！ 相关资源 PCL 下载：下载可免费使用的正式版 PCL！ PCL 功能投票：来参加投票吧，开发者会优先处理票数较高的项目！ 帮助文档库：PCL 内置帮助文档的存储库"
+   "total_stars": 122852,
+   "homepage": "https://nodejs.org",
+   "readme": "Node.js Node.js is an open-source, cross-platform JavaScript runtime environment. For information on using Node.js, see the [Node.js website][]. The Node.js project uses an open governance model. The [OpenJS Foundation][] provides support for the project. Contributors are expected to act in a collaborative manner to move the project forward. We encourage the constructive exchange of contrary opinions and compromise. The TSC reserves the right to limit or block contributors who repeatedly act in ways that discourage, exhaust, or otherwise negatively affect other participants. This project has a [Code of Conduct][].** Table of contents Support Release types Download Current and LTS releases Ni"
   }
  ]
 }
