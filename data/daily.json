@@ -1,116 +1,126 @@
 {
  "since": "daily",
- "fetched_at": "2026-10-23T23:55:56+00:00",
- "changed_at": "2026-10-23T23:55:56+00:00",
- "count": 8,
+ "fetched_at": "2026-10-24T23:33:27+00:00",
+ "changed_at": "2026-10-24T23:33:27+00:00",
+ "count": 10,
  "items": [
   {
    "repo": "cloudflare/security-audit-skill",
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "2,706",
+   "stars": "2,271",
    "topics": [],
-   "total_stars": 42091,
+   "total_stars": 44477,
    "homepage": "",
    "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
-  },
-  {
-   "repo": "php/php-src",
-   "desc": "The PHP Interpreter",
-   "lang": "C",
-   "stars": "722",
-   "topics": [],
-   "total_stars": 41557,
-   "homepage": "https://www.php.net",
-   "readme": "The PHP Interpreter PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. PHP is distributed under the Modified BSD License (SPDX-License-Identifier: `BSD-3-Clause`). Documentation The PHP manual is available at php.net/docs. Installation Prebuilt packages and binaries Prebuilt packages and binaries can be used to get up and running fast with PHP. For Windows, the PHP binaries can be obtained from windows.php.net. After extracting the archive the `*.exe` files are ready to use. For other systems, see the installation chapter. Building PHP s"
-  },
-  {
-   "repo": "anthropics/knowledge-work-plugins",
-   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-   "lang": "Python",
-   "stars": "643",
-   "topics": [],
-   "total_stars": 32197,
-   "homepage": "",
-   "readme": "Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork, also compatible with Claude Code. Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes when you cus"
   },
   {
    "repo": "NVIDIA/OpenShell",
    "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
    "lang": "Rust",
-   "stars": "1,240",
+   "stars": "893",
    "topics": [],
-   "total_stars": 18765,
+   "total_stars": 19461,
    "homepage": "https://docs.nvidia.com/openshell/latest/",
    "readme": "[!IMPORTANT] New in OpenShell 0.1.x:** a stable release cadence, new isolation primitives, an expanded extension surface, and new APIs. Read the 0.1.0 upgrade guide. OpenShell is the safe, private runtime for fleets of autonomous AI agents. Agents are most useful when they can read files, install packages, call APIs, and use credentials. OpenShell gives them that capability without giving them unrestricted access to your data, secrets, or network. You declare what each agent can touch in a policy, and OpenShell enforces it. How It Works OpenShell governs what agents can do in two ways: it instruments the kernel to enforce policy on every file access, system call, and network connection at ru"
   },
   {
-   "repo": "Renhuai123/ziwei-doushu",
-   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-   "lang": "TypeScript",
-   "stars": "547",
-   "topics": [
-    "bazi",
-    "chinese-astrology",
-    "divination",
-    "fortune-telling",
-    "nextjs",
-    "open-source"
-   ],
-   "total_stars": 6843,
-   "homepage": "https://metisziwei.com/?from=gh-about",
-   "readme": "紫微斗数 · 开源排盘引擎 中文** · English 基于 倪海厦《天纪》 教学体系的紫微斗数排盘系统，包含完整排盘算法、四化系统、格局知识库、古籍原文数据，以及一套完整开源的紫微斗数解读数据：**v4.0 解读数据集——67.5 万张命盘 × 13 维 = 877 万段解读，正文约 204 亿字，解压后 56.6 GB**（2026-10-15 发布）。 | 数据集 | 命盘 | 解读段数 | 解压后 | 覆盖年份 | 每张盘解读字数 | |---|---|---|---|---|---| | **v4.0 解读数据集**（2026-10-15） | **674,976** | **8,774,688** | **56.6 GB** | **1950–2026**（只含真实日期） | **约 3.0 万字** | | v3.0 样本数据集 | 518,400 | 6,739,200 | 33.1 GB | 1924–1983 | 约 2.1 万字 | | 变化 | +30% | +30% | **+71%** | +17 年 | +44% | v3.0 每张盘解读字数按 2,160 张盘抽样估算，其余数字为全量统计；两版每张盘都是 13 维。 在线体验：metisziwei.com，排盘、AI 解读、命盘历史全部开放。 注：关于六亲判断** 紫微斗数在六亲（父母、兄弟、子女等）判断上存在一定局限。倪师在《天纪》中指出：“斗数批六亲本来就比较差一点。”（2上 · 00:25:27）在传统术数中，铁板神数在核对六亲方面有其独特优势（2上 · 00:03:15）；倪师仍以紫微斗"
-  },
-  {
-   "repo": "SnailSploit/Claude-Red",
-   "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface ",
+   "repo": "aws/agent-toolkit-for-aws",
+   "desc": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
    "lang": "Python",
-   "stars": "209",
-   "topics": [
-    "claude-ai",
-    "claude-pt",
-    "claude-skills",
-    "redteam",
-    "redteam-tools",
-    "skills"
-   ],
-   "total_stars": 8463,
+   "stars": "11",
+   "topics": [],
+   "total_stars": 3119,
    "homepage": "",
-   "readme": "claude-red Offensive security skills for Claude — drop-in `SKILL.md` files that turn Claude into a context-aware red team operator.** Overview &bull; Quickstart &bull; Categories &bull; Skill Index &bull; Roadmap &bull; Contributing Overview `claude-red` is a curated library of offensive security skills for the Claude Skills system. Each skill is a structured `SKILL.md` file that primes Claude with expert-level methodology for a specific attack surface — from SQL injection to shellcode, EDR evasion to ADCS abuse. Drop a skill into your Claude environment and it behaves like a domain specialist: it knows the techniques, the tooling, the edge cases, and the escalation paths. Skills load on dem"
+   "readme": "Agent Toolkit for AWS Help AI coding agents build, deploy, and manage applications on AWS. The Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services. It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx. Quick start AWS CLI Use the Agent Toolkit directly from your terminal with the AWS CLI: See the AWS CLI integration guide for setup, configuration, and usage instructions. Claude Code The plugins are available on the official Anthropic marketplace (`claude-plugins-official`) which is added to your Claude Code installation by default. Use the following commands to inst"
   },
   {
-   "repo": "OpenBMB/VoxCPM",
-   "desc": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+   "repo": "Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "lang": "CSS",
+   "stars": "570",
+   "topics": [],
+   "total_stars": 32105,
+   "homepage": "https://www.usehallmark.com/",
+   "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; forty-eight themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of forty-eight materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the"
+  },
+  {
+   "repo": "luongnv89/claude-howto",
+   "desc": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
    "lang": "Python",
-   "stars": "144",
+   "stars": "442",
    "topics": [
-    "audio",
-    "deeplearning",
-    "minicpm",
-    "multilingual",
-    "python",
-    "pytorch"
+    "claude-code",
+    "guide",
+    "tutorial"
    ],
-   "total_stars": 40243,
-   "homepage": "https://voxcpm.com",
-   "readme": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support! Feishu &nbsp;|&nbsp; Discord &nbsp;|&nbsp; 📚 MiniCPM Wiki VoxCPM is a **tokenizer-free** Text-to-Speech system that directly generates continuous speech representations via an end-to-end **diffusion autoregressive architecture**, bypassing discrete tokenization to achieve highly natural and expressive synthesis. VoxCPM2** is the latest major release — a **2B** parameter model trained on **over 2 million hours** of multilingual speech data, now supporting **30 languages**, **Voice Design**, **Controllable Voice Cloning**,"
+   "total_stars": 44530,
+   "homepage": "http://luongnv.com/claude-howto/",
+   "readme": "🌐 **Language / Ngôn ngữ / 语言 / Мова:** English | Tiếng Việt | 中文 | Українська | 日本語 Master Claude Code in a Weekend Go from typing `claude` to orchestrating agents, hooks, skills, and MCP servers — with visual tutorials, copy-paste templates, and a guided learning path. Get Started in 15 Minutes** | **Find Your Level** | **Browse the Feature Catalog** Table of Contents The Problem How Claude How To Fixes This How It Works Not Sure Where to Start? Get Started in 15 Minutes What Can You Build With This? FAQ Contributing License The Problem You installed Claude Code. You ran a few prompts. Now what? The official docs describe features — but don't show you how to combine them.** You know slash c"
   },
   {
-   "repo": "nodejs/node",
-   "desc": "Node.js JavaScript runtime ✨🐢🚀✨",
-   "lang": "JavaScript",
-   "stars": "93",
+   "repo": "pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "Rust",
+   "stars": "733",
+   "topics": [],
+   "total_stars": 86369,
+   "homepage": "https://impeccable.style",
+   "readme": "Impeccable Design guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 62 deterministic detector rules for AI-generated frontend design. Quick start:** From your project root, run `npx impeccable install`, then run `/impeccable init` inside your AI coding tool. Full docs: impeccable.style. Why Impeccable? Anthropic's frontend-design was the first widely-used design skill for Claude. Impeccable started from there. Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds, the rounded-square icon tile"
+  },
+  {
+   "repo": "pollen-robotics/microduck",
+   "desc": "A Tiny biped duck robot 🦆",
+   "lang": "Rust",
+   "stars": "381",
+   "topics": [],
+   "total_stars": 10966,
+   "homepage": "https://pollen-robotics.com/microduck",
+   "readme": "Microduck A tiny biped robot that moves using reinforcement learning policies. Get yours here · Cheat sheet · Training the policies · How it works · Contributing This repo is the duck's brain.** About 25 cm and 800 g of robot, run by a handful of daemons on a Rockchip RK3566: a 50 Hz control loop driving fifteen servos from neural policies, the radios and the camera, and the update machinery that gets new software onto a robot without bricking it. Everything you need to run a Microduck is here. **If you want one, get yours here.** The policies it runs are trained next door, in microduck_rl** — MuJoCo and PPO, the sim2real recipe, and the export to ONNX that this repo loads. It does things It"
+  },
+  {
+   "repo": "google-gemini/gemini-cli",
+   "desc": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+   "lang": "TypeScript",
+   "stars": "38",
    "topics": [
-    "javascript",
-    "js",
-    "linux",
-    "macos",
-    "mit",
-    "node"
+    "ai",
+    "ai-agents",
+    "cli",
+    "gemini",
+    "gemini-api",
+    "mcp-client"
    ],
-   "total_stars": 122852,
-   "homepage": "https://nodejs.org",
-   "readme": "Node.js Node.js is an open-source, cross-platform JavaScript runtime environment. For information on using Node.js, see the [Node.js website][]. The Node.js project uses an open governance model. The [OpenJS Foundation][] provides support for the project. Contributors are expected to act in a collaborative manner to move the project forward. We encourage the constructive exchange of contrary opinions and compromise. The TSC reserves the right to limit or block contributors who repeatedly act in ways that discourage, exhaust, or otherwise negatively affect other participants. This project has a [Code of Conduct][].** Table of contents Support Release types Download Current and LTS releases Ni"
+   "total_stars": 108027,
+   "homepage": "https://geminicli.com",
+   "readme": "[!NOTE] Unpaid tier and Google One users:** Gemini CLI was replaced by Antigravity CLI on June 18th, 2026. To learn more, see our blog post. Gemini CLI has not been optimized for Gemini 4 Argon.** To use Gemini 4 Argon, please use Antigravity. Gemini CLI [!NOTE] Gemini CLI is not optimized for the latest Gemini models. For the best coding experience with Gemini models use Antigravity CLI Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal. It provides lightweight access to Gemini, giving you the most direct path from your prompt to our model. Learn all about Gemini CLI in our documentation. 📦 Installation See Gemini CLI installation, execution, a"
+  },
+  {
+   "repo": "jbiaojerry/ebook-treasure-chest",
+   "desc": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+   "lang": "Python",
+   "stars": "220",
+   "topics": [],
+   "total_stars": 22580,
+   "homepage": "",
+   "readme": "电子书下载宝库 🌐 在线访问 GitHub Pages** - 体验强大的实时搜索功能和多关键字搜索，快速找到你想要的电子书！ 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。 简介 我们从各个电子书网站上精心收集了各种电子书下载链接，并根据常用的标签对它们进行了简单分类。每本书都包括了三种常见格式文件：epub、mobi 和 azw3，以满足不同阅读设备和喜好的需求。 🔍 如何使用 浏览我们的下载宝库非常简单： 🌐 实时快速搜索（推荐） 访问 GitHub Pages 实时在线搜索页面**，体验强大的实时快速搜索和多关键词搜索功能： 🔎 实时搜索**：输入书名、作者或分类关键词，即时显示匹配结果 💡 多关键词搜索**：支持同时搜索多个关键词（用空格分隔） 💡 搜索技巧 在线搜索**：访问 GitHub Pages 页面，使用实时搜索功能（推荐） Ctrl+F**：在 GitHub 页面使用浏览器搜索功能 热门分类**：文学、历史、科普、管理、社会、推理等 按需查找**：职场、创业、技术、投资、心理学等专业领域 ☕ 请我们喝咖啡 🌟 如果这个项目对你有帮助，欢迎请我们喝杯咖啡！你的支持是我们持续维护和更新这个项目的动力。** 感谢所有支持我们的赞助人！** 查看 📋 赞助人名单 了解已赞赏的赞助人信息。 📚 索引目录 💡 使用 Ctrl+F 快速搜索关键词，或点击下方标"
+  },
+  {
+   "repo": "makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "lang": "TypeScript",
+   "stars": "471",
+   "topics": [
+    "agent",
+    "ai-agent",
+    "ai-assistant",
+    "android",
+    "claude-code",
+    "codex"
+   ],
+   "total_stars": 4074,
+   "homepage": "https://cindy.app",
+   "readme": "English · 简体中文 🌐 cindy.app &nbsp;·&nbsp; ⬇️ Download Cindy is an open-source AI agent that works out of the box. She brings multiple harnesses, models and tools into one agent that finishes real work in your projects and apps. Ready from day one, yours to shape over time. Cindy runs locally on your own machine, using your real files and logged-in apps. The first supported harnesses are **Claude Code** and **Codex** — more are being added, and a native harness is in the works. Models and harnesses mix freely and can switch mid-task while your workspace, memory, skills and tools stay continuous; one task can even be planned, executed in parallel, and reviewed by agents on different harness × m"
   }
  ]
 }
