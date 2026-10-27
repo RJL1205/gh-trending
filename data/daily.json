@@ -1,166 +1,148 @@
 {
  "since": "daily",
- "fetched_at": "2026-10-25T23:28:06+00:00",
- "changed_at": "2026-10-25T23:28:06+00:00",
- "count": 11,
+ "fetched_at": "2026-10-27T00:41:49+00:00",
+ "changed_at": "2026-10-27T00:41:49+00:00",
+ "count": 14,
  "items": [
-  {
-   "repo": "makecindy/cindy",
-   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-   "lang": "TypeScript",
-   "stars": "677",
-   "topics": [
-    "agent",
-    "ai-agent",
-    "ai-assistant",
-    "android",
-    "claude-code",
-    "codex"
-   ],
-   "total_stars": 4818,
-   "homepage": "https://cindy.app",
-   "readme": "English · 简体中文 🌐 cindy.app &nbsp;·&nbsp; ⬇️ Download Cindy is an open-source AI agent that works out of the box. She brings multiple harnesses, models and tools into one agent that finishes real work in your projects and apps. Ready from day one, yours to shape over time. Cindy runs locally on your own machine, using your real files and logged-in apps. The first supported harnesses are **Claude Code** and **Codex** — more are being added, and a native harness is in the works. Models and harnesses mix freely and can switch mid-task while your workspace, memory, skills and tools stay continuous; one task can even be planned, executed in parallel, and reviewed by agents on different harness × m"
-  },
   {
    "repo": "Nutlope/hallmark",
    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
    "lang": "CSS",
-   "stars": "1,359",
+   "stars": "2,244",
    "topics": [],
-   "total_stars": 33679,
-   "homepage": "https://www.usehallmark.com/",
-   "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; forty-eight themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of forty-eight materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the"
-  },
-  {
-   "repo": "debpalash/VoiceStudio",
-   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
-   "lang": "Python",
-   "stars": "1,588",
-   "topics": [
-    "ai",
-    "audiobook",
-    "cuda",
-    "dubbing",
-    "elevenlabs-alternative",
-    "huggingface"
-   ],
-   "total_stars": 86733,
-   "homepage": "https://voicestudio.sh",
-   "readme": "VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Your voice. Your workflow. | Create | Produce | Connect | | :--- | :--- | :--- | | Clone a voice or design your own | Dub videos with timed speech | Local API & MCP for agents | | Dictate with a floating widget | Stories, audiobooks & batch jobs | Reusable recipes & watch folders | Start with **VoiceStudio** (default, powered by k2-fsa/OmniVoice), or choose another engine. Features & engine catalog. Local workflows run on your hardware. Remote services are optional; usage analytics requires consent. "
-  },
-  {
-   "repo": "pbakaus/impeccable",
-   "desc": "The design language that makes your AI harness better at design.",
-   "lang": "Rust",
-   "stars": "1,113",
-   "topics": [],
-   "total_stars": 87637,
-   "homepage": "https://impeccable.style",
-   "readme": "Impeccable Design guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 62 deterministic detector rules for AI-generated frontend design. Quick start:** From your project root, run `npx impeccable install`, then run `/impeccable init` inside your AI coding tool. Full docs: impeccable.style. Why Impeccable? Anthropic's frontend-design was the first widely-used design skill for Claude. Impeccable started from there. Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds, the rounded-square icon tile"
-  },
-  {
-   "repo": "pollen-robotics/microduck",
-   "desc": "A Tiny biped duck robot 🦆",
-   "lang": "Rust",
-   "stars": "657",
-   "topics": [],
-   "total_stars": 11604,
-   "homepage": "https://pollen-robotics.com/microduck",
-   "readme": "Microduck A tiny biped robot that moves using reinforcement learning policies. Get yours here · Cheat sheet · Training the policies · How it works · Contributing This repo is the duck's brain.** About 25 cm and 800 g of robot, run by a handful of daemons on a Rockchip RK3566: a 50 Hz control loop driving fifteen servos from neural policies, the radios and the camera, and the update machinery that gets new software onto a robot without bricking it. Everything you need to run a Microduck is here. **If you want one, get yours here.** The policies it runs are trained next door, in microduck_rl** — MuJoCo and PPO, the sim2real recipe, and the export to ONNX that this repo loads. It does things It"
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "TauricResearch/TradingAgents",
    "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
    "lang": "Python",
-   "stars": "636",
-   "topics": [
-    "agent",
-    "finance",
-    "llm",
-    "multiagent",
-    "trading"
-   ],
-   "total_stars": 114559,
-   "homepage": "https://arxiv.org/pdf/2412.20138",
-   "readme": "Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 TradingAgents: Multi-Agents LLM Financial Trading Framework News [2026-10] **TradingAgents v0.7.0** released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release. [2026-10] **TradingAgents v0.6.0** released with reports saved as one HTML page, a provider per model tier so the managers and analysts can run on different models, past decisions settled for every ticker while the analysts work, and company news read from Yahoo search while Yahoo's news feed is down. [2026-09] **TradingA"
-  },
-  {
-   "repo": "Renhuai123/ziwei-doushu",
-   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-   "lang": "TypeScript",
-   "stars": "255",
-   "topics": [
-    "bazi",
-    "chinese-astrology",
-    "divination",
-    "fortune-telling",
-    "nextjs",
-    "open-source"
-   ],
-   "total_stars": 7525,
-   "homepage": "https://metisziwei.com/?from=gh-about",
-   "readme": "紫微斗数 · 开源排盘引擎 算法是公开的传统智慧，不应该被锁在围墙里 中文** · English 一、项目理念**：紫微斗数是中国传统命理学的瑰宝，倪海厦老师在《天纪》中系统梳理了正宗的紫微斗数体系。我们希望通过技术手段让更多人接触和学习这门学问。 开源排盘算法和知识库，是因为我们相信：**算法是公开的传统智慧，不应该被锁在围墙里**。真正的价值在于解读的深度、用户体验的打磨、以及持续运营的积累。 二、项目信息**：基于 倪海厦《天纪》 教学体系的紫微斗数排盘系统，包含完整排盘算法、四化系统、格局知识库、古籍原文数据，以及一套完整开源的紫微斗数解读数据：**v4.0 解读数据集——67.5 万张命盘 × 13 维 = 877 万段解读，正文约 204 亿字，解压后 56.6 GB**（2026-10-15 发布）。 | 数据集 | 命盘 | 解读段数 | 解压后 | 覆盖年份 | 每张盘解读字数 | |---|---|---|---|---|---| | **v4.0 解读数据集**（2026-10-15） | **674,976** | **8,774,688** | **56.6 GB** | **1950–2026**（只含真实日期） | **约 3.0 万字** | | v3.0 样本数据集 | 518,400 | 6,739,200 | 33.1 GB | 1924–1983 | 约 2.1 万字 | | 变化 | +30% | +30% | **+71%** | +17 年 | +44% | v3.0 每张盘解读字数按 2,160 张盘抽样估算，其余数字为全量统计"
+   "stars": "1,395",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "JetBrains/thinkrail",
    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
    "lang": "TypeScript",
-   "stars": "52",
-   "topics": [
-    "agent",
-    "agent-skills",
-    "agentic-ai",
-    "agentic-workflow",
-    "ai-coding",
-    "ai-tools"
-   ],
-   "total_stars": 1650,
-   "homepage": "https://thinkrail.ai/",
-   "readme": "ThinkRail ThinkRail is the agentic IDE that gets better every time you use it — learning your project through living specs today, and building its own capabilities tomorrow. We built a rich interface around the `pi` coding agent, isolated work into separate workspaces, and gave the agent durable project knowledge through living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can create the tools it needs based on how you actually work. Website:** thinkrail.ai · **Blog:** thinkrail.ai/blog ⭐ If you find ThinkRail useful, give it a star — it helps others discover it. A `pi` session and the change it made, scoped to an isolated git-worktree workspace.* What yo"
-  },
-  {
-   "repo": "coollabsio/coolify",
-   "desc": "An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
-   "lang": "PHP",
-   "stars": "192",
-   "topics": [
-    "coolify",
-    "databases",
-    "deployment",
-    "docker",
-    "docker-compose",
-    "inertiajs"
-   ],
-   "total_stars": 64333,
-   "homepage": "https://coolify.io",
-   "readme": "Coolify An open-source platform to deploy applications, databases, and services on your own servers.** Open source & free forever, backed by our philosophy. Website · Documentation · Cloud · Discord · Community What is Coolify? Coolify is an open-source and self-hostable alternative to Heroku, Netlify, and Vercel. It helps you manage servers, applications, and databases on your own hardware. You only need an SSH connection. You can use a VPS, a bare-metal server, a Raspberry Pi, or any other server that accepts SSH connections. Coolify gives you the convenience of a cloud platform while you keep control of your infrastructure. Your configurations stay on your servers. If you stop using Cooli"
-  },
-  {
-   "repo": "cloudflare/security-audit-skill",
-   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-   "lang": "JavaScript",
-   "stars": "2,874",
+   "stars": "1,173",
    "topics": [],
-   "total_stars": 46808,
+   "total_stars": "",
    "homepage": "",
-   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+   "readme": ""
   },
   {
-   "repo": "AgriciDaniel/claude-seo",
-   "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, inte",
+   "repo": "makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "lang": "TypeScript",
+   "stars": "1,296",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "896",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "Rust",
+   "stars": "1,506",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "NVIDIA/SkillSpector",
+   "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
    "lang": "Python",
-   "stars": "179",
-   "topics": [
-    "ai",
-    "ai-seo",
-    "claude-code",
-    "claude-code-skill",
-    "marketing-automation",
-    "open-source"
-   ],
-   "total_stars": 20817,
-   "homepage": "skool.com/ai-marketing-hub-pro",
-   "readme": "Claude SEO Free, open-source SEO audits inside Claude Code . Rank higher in Google and get cited by AI search. Install · Demo · Results · Team · Commands · Pricing · FAQ Claude SEO is a free SEO plugin for Claude Code.** Give it any website and it runs a full SEO audit in 10 to 15 minutes, then hands you a clear action plan, sorted by what matters most. It checks everything a good SEO consultant would: Technical SEO.** Crawlability, indexing, sitemaps, robots.txt, redirects, page speed and Core Web Vitals. Content quality.** E-E-A-T (experience, expertise, authority and trust), thin pages and topic coverage. Structured data.** Finds, validates and writes Schema.org markup for rich results. A"
+   "stars": "214",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "pollen-robotics/microduck",
+   "desc": "A Tiny biped duck robot 🦆",
+   "lang": "Rust",
+   "stars": "843",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "nightly-labs/openbot",
+   "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "lang": "TypeScript",
+   "stars": "176",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": "746",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": "2,297",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "gitroomhq/postiz-app",
+   "desc": "📨 The ultimate agentic social media scheduling tool 🤖",
+   "lang": "TypeScript",
+   "stars": "188",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "alchaincyf/huashu-design",
+   "desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor &amp; any agent",
+   "lang": "HTML",
+   "stars": "251",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars": "638",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   }
  ]
 }
