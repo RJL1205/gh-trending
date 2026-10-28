@@ -1,148 +1,167 @@
 {
  "since": "daily",
- "fetched_at": "2026-10-27T00:41:49+00:00",
- "changed_at": "2026-10-27T00:41:49+00:00",
- "count": 14,
+ "fetched_at": "2026-10-28T00:40:13+00:00",
+ "changed_at": "2026-10-28T00:40:13+00:00",
+ "count": 11,
  "items": [
+  {
+   "repo": "elayadesign/ai-design-skills",
+   "desc": "",
+   "lang": "",
+   "stars": "1,395",
+   "topics": [],
+   "total_stars": 9318,
+   "homepage": "",
+   "readme": "AI Design Skills A growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file. Each skill is a self-contained folder. Install the ones you need. Skills | Skill | What it does | |---|---| | `landing-page-design` | Builds a landing page from scratch — intake questions, page structure, conversion copy, plus a full visual system (type, spacing, radius, motion) | More on the way. Upgrading an existing site instead of building new? That one lives in its own repo since it predates this collection. Install Pick a skill from the table above, then swap ` ` below for its folder name. Claude Code Then just ask, in pl"
+  },
   {
    "repo": "Nutlope/hallmark",
    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
    "lang": "CSS",
-   "stars": "2,244",
+   "stars": "2,830",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "TauricResearch/TradingAgents",
-   "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-   "lang": "Python",
-   "stars": "1,395",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "JetBrains/thinkrail",
-   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-   "lang": "TypeScript",
-   "stars": "1,173",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "makecindy/cindy",
-   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-   "lang": "TypeScript",
-   "stars": "1,296",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "affaan-m/ECC",
-   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-   "lang": "JavaScript",
-   "stars": "896",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "pbakaus/impeccable",
-   "desc": "The design language that makes your AI harness better at design.",
-   "lang": "Rust",
-   "stars": "1,506",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "NVIDIA/SkillSpector",
-   "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-   "lang": "Python",
-   "stars": "214",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "pollen-robotics/microduck",
-   "desc": "A Tiny biped duck robot 🦆",
-   "lang": "Rust",
-   "stars": "843",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 38990,
+   "homepage": "https://www.usehallmark.com/",
+   "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of ever"
   },
   {
    "repo": "nightly-labs/openbot",
    "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
    "lang": "TypeScript",
-   "stars": "176",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "777",
+   "topics": [
+    "ai-agents",
+    "bun",
+    "codex",
+    "electron",
+    "local-first",
+    "macos"
+   ],
+   "total_stars": 2425,
+   "homepage": "https://openbot.run/",
+   "readme": "OpenBot OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local Codex App Server and Claude Code, plus Grok CLI, OpenCode, Gemini, Cursor CLI, and Cline CLI through ACP. It gives every agent its own workspace and conversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent messaging in one desktop app. [!WARNING] OpenBot is a development preview. Agents currently run with `danger-full-access` and `approvalPolicy: never`. They can read and modify files, run commands, use the network, and control the embedded browser without per-action confirmations after the explicit first-launch consent. Run only agents and tasks you t"
   },
   {
-   "repo": "Panniantong/Agent-Reach",
-   "desc": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-   "lang": "Python",
-   "stars": "746",
-   "topics": [],
-   "total_stars": "",
+   "repo": "obra/superpowers",
+   "desc": "An agentic skills framework &amp; software development methodology that works.",
+   "lang": "Shell",
+   "stars": "617",
+   "topics": [
+    "ai",
+    "brainstorming",
+    "coding",
+    "obra",
+    "sdlc",
+    "skills"
+   ],
+   "total_stars": 306436,
    "homepage": "",
-   "readme": ""
+   "readme": "Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. Table of Contents How it works Commercial Services Getting Started Claude Code Antigravity Codex App Codex CLI Cursor Devin CLI Factory Droid Gemini CLI GitHub Copilot CLI Grok Build CLI Kimi Code OpenCode Pi Qwen Code Hermes Agent Muse The Basic Workflow When Something Goes Wrong Community What's Inside Philosophy Contributing Updating License Visual companion telemetry How it works It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, "
   },
   {
-   "repo": "debpalash/VoiceStudio",
-   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
-   "lang": "Python",
-   "stars": "2,297",
+   "repo": "pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "Rust",
+   "stars": "1,449",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 90510,
+   "homepage": "https://impeccable.style",
+   "readme": "Impeccable Design guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 62 deterministic detector rules for AI-generated frontend design. Quick start:** From your project root, run `npx impeccable install`, then run `/impeccable init` inside your AI coding tool. Full docs: impeccable.style. Why Impeccable? Anthropic's frontend-design was the first widely-used design skill for Claude. Impeccable started from there. Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds, the rounded-square icon tile"
+  },
+  {
+   "repo": "makecindy/cindy",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "lang": "TypeScript",
+   "stars": "1,465",
+   "topics": [
+    "agent",
+    "ai-agent",
+    "ai-assistant",
+    "android",
+    "claude-code",
+    "codex"
+   ],
+   "total_stars": 7461,
+   "homepage": "https://cindy.app",
+   "readme": "English · 简体中文 Download Cindy &nbsp;·&nbsp; Website &nbsp;·&nbsp; Build with us &nbsp;·&nbsp; Get help Cindy is an **open-source AI agent, ready out of the box and yours to shape**. Connect your computers and phone, bring the models and subscriptions you already use, and build a companion that knows how you like to work. All your devices. One Cindy. Your work computer, home desktop, laptop and phone belong together. Pick up the same work.** Open a session from another device, continue the conversation, and access its files without copying everything into a new chat. Share more than a screen.** Use model providers configured on another computer — including supported subscriptions, API provide"
   },
   {
    "repo": "gitroomhq/postiz-app",
    "desc": "📨 The ultimate agentic social media scheduling tool 🤖",
    "lang": "TypeScript",
-   "stars": "188",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "951",
+   "topics": [
+    "nextjs",
+    "open-source",
+    "open-source-social-media-scheduling-tool",
+    "oss",
+    "postiz-cloud",
+    "postiz-hosted"
+   ],
+   "total_stars": 39371,
+   "homepage": "https://postiz.com",
+   "readme": "Postiz is a social media management platform for scheduling, automating, and analyzing your content. Use Postiz Cloud for a fully managed experience, or deploy the open-source edition on your own infrastructure. Explore the docs » Watch the YouTube Tutorials» Register · Join Our Discord (devs only) · Public API NodeJS SDK · N8N custom node · Make.com integration Schedule posts to: With your favorite AI agent: 🔌 See the leading Postiz features ✨ Features | | | | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | | | | Our Sponsors | Sponsor | Logo | Descript"
   },
   {
-   "repo": "alchaincyf/huashu-design",
-   "desc": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor &amp; any agent",
-   "lang": "HTML",
-   "stars": "251",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "repo": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "1,165",
+   "topics": [
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "developer-tools",
+    "llm"
+   ],
+   "total_stars": 290882,
+   "homepage": "https://ecc.tools",
+   "readme": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা [!WARNING] Official sources only.** Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages `ecc-universal` and `ecc-agentshield`, the GitHub App, the plugin slug `ecc@ecc`, and the project website ecc.tools. Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware. Install with Claude Code Use the guided setup or native plugin commands. Both install the same `ecc@ecc` plugin. Choose one and do not stack a full manual Claude "
   },
   {
-   "repo": "multica-ai/andrej-karpathy-skills",
-   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "repo": "HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "lang": "Python",
+   "stars": "1,598",
+   "topics": [
+    "ai-agents",
+    "ai-tutor",
+    "clawbot",
+    "cli-tool",
+    "deepresearch",
+    "interactive-learning"
+   ],
+   "total_stars": 45877,
+   "homepage": "http://arxiv.org/abs/2604.26962",
+   "readme": "&nbsp; DeepTutor: Lifelong Personalized Tutoring &nbsp; &#32; &#32; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Features · Get Started · Explore · CLI · Ecosystem · Community 🤝 **We welcome any kinds of contributing!** Vote on roadmap items or propose new ones at `Roadmap`, and see our Contributing Guide for branching strategy, coding standards, and how to get started. 📦 Releases [2026.10.19]** v1.6.15 — Reviewed learning-path changes, grouped assessments, bounded tutoring memory, reliable chat recovery, sturdier parsing, retrieval comparisons, and native Gemini speech. Past releases (more than 1 week ago) [2026.10.8]** v1.6.14 — Original-source visual practi"
+  },
+  {
+   "repo": "JetBrains/thinkrail",
+   "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "lang": "TypeScript",
+   "stars": "1,204",
+   "topics": [
+    "agent",
+    "agent-skills",
+    "agentic-ai",
+    "agentic-workflow",
+    "ai-coding",
+    "ai-tools"
+   ],
+   "total_stars": 3992,
+   "homepage": "https://thinkrail.ai/",
+   "readme": "ThinkRail ThinkRail is the agentic IDE that gets better every time you use it — learning your project through living specs today, and building its own capabilities tomorrow. We built a rich interface around the `pi` coding agent, isolated work into separate workspaces, and gave the agent durable project knowledge through living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can create the tools it needs based on how you actually work. Website:** thinkrail.ai · **Blog:** thinkrail.ai/blog · Discord:** thinkrail.ai/discord ⭐ If you find ThinkRail useful, give it a star — it helps others discover it. A `pi` session and the change it made, scoped to an isolate"
+  },
+  {
+   "repo": "togg53192-cmd/jailbreaks",
+   "desc": "LIST OF ALL MY JAILBREAKS",
    "lang": "",
-   "stars": "638",
+   "stars": "902",
    "topics": [],
-   "total_stars": "",
+   "total_stars": 5529,
    "homepage": "",
-   "readme": ""
+   "readme": "Jailbreaks A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models.** About A working collection of **31 prompts targeting 25+ models**, including complete system prompts, persona definitions, workspace policies, `AGENTS.md` files, configuration blocks, and Ollama Modelfiles. Every file is intended to be complete and paste-ready. No summaries. No partial excerpts. The collection covers: Free stealth models available through OpenCode Zen Open-weight families including GLM, DeepSeek, Kimi, Qwen, Gemma, and GPT-OSS Closed frontier models including Claude, Gemini, Grok, and Mistral Coding-age"
   }
  ]
 }
