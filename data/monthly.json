@@ -1,64 +1,115 @@
 {
  "since": "monthly",
- "fetched_at": "2026-10-29T01:09:50+00:00",
- "changed_at": "2026-10-29T01:09:50+00:00",
+ "fetched_at": "2026-10-30T01:16:48+00:00",
+ "changed_at": "2026-10-30T01:16:48+00:00",
  "count": 19,
  "items": [
-  {
-   "repo": "heygen-com/hyperframes",
-   "desc": "Write HTML. Render video. Built for agents.",
-   "lang": "TypeScript",
-   "stars": "21,015",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
   {
    "repo": "cloudflare/security-audit-skill",
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "28,617",
+   "stars": "29,622",
    "topics": [],
-   "total_stars": "",
+   "total_stars": 52877,
    "homepage": "",
-   "readme": ""
+   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": "21,520",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "animation",
+    "claude-code",
+    "ffmpeg",
+    "framework"
+   ],
+   "total_stars": 75481,
+   "homepage": "https://hyperframes.heygen.com",
+   "readme": "Write HTML. Render video. Built for agents. Studio | Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Using Claude Code, Codex, Cursor, or another coding agent? Run `npx hyperframes skills update` once, then ask your agent to make a video. Quick Start With an AI coding agent For Claude Code, install the versioned plugin: To enable auto-update for the **hyperframes** marketplace, run `claude` in a terminal in your project. In Claude Co"
   },
   {
    "repo": "anthropics/knowledge-work-plugins",
    "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
    "lang": "Python",
-   "stars": "7,899",
+   "stars": "8,086",
    "topics": [],
-   "total_stars": "",
+   "total_stars": 33855,
    "homepage": "",
-   "readme": ""
+   "readme": "Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork, also compatible with Claude Code. Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes when you cus"
   },
   {
    "repo": "earthtojake/text-to-cad",
    "desc": "Design physical products with AI",
    "lang": "Python",
-   "stars": "7,453",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "7,732",
+   "topics": [
+    "agents",
+    "ai-agents",
+    "cad",
+    "mechanical-engineering",
+    "robotics",
+    "step"
+   ],
+   "total_stars": 24146,
+   "homepage": "https://www.texttocad.dev",
+   "readme": "Design physical products with AI. Website text-to-cad The text-to-cad plugin gives your agent local workflows for generating 3D models as STEP, GLB, STL or 3MF files. It also does design for manufacturing checks, generates engineering drawings, and connects to popular 3D printing, sheet metal and CNC fabrication services. It is supported by all popular agents that support plugins or the skills framework, including Claude Code, Codex, Cursor, Gemini and Grok. How it works Your agent writes each model as a Python script with build123d, built on Open CASCADE. Running the script, `python model.py`, builds the model with cadgen's engine into an `.xbf` document (its parts, names, colours, material"
   },
   {
    "repo": "pbakaus/impeccable",
    "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
    "lang": "Rust",
-   "stars": "19,821",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "22,473",
+   "topics": [
+    "agent-skills",
+    "ai",
+    "anti-slop",
+    "design",
+    "slop"
+   ],
+   "total_stars": 95362,
+   "homepage": "https://impeccable.style",
+   "readme": "Impeccable The design vocabulary for your coding agent. Steer with `polish` and `bolder`, review with `critique` and `audit`, and catch AI slop before it ships. From your project root: Reload your coding tool, then run `/impeccable init` in your agent (`$impeccable init` on Codex). Works with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at impeccable.style/docs. | Without Impeccable | With Impeccable | |---|---| | | | Same model (Fable 5.1), same brief: a fourteen-room family guesthouse on the Ligurian coast. Wit"
   },
   {
    "repo": "debpalash/VoiceStudio",
    "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
    "lang": "Python",
-   "stars": "51,430",
+   "stars": "47,778",
+   "topics": [
+    "ai",
+    "audiobook",
+    "cuda",
+    "dubbing",
+    "elevenlabs-alternative",
+    "huggingface"
+   ],
+   "total_stars": 94347,
+   "homepage": "https://voicestudio.sh",
+   "readme": "VoiceStudio AI voice studio. On your device. Clone, design, dub, dictate, transcribe and narrate in 646 languages. Runs on your laptop, desktop, servers, phone, tablets and more Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 · 한국어 · Русский Strategic sponsors Demo workspace · Default dark theme · Watch the HD tour What you can do Voice cloning Turn a clean reference recording into speech in a familiar voice. Video dubbing Translate and dub videos with speech timed to the original. Voice design Describe a voice in words and generate it. Local models Choose your engines and download only the models you need. More screenshots Workspace overview Model packs Dictate & transcribe**"
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": "8,277",
+   "topics": [
+    "claude-code",
+    "mcp",
+    "skills"
+   ],
+   "total_stars": 45301,
+   "homepage": "https://code.claude.com/docs/en/plugins",
+   "readme": ""
+  },
+  {
+   "repo": "mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars": "8,800",
    "topics": [],
    "total_stars": "",
    "homepage": "",
@@ -68,27 +119,7 @@
    "repo": "cursor/plugins",
    "desc": "Cursor plugin specification and official plugins",
    "lang": "TypeScript",
-   "stars": "5,652",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "anthropics/claude-plugins-official",
-   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-   "lang": "Python",
-   "stars": "8,154",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "mksglu/context-mode",
-   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-   "lang": "TypeScript",
-   "stars": "8,679",
+   "stars": "5,677",
    "topics": [],
    "total_stars": "",
    "homepage": "",
@@ -98,87 +129,7 @@
    "repo": "thedotmack/claude-mem",
    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
    "lang": "TypeScript",
-   "stars": "9,592",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "affaan-m/ECC",
-   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-   "lang": "JavaScript",
-   "stars": "24,428",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "NationalSecurityAgency/ghidra",
-   "desc": "Ghidra is a software reverse engineering (SRE) framework",
-   "lang": "Java",
-   "stars": "15,700",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "pingdotgg/t3code",
-   "desc": "",
-   "lang": "TypeScript",
-   "stars": "7,410",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "NVIDIA/OpenShell",
-   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
-   "lang": "Rust",
-   "stars": "11,650",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "Leonxlnx/taste-skill",
-   "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-   "lang": "JavaScript",
-   "stars": "13,933",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "Panniantong/Agent-Reach",
-   "desc": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-   "lang": "Python",
-   "stars": "20,047",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "DietrichGebert/ponytail",
-   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-   "lang": "JavaScript",
-   "stars": "32,691",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "tashfeenahmed/freellmapi",
-   "desc": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experime",
-   "lang": "TypeScript",
-   "stars": "13,983",
+   "stars": "9,911",
    "topics": [],
    "total_stars": "",
    "homepage": "",
@@ -188,7 +139,87 @@
    "repo": "Nutlope/hallmark",
    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
    "lang": "CSS",
-   "stars": "10,841",
+   "stars": "12,501",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars": "16,113",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": "7,708",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "flutter/flutter",
+   "desc": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+   "lang": "Dart",
+   "stars": "1,993",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "24,663",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "Leonxlnx/taste-skill",
+   "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+   "lang": "JavaScript",
+   "stars": "14,568",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars": "20,593",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars": "33,063",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "tashfeenahmed/freellmapi",
+   "desc": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experime",
+   "lang": "TypeScript",
+   "stars": "14,488",
    "topics": [],
    "total_stars": "",
    "homepage": "",
