@@ -1,34 +1,24 @@
 {
  "since": "weekly",
- "fetched_at": "2026-10-30T01:16:46+00:00",
- "changed_at": "2026-10-30T01:16:46+00:00",
- "count": 12,
+ "fetched_at": "2026-10-31T00:58:27+00:00",
+ "changed_at": "2026-10-31T00:58:27+00:00",
+ "count": 13,
  "items": [
   {
    "repo": "cloudflare/security-audit-skill",
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "14,320",
+   "stars": "12,838",
    "topics": [],
-   "total_stars": 52877,
+   "total_stars": 54143,
    "homepage": "",
    "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
-  },
-  {
-   "repo": "php/php-src",
-   "desc": "The PHP Interpreter",
-   "lang": "C",
-   "stars": "960",
-   "topics": [],
-   "total_stars": 41723,
-   "homepage": "https://www.php.net",
-   "readme": "The PHP Interpreter PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. PHP is distributed under the Modified BSD License (SPDX-License-Identifier: `BSD-3-Clause`). Documentation The PHP manual is available at php.net/docs. Installation Prebuilt packages and binaries Prebuilt packages and binaries can be used to get up and running fast with PHP. For Windows, the PHP binaries can be obtained from windows.php.net. After extracting the archive the `*.exe` files are ready to use. For other systems, see the installation chapter. Building PHP s"
   },
   {
    "repo": "AgriciDaniel/claude-seo",
    "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, inte",
    "lang": "Python",
-   "stars": "4,110",
+   "stars": "4,478",
    "topics": [
     "ai",
     "ai-seo",
@@ -37,7 +27,7 @@
     "marketing-automation",
     "open-source"
    ],
-   "total_stars": 24015,
+   "total_stars": 24526,
    "homepage": "skool.com/ai-marketing-hub-pro",
    "readme": "Claude SEO Free, open-source SEO audits inside Claude Code . Rank higher in Google and get cited by AI search. Install · Demo · Results · Team · Commands · Pricing · FAQ Claude SEO is a free SEO plugin for Claude Code.** Give it any website and it runs a full SEO audit in 10 to 15 minutes, then hands you a clear action plan, sorted by what matters most. It checks everything a good SEO consultant would: Technical SEO.** Crawlability, indexing, sitemaps, robots.txt, redirects, page speed and Core Web Vitals. Content quality.** E-E-A-T (experience, expertise, authority and trust), thin pages and topic coverage. Structured data.** Finds, validates and writes Schema.org markup for rich results. A"
   },
@@ -45,7 +35,7 @@
    "repo": "pbakaus/impeccable",
    "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
    "lang": "Rust",
-   "stars": "9,713",
+   "stars": "11,323",
    "topics": [
     "agent-skills",
     "ai",
@@ -53,58 +43,15 @@
     "design",
     "slop"
    ],
-   "total_stars": 95362,
+   "total_stars": 97072,
    "homepage": "https://impeccable.style",
    "readme": "Impeccable The design vocabulary for your coding agent. Steer with `polish` and `bolder`, review with `critique` and `audit`, and catch AI slop before it ships. From your project root: Reload your coding tool, then run `/impeccable init` in your agent (`$impeccable init` on Codex). Works with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at impeccable.style/docs. | Without Impeccable | With Impeccable | |---|---| | | | Same model (Fable 5.1), same brief: a fourteen-room family guesthouse on the Ligurian coast. Wit"
-  },
-  {
-   "repo": "multica-ai/andrej-karpathy-skills",
-   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-   "lang": "",
-   "stars": "4,250",
-   "topics": [],
-   "total_stars": 226454,
-   "homepage": "",
-   "readme": "Karpathy-Inspired Claude Code Guidelines Check out my new project Multica — an open-source platform for running and managing coding agents with reusable skills. Follow me on X: https://x.com/jiayuan_jy A single `CLAUDE.md` file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. English | 简体中文 The Problems From Andrej's post: \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\" \"They really like to overcomplicate code and APIs, bloat abstractions, do"
-  },
-  {
-   "repo": "TauricResearch/TradingAgents",
-   "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-   "lang": "Python",
-   "stars": "5,557",
-   "topics": [
-    "agent",
-    "finance",
-    "llm",
-    "multiagent",
-    "trading"
-   ],
-   "total_stars": 118337,
-   "homepage": "https://arxiv.org/pdf/2412.20138",
-   "readme": "Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 TradingAgents: Multi-Agents LLM Financial Trading Framework News [2026-10] **TradingAgents v0.7.1** released with decisions scored only on final closes and settled across long market holidays, a fix for model dates that could read filings made after the run date, and fixes to portfolios, prices, SEC statements and reports. [2026-10] **TradingAgents v0.7.0** released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release. [2026-10] **TradingAgents v0.6.0** released with reports saved "
-  },
-  {
-   "repo": "hugohe3/ppt-master",
-   "desc": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx ",
-   "lang": "Python",
-   "stars": "4,980",
-   "topics": [
-    "ai-agent",
-    "aippt",
-    "office",
-    "powerpoint",
-    "powerpoint-generation",
-    "ppt"
-   ],
-   "total_stars": 70840,
-   "homepage": "https://hugohe3.github.io/ppt-master-examples/",
-   "readme": "PPT Master — AI generates native PowerPoint from any document English | 中文 💼 **I'm open to new opportunities.** Investment background (CPA · CPV · Consulting Engineer), also building AI tools and open source. Happy to talk about any opportunity: heyug3@gmail.com · hehugo.com. 🆕 **I built a construction project economic evaluation site: cs.hehugo.com** (in Chinese) — the wind, solar and storage templates are now open to everyone; just register and use them (a comparable module in one commercial package sells for ¥100,000). ❤️ Sponsors This project is kept free and open source with the support of Kimi , PackyCode , APIKEY.FAN , RunAPI and other sponsors. Want to appear here?** Click to collaps"
   },
   {
    "repo": "obra/superpowers",
    "desc": "An agentic skills framework &amp; software development methodology that works.",
    "lang": "Shell",
-   "stars": "4,894",
+   "stars": "5,474",
    "topics": [
     "ai",
     "brainstorming",
@@ -113,25 +60,41 @@
     "sdlc",
     "skills"
    ],
-   "total_stars": 308567,
+   "total_stars": 309437,
    "homepage": "",
    "readme": "Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. Table of Contents How it works Commercial Services Getting Started Claude Code Antigravity Codex App Codex CLI Cursor Devin CLI Factory Droid Gemini CLI GitHub Copilot CLI Grok Build CLI Kimi Code OpenCode Pi Qwen Code Hermes Agent Muse The Basic Workflow When Something Goes Wrong Community What's Inside Philosophy Contributing Updating License Visual companion telemetry How it works It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, "
   },
   {
-   "repo": "anthropics/knowledge-work-plugins",
-   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "repo": "TauricResearch/TradingAgents",
+   "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
    "lang": "Python",
-   "stars": "2,504",
+   "stars": "5,490",
+   "topics": [
+    "agent",
+    "finance",
+    "llm",
+    "multiagent",
+    "trading"
+   ],
+   "total_stars": 118718,
+   "homepage": "https://arxiv.org/pdf/2412.20138",
+   "readme": "Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 TradingAgents: Multi-Agents LLM Financial Trading Framework News [2026-10] **TradingAgents v0.7.1** released with decisions scored only on final closes and settled across long market holidays, a fix for model dates that could read filings made after the run date, and fixes to portfolios, prices, SEC statements and reports. [2026-10] **TradingAgents v0.7.0** released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release. [2026-10] **TradingAgents v0.6.0** released with reports saved "
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars": "4,178",
    "topics": [],
-   "total_stars": 33855,
+   "total_stars": 226867,
    "homepage": "",
-   "readme": "Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork, also compatible with Claude Code. Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes when you cus"
+   "readme": "Karpathy-Inspired Claude Code Guidelines Check out my new project Multica — an open-source platform for running and managing coding agents with reusable skills. Follow me on X: https://x.com/jiayuan_jy A single `CLAUDE.md` file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. English | 简体中文 The Problems From Andrej's post: \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\" \"They really like to overcomplicate code and APIs, bloat abstractions, do"
   },
   {
    "repo": "Leonxlnx/taste-skill",
    "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
    "lang": "JavaScript",
-   "stars": "4,359",
+   "stars": "4,712",
    "topics": [
     "agent-skills",
     "ai-agents",
@@ -140,7 +103,7 @@
     "codex",
     "cursor"
    ],
-   "total_stars": 105569,
+   "total_stars": 106350,
    "homepage": "https://tasteskill.dev",
    "readme": "&nbsp; &nbsp; &nbsp; Sponsors interfaces.dev · A design engineering magazine by Jakub Krehel React Bits · animated React components for creative interfaces IMG.LY · CreativeEditor SDK Sent.dm · messaging APIs for SMS, WhatsApp, and RCS Become a sponsor Taste Skill** is an Agent Skill that makes coding agents design websites and app screens instead of assembling the average landing page. It gives the agent an art direction, real pictures and a way to check its own work in a real browser. Pages it has built, each from one brief: The photographs are real, found in open archives and credited by the skill (credits). Watch the launch film. Install That installs the skill with the `npx skills` CLI."
   },
@@ -148,17 +111,66 @@
    "repo": "jakubkrehel/skills",
    "desc": "A collection of agent skills that help you build great interfaces.",
    "lang": "Markdown",
-   "stars": "980",
+   "stars": "1,107",
    "topics": [],
-   "total_stars": 9179,
+   "total_stars": 9380,
    "homepage": "https://jakub.kr/skills",
    "readme": "A collection of agent skills that cover UI, typography, colors, accessibility, layout, product writing and help you build a great interface. These skills cover topics that I write about on my personal website and my design engineering magazine, Interfaces. Skills that help build great interfaces better-interface**: Reviews a screen, flow or whole interface across **accessibility**, **layout**, **writing**, **typography**, **color** and **UI polish**, and returns one ranked report. better-ui**: Polishes surfaces, icons and motion with exact values for **border radius**, **optical alignment**, **shadows**, **icon states** and **animation**. better-typography**: Sets and reviews how text render"
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": "2,775",
+   "topics": [],
+   "total_stars": 32741,
+   "homepage": "https://t3.codes",
+   "readme": "T3 Code T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app. Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, and Google Antigravity. If they're set up on your computer, T3 Code can control them. \"Wait, what are you selling me?\" Nothing. We built T3 Code because we wanted the best possible development experience with agents. We were inspired by existing solutions like the Codex desktop app, Conductor, Claude Desktop and Cursor Glass, but none met our bar. We wanted something performant, remote-ready, and truly open. If we ever go"
+  },
+  {
+   "repo": "anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars": "2,083",
+   "topics": [],
+   "total_stars": 34039,
+   "homepage": "",
+   "readme": "Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork, also compatible with Claude Code. Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes when you cus"
+  },
+  {
+   "repo": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars": "6,506",
+   "topics": [
+    "ai-agents",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "developer-tools",
+    "llm"
+   ],
+   "total_stars": 293419,
+   "homepage": "https://ecc.tools",
+   "readme": "Language: English | العربية | Português (Brasil) | 简体中文 | 繁體中文 | 日本語 | 한국어 | Türkçe | Русский | Tiếng Việt | ไทย | Deutsch | Español | Українська | Polski | বাংলা [!WARNING] Official sources only.** Install ECC only from verified channels: the GitHub repository github.com/affaan-m/ECC, the npm packages `ecc-universal` and `ecc-agentshield`, the GitHub App, the plugin slug `ecc@ecc`, and the project website ecc.tools. Third-party re-uploads and unofficial mirrors are not maintained or reviewed by the project and may contain malware. Install with Claude Code Use the guided setup or native plugin commands. Both install the same `ecc@ecc` plugin. Choose one and do not stack a full manual Claude "
+  },
+  {
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": "1,888",
+   "topics": [
+    "agent-skills"
+   ],
+   "total_stars": 185324,
+   "homepage": "",
+   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
   },
   {
    "repo": "ruvnet/ruflo",
    "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG int",
    "lang": "TypeScript",
-   "stars": "1,854",
+   "stars": "1,723",
    "topics": [
     "agentic-ai",
     "agentic-framework",
@@ -167,7 +179,7 @@
     "ai-agents",
     "ai-assistant"
    ],
-   "total_stars": 80152,
+   "total_stars": 80302,
    "homepage": "https://Cognitum.One",
    "readme": "An agent meta-harness for Claude Code and Codex.** Get started with Ruflo Start in Claude Code** with core tools, the visual console and runtime mods. Requires Claude Code **2.1.287 or later**. Run inside Claude Code: Core** provides foundation tools. **Console** opens the agent cockpit. **Mods** add routing and policy enforcement inside Claude Code. Mods run with your account's permissions; review their code before installing. Using Codex or another MCP enabled tool?** Use NPX for Ruflo project setup and connect your client to the Ruflo MCP server. Run the setup wizard in your project terminal: For clients that support local stdio MCP servers, configure **command** `npx` and **arguments** `"
   }
