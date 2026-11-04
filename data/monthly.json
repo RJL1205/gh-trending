@@ -1,188 +1,250 @@
 {
  "since": "monthly",
- "fetched_at": "2026-11-03T03:00:49+00:00",
- "changed_at": "2026-11-03T03:00:49+00:00",
- "count": 18,
+ "fetched_at": "2026-11-04T01:35:22+00:00",
+ "changed_at": "2026-11-04T01:35:22+00:00",
+ "count": 17,
  "items": [
   {
    "repo": "morluto/rea",
    "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "lang": "TypeScript",
-   "stars": "422,104",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "426,427",
+   "topics": [
+    "agent-skills",
+    "ai",
+    "android",
+    "claude-code",
+    "cli",
+    "cpp"
+   ],
+   "total_stars": 427200,
+   "homepage": "https://rea.tools",
+   "readme": "English** · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română REA: Reverse Engineer Anything One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level.** Website · Guides · Showcases** Quick start · How REA works · What you can analyze · Showcases · Build RL environments · FAQ · Documentation npx rea-agents setup [!IMPORTANT] Get REA from morluto/rea, rea.tools, or the rea-agents npm package. Follow the installation and"
   },
   {
    "repo": "cloudflare/security-audit-skill",
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "33,474",
+   "stars": "34,248",
    "topics": [],
-   "total_stars": "",
+   "total_stars": 58226,
    "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "tester-army/e2e",
-   "desc": "Next generation e2e testing framework for web and mobile apps.",
-   "lang": "TypeScript",
-   "stars": "11,344",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "heygen-com/hyperframes",
-   "desc": "Write HTML. Render video. Built for agents.",
-   "lang": "TypeScript",
-   "stars": "22,290",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
   },
   {
    "repo": "Nutlope/hallmark",
    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
    "lang": "CSS",
-   "stars": "16,306",
+   "stars": "17,314",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 47012,
+   "homepage": "https://www.usehallmark.com/",
+   "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of ever"
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars": "22,387",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "animation",
+    "claude-code",
+    "ffmpeg",
+    "framework"
+   ],
+   "total_stars": 78388,
+   "homepage": "https://hyperframes.heygen.com",
+   "readme": "Write HTML. Render video. Built for agents. Studio | Quickstart | Showcase | Playground | Catalog | Docs | Discord Download the desktop app: macOS · Windows · Linux (.deb) HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Using Claude Code, Codex, Cursor, or another coding agent? Run `npx hyperframes skills update` once, then ask your agent to make a video. Quick Start With an AI coding agent For Claude Code, install the versioned plugin: To enable auto-update for the **hyperframes** marketplace,"
   },
   {
    "repo": "debpalash/VoiceStudio",
    "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
    "lang": "Python",
-   "stars": "47,605",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "48,168",
+   "topics": [
+    "ai",
+    "audiobook",
+    "cuda",
+    "dubbing",
+    "elevenlabs-alternative",
+    "huggingface"
+   ],
+   "total_stars": 100101,
+   "homepage": "https://voicestudio.sh",
+   "readme": "VoiceStudio AI voice studio. On your device. Clone, design, dub, dictate, transcribe and narrate in 646 languages. Runs on your laptop, desktop, servers, phone, tablets and more Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 · 한국어 · Русский Strategic sponsors Special sponsor Demo workspace · Default dark theme · Watch the HD tour What you can do Voice cloning Turn a clean reference recording into speech in a familiar voice. Video dubbing Translate and dub videos with speech timed to the original. Voice design Describe a voice in words and generate it. Local models Choose your engines and download only the models you need. More screenshots Workspace overview Model packs Dictat"
   },
   {
    "repo": "anthropics/knowledge-work-plugins",
    "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
    "lang": "Python",
-   "stars": "8,614",
+   "stars": "8,685",
    "topics": [],
-   "total_stars": "",
+   "total_stars": 34622,
    "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "ranxianglei/billion-context",
-   "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . ",
-   "lang": "TypeScript",
-   "stars": "3,213",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "readme": "Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork, also compatible with Claude Code. Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose — so your team gets better and more consistent outcomes. Each plugin bundles the skills, connectors, slash commands, and sub-agents for a specific job function. Out of the box, they give Claude a strong starting point for helping anyone in that role. The real power comes when you cus"
   },
   {
    "repo": "NationalSecurityAgency/ghidra",
    "desc": "Ghidra is a software reverse engineering (SRE) framework",
    "lang": "Java",
-   "stars": "17,043",
-   "topics": [],
-   "total_stars": "",
+   "stars": "17,325",
+   "topics": [
+    "disassembler",
+    "reverse-engineering",
+    "software-analysis"
+   ],
+   "total_stars": 97553,
    "homepage": "",
-   "readme": ""
+   "readme": "Ghidra Software Reverse Engineering Framework Ghidra is a software reverse engineering (SRE) framework created and maintained by the [National Security Agency][nsa] Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension compon"
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . ",
+   "lang": "TypeScript",
+   "stars": "3,363",
+   "topics": [
+    "dsh-plugin"
+   ],
+   "total_stars": 3907,
+   "homepage": "",
+   "readme": "billion-context English | 中文 Context-compression plugin — billion-context is all you need. small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality npm install -g billion-context --prefix=~/.local &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cache health at a glance:** a healthy session keeps a **95–97%** prefix-cache hit rate — compression itself costs ≤2%. Sustained lower? Check attribution with `/acp` or `/acp-cache` (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug ("
   },
   {
    "repo": "thedotmack/claude-mem",
    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
    "lang": "TypeScript",
-   "stars": "15,681",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "pbakaus/impeccable",
-   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-   "lang": "Rust",
-   "stars": "26,586",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "16,740",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "ai-memory",
+    "anthropic",
+    "artificial-intelligence",
+    "chromadb"
+   ],
+   "total_stars": 111941,
+   "homepage": "https://claude-mem.ai",
+   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Persistent memory compression system built for Claude Code . Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Claude-Mem seamlessly preserves context across sessions by automatically capturing tool usage observation"
   },
   {
    "repo": "pingdotgg/t3code",
    "desc": "",
    "lang": "TypeScript",
-   "stars": "15,731",
+   "stars": "18,907",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 44461,
+   "homepage": "https://t3.codes",
+   "readme": "T3 Code T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app. Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them. \"Wait, what are you selling me?\" Nothing. We built T3 Code because we wanted the best possible development experience with agents. We were inspired by existing solutions like the Codex desktop app, Conductor, Claude Desktop and Cursor Glass, but none met our bar. We wanted something performant, remote-ready, and truly open. If we eve"
+  },
+  {
+   "repo": "tester-army/e2e",
+   "desc": "Next generation e2e testing framework for web and mobile apps.",
+   "lang": "TypeScript",
+   "stars": "10,768",
+   "topics": [
+    "e2e",
+    "e2e-testing",
+    "end-to-end-testing",
+    "mobile",
+    "mobile-testing",
+    "playwright"
+   ],
+   "total_stars": 12918,
+   "homepage": "https://e2e.com",
+   "readme": "e2e e2e is an end-to-end testing framework for web and mobile apps. Describe a goal in natural language and an agent drives the app to reach it. Check the result with locators and assertions in the same test. An agent step that a later assertion verifies records its actions, and the next run replays them with no model calls until the app changes. Tests without agent steps need no model. Bring your own subscription, API key, or local model. Quick start `init` asks for an engine, web or mobile, and a model provider, then writes a config and an example test. The quickstart covers the rest. To see a finished setup in your stack, open `examples/`: Vite, Next.js, Astro, Angular, Expo, SwiftUI, Jet"
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "lang": "Rust",
+   "stars": "26,980",
+   "topics": [
+    "agent-skills",
+    "ai",
+    "anti-slop",
+    "design",
+    "slop"
+   ],
+   "total_stars": 101568,
+   "homepage": "https://impeccable.style",
+   "readme": "Impeccable The design vocabulary for your coding agent. Steer with `polish` and `bolder`, review with `critique` and `audit`, and catch AI slop before it ships. From your project root: Reload your coding tool, then run `/impeccable init` in your agent (`$impeccable init` on Codex). Works with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at impeccable.style/docs. | Without Impeccable | With Impeccable | |---|---| | | | Same model (Fable 5.1), same brief: a fourteen-room family guesthouse on the Ligurian coast. Wit"
   },
   {
    "repo": "earthtojake/text-to-cad",
    "desc": "Design physical products with AI",
    "lang": "Python",
-   "stars": "8,535",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "michael-denyer/pstack-claude",
-   "desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
-   "lang": "TypeScript",
-   "stars": "3,018",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "anthropics/claude-plugins-official",
-   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-   "lang": "Python",
-   "stars": "8,715",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "8,708",
+   "topics": [
+    "agents",
+    "ai-agents",
+    "cad",
+    "mechanical-engineering",
+    "robotics",
+    "step"
+   ],
+   "total_stars": 25240,
+   "homepage": "https://www.texttocad.dev",
+   "readme": "Design physical products with AI. Website text-to-cad The text-to-cad plugin gives your agent local workflows for generating 3D models as STEP, GLB, STL or 3MF files. It also does design for manufacturing checks, generates engineering drawings, and connects to popular 3D printing, sheet metal and CNC fabrication services. It is supported by all popular agents that support plugins or the skills framework, including Claude Code, Codex, Cursor, Gemini and Grok. How it works Your agent writes each model as a Python script with build123d, built on Open CASCADE. Running the script, `python model.py`, builds the model with text-to-cad's server into an `.xbf` document (its parts, names, colours, mat"
   },
   {
    "repo": "mksglu/context-mode",
    "desc": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 ",
    "lang": "TypeScript",
-   "stars": "8,531",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "8,397",
+   "topics": [
+    "antigravity",
+    "claude",
+    "claude-code",
+    "claude-code-hooks",
+    "claude-code-plugins",
+    "claude-code-skill"
+   ],
+   "total_stars": 33391,
+   "homepage": "https://contextmode.ai/?utm_source=github&utm_medium=about",
+   "readme": "Context Mode The other half of the context problem.** Used across teams at The Problem Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides. How Context Mode Solves It Context Mode is an MCP server that solves all four sides of this problem: Context Saving** — Sandb"
+  },
+  {
+   "repo": "anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars": "8,845",
+   "topics": [
+    "claude-code",
+    "mcp",
+    "skills"
+   ],
+   "total_stars": 45999,
+   "homepage": "https://code.claude.com/docs/en/plugins",
+   "readme": "Claude Code Plugins Directory A curated directory of high-quality plugins for Claude Code. ⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information. Structure `/plugins`** - Internal plugins developed and maintained by Anthropic `/external_plugins`** - Third-party plugins from partners and the community Installation Plugins can be installed directly from this marketplace via Claude Code's plugin system. To install, run `/plugin install {plugin-nam"
   },
   {
    "repo": "tashfeenahmed/freellmapi",
    "desc": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experime",
    "lang": "TypeScript",
-   "stars": "16,329",
+   "stars": "16,812",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 47069,
+   "homepage": "https://freellmapi.co",
+   "readme": "FreeLLMAPI billion tokens per month. 34 free LLM providers. 635 free model endpoints. One OpenAI-compatible endpoint.** Aggregate free tiers from dozens of providers, plus custom OpenAI-compatible chat, embedding, image, and audio endpoints, behind a single `/v1` API. Keys are stored encrypted. A router picks the best available model for each request, falls over to the next provider when one is rate-limited, and tracks per-key usage so you stay under every free-tier cap. freellmapi.co** · browse the full catalog: 474 model families, 635 free endpoints English** · 简体中文 · Русский · O'zbekcha Your router updates its own model catalog from a signed feed: new free models, quota changes, and compa"
   },
   {
-   "repo": "Leonxlnx/taste-skill",
-   "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+   "repo": "michael-denyer/pstack-claude",
+   "desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Muse, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
    "lang": "JavaScript",
-   "stars": "16,952",
-   "topics": [],
-   "total_stars": "",
+   "stars": "3,026",
+   "topics": [
+    "agent-plugin",
+    "agent-skills",
+    "agentic-ai",
+    "anthropic",
+    "chatgpt",
+    "claude"
+   ],
+   "total_stars": 3902,
    "homepage": "",
-   "readme": ""
+   "readme": "pstack Lauren Tan's pstack is an opinionated Cursor skill stack that improves agent outcomes. This is a port for Claude Code, Codex, Pi, GitHub Copilot, Muse, and other agent harnesses. It tracks upstream and also carries named policy forks, each declared in `tools/forks.json`. Tell `poteto-mode` your goal and it will invoke the correct workflow for the task. It keeps your code concise, simple and verified. For concurrency bugs and invariants that tests cannot reach, `/create-formal-verification-skill` picks the riskiest property in your code, verifies it with a tool that fits, and leaves a project skill the next agent reruns. The separate agent-formal-verify plugin goes deeper on the method"
   }
  ]
 }
