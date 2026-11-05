@@ -1,48 +1,24 @@
 {
  "since": "daily",
- "fetched_at": "2026-11-04T01:35:03+00:00",
- "changed_at": "2026-11-04T01:35:03+00:00",
- "count": 13,
+ "fetched_at": "2026-11-05T01:42:37+00:00",
+ "changed_at": "2026-11-05T01:42:37+00:00",
+ "count": 16,
  "items": [
   {
-   "repo": "thedotmack/claude-mem",
-   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
-   "lang": "TypeScript",
-   "stars": "1,139",
-   "topics": [
-    "ai",
-    "ai-agents",
-    "ai-memory",
-    "anthropic",
-    "artificial-intelligence",
-    "chromadb"
-   ],
-   "total_stars": 111941,
-   "homepage": "https://claude-mem.ai",
-   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Persistent memory compression system built for Claude Code . Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Claude-Mem seamlessly preserves context across sessions by automatically capturing tool usage observation"
-  },
-  {
-   "repo": "vercel-labs/agent-desktop",
-   "desc": "Computer use CLI for AI agents",
-   "lang": "Rust",
-   "stars": "3,791",
-   "topics": [
-    "accessibility",
-    "accessibility-api",
-    "ai-agents",
-    "automation",
-    "cli",
-    "computer-use"
-   ],
-   "total_stars": 12837,
-   "homepage": "https://agent-browser.dev/desktop",
-   "readme": "agent-desktop Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree. agent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repeats. The loop lives in your agent; agent-desktop has no model inside. It ships as a CLI and a C library. Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content. Keep them out of public logs and uploads. Install Bun,"
+   "repo": "NVIDIA/auto-ontology",
+   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "lang": "Python",
+   "stars": "2,050",
+   "topics": [],
+   "total_stars": 5115,
+   "homepage": "",
+   "readme": "Auto Ontology Agents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own. It enables developers to: Discover: generate enterprise ontologies from metadata; connect existing ontologies and seman"
   },
   {
    "repo": "max-sixty/worktrunk",
    "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
    "lang": "Rust",
-   "stars": "438",
+   "stars": "531",
    "topics": [
     "agents",
     "claude-code",
@@ -51,62 +27,25 @@
     "git",
     "worktrees"
    ],
-   "total_stars": 10518,
+   "total_stars": 11059,
    "homepage": "https://worktrunk.dev",
    "readme": "&nbsp;&nbsp;Worktrunk November 2026**: Worktrunk was released at the start of the year, and has quickly become the most popular git worktree manager. It's built with love (there's no slop!). Please let me know any frictions at all; I'm intensely focused on continuing to make Worktrunk excellent, and the biggest help is folks posting problems they perceive. Worktrunk is a CLI for git worktree management, designed for running AI agents in parallel. Worktrunk's three core commands make worktrees as easy as branches. Plus, Worktrunk has a bunch of quality-of-life features to simplify working with many parallel changes, including hooks to automate local workflows & copy-on-write build caches. A q"
-  },
-  {
-   "repo": "JustVugg/colibri",
-   "desc": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
-   "lang": "C",
-   "stars": "802",
-   "topics": [],
-   "total_stars": 47261,
-   "homepage": "https://justvugg.github.io/colibri",
-   "readme": "Website · Discord · English · 简体中文 · 繁體中文 · Italiano · 日本語 · Bahasa Indonesia · Português (Brasil) Tiny engine, immense model.** colibri runs very large open models on the machine you already have. A mixture-of-experts model of hundreds of billions of parameters uses only a small part of itself for each token, so colibri keeps that part in RAM and reads the rest, the experts, from the disk when the model asks for them. Pure C, one file per model family, no GPU required. Thirteen engines run today. Ten are for language models: **GLM-5.2/5.3** (which also runs **Mistral-Large-4**), **GLM-5.3-Flash**, **Inkling**, **Kimi K3**, DeepSeek V4 Flash**, **DeepSeek V4.1 Flash**, **MiMo-V2.6 Flash** (a"
   },
   {
    "repo": "mattpocock/skills",
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "lang": "Shell",
-   "stars": "1,164",
+   "stars": "1,379",
    "topics": [],
-   "total_stars": 311501,
+   "total_stars": 313364,
    "homepage": "https://aihero.dev/skills",
    "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
-  },
-  {
-   "repo": "p-e-w/heretic",
-   "desc": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
-   "lang": "Python",
-   "stars": "701",
-   "topics": [
-    "abliteration",
-    "anti-censorship",
-    "anticensorship",
-    "censorship",
-    "censorship-resistance",
-    "llm"
-   ],
-   "total_stars": 38815,
-   "homepage": "https://heretic-project.org",
-   "readme": "Heretic Training-free language model modification Remove censorship**, suppress slop, reduce sycophancy, and more. All in an afternoon, on your gaming PC. &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Modify any LLM that you can run on your hardware[^1] [^1]: Heretic supports on-the-fly 4-bit model quantization with bitsandbytes, which can reduce the amount of VRAM required to process a model to the same amount that is used to run a typical quantized version of it, at a slight accuracy cost. Set the `quantization` option to `bnb_4bit` to enable this. Heretic is a unique tool that lets you do what only corporations with access to massive comput"
-  },
-  {
-   "repo": "spotify/portal-ai-plugins",
-   "desc": "",
-   "lang": "TypeScript",
-   "stars": "91",
-   "topics": [],
-   "total_stars": 3050,
-   "homepage": "",
-   "readme": "Spotify Portal AI Plugins Bring Spotify Portal into Claude Code, Codex, Cursor, and pi. This plugin provides focused workflows for the Portal CLI: set up authentication, search your software catalog, build service briefings, run diagnostics, and invoke Portal actions. Highlights Set up the Portal CLI for your current coding-agent environment. Run read-only diagnostics to verify plugin, CLI, authentication, and action readiness. Search the software catalog and technical documentation using natural language queries. Generate concise service briefings with available ownership, health, incident, and documentation details. Discover and safely invoke Portal actions with built-in help, dry-run, and"
   },
   {
    "repo": "floci-io/floci",
    "desc": "Light, fluffy, and always free - The AWS Local Emulator alternative",
    "lang": "Java",
-   "stars": "482",
+   "stars": "1,090",
    "topics": [
     "aws",
     "aws-emulation",
@@ -115,49 +54,154 @@
     "ec2",
     "ecs"
    ],
-   "total_stars": 28818,
+   "total_stars": 29648,
    "homepage": "https://floci.io/floci/",
    "readme": "Any Cloud. Locally. Light, fluffy, and always free No account. No auth token. No feature gates. Just docker compose up . Quick Start · Features · Services · SDKs · Testcontainers · Migration · Docs What is Floci? Floci is a free, open-source local AWS emulator for development, testing, and CI. It gives you AWS-shaped services on your machine without requiring a cloud account, an auth token, or paid feature gates. Point your AWS SDK, CLI, Terraform, CDK, OpenTofu, or test suite at `http://localhost:4566` and keep your existing workflows. Already using LocalStack? Floci is a drop-in replacement: swap the image and keep going. See Migrating from LocalStack. Floci is the AWS member of the Floci "
   },
   {
-   "repo": "Usagi-org/ai-goofish-monitor",
-   "desc": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
-   "lang": "Python",
-   "stars": "228",
+   "repo": "thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
+   "lang": "TypeScript",
+   "stars": "1,172",
    "topics": [
     "ai",
-    "ai-assistant",
-    "ai-tools",
-    "automation",
-    "gemini",
-    "goofish"
+    "ai-agents",
+    "ai-memory",
+    "anthropic",
+    "artificial-intelligence",
+    "chromadb"
    ],
-   "total_stars": 16433,
-   "homepage": "",
-   "readme": "闲鱼智能监控系统 [中文] ｜ English 基于 Playwright 和 AI 的闲鱼多任务实时监控，提供完整的 Web 管理界面。 核心特性 Web 可视化管理**: 任务管理、账号管理、AI 标准编辑、运行日志、结果浏览 AI 驱动**: 自然语言创建任务，多模态模型深度分析商品 多任务并发**: 独立配置关键词、价格、筛选条件和 AI Prompt 高级筛选**: 包邮、新发布时间范围、省/市/区三级区域筛选 即时通知**: 支持 ntfy.sh、企业微信、Bark、Telegram、Webhook等多渠道 定时调度**: 支持 Cron 配置周期性任务 账号与代理轮换**: 多账号管理、任务绑定账号、代理池轮换与失败重试 Docker 部署**: 一键容器化部署 截图 🐳 Docker 部署（推荐） 如果镜像无法访问或下载速度慢，可尝试使用加速： 默认 Web UI 地址：`http://127.0.0.1:8000` Docker 镜像已内置 Chromium，无需宿主机额外安装浏览器。 官方镜像地址：`ghcr.io/usagi-org/ai-goofish:latest` 更新镜像：`docker compose pull && docker compose up -d` 如果你修改了 `.env` 中的 `SERVER_PORT`，请同步更新 `docker-compose.yaml` 里的端口映射。 `docker-compose.yaml` 默认会把 SQLite 主库挂载到 `./data:/app/data`，数据库文件默认为 `data/app."
+   "total_stars": 112884,
+   "homepage": "https://claude-mem.ai",
+   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Persistent memory compression system built for Claude Code . Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Claude-Mem seamlessly preserves context across sessions by automatically capturing tool usage observation"
   },
   {
-   "repo": "anomalyco/hex",
-   "desc": "Local voice dictation for mac, windows and linux",
+   "repo": "vercel-labs/agent-desktop",
+   "desc": "Computer use CLI for AI agents",
    "lang": "Rust",
-   "stars": "410",
+   "stars": "2,470",
    "topics": [
-    "dictation",
-    "linux",
-    "local-first",
-    "macos",
-    "rust",
-    "speech-recognition"
+    "accessibility",
+    "accessibility-api",
+    "ai-agents",
+    "automation",
+    "cli",
+    "computer-use"
    ],
-   "total_stars": 4605,
-   "homepage": "https://anoma.ly/hex",
-   "readme": "Hex Hex is local voice dictation for Mac, Windows and Linux. Hold a key, speak, and it pastes. How it works hold the shortcut, speak, then let go Hex transcribes on your device and pastes into whatever app you're in the first run downloads a speech model; after that nothing leaves your machine experimental features live in Labs, at the bottom of the sidebar Downloads Stable is the current release. Dev is the newest build of `dev` and updates itself from the dev channel. | Platform | Stable | Dev | | --- | --- | --- | | macOS (Apple silicon) | DMG | DMG | | Windows x64 | Installer | Installer | | Windows ARM64 | Installer | Installer | | Linux x86_64 | Executable | Executable | | Linux x86_64"
+   "total_stars": 15188,
+   "homepage": "https://agent-browser.dev/desktop",
+   "readme": "agent-desktop Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree. agent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repeats. The loop lives in your agent; agent-desktop has no model inside. It ships as a CLI and a C library. Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content. Keep them out of public logs and uploads. Install Bun,"
+  },
+  {
+   "repo": "github/spec-kit",
+   "desc": "💫 Toolkit to help you get started with SDD or any other process!",
+   "lang": "Python",
+   "stars": "808",
+   "topics": [
+    "ai",
+    "copilot",
+    "development",
+    "engineering",
+    "prd",
+    "spec"
+   ],
+   "total_stars": 147332,
+   "homepage": "https://github.github.com/spec-kit/",
+   "readme": "🌱 Spec Kit Build with a spec, fix a bug, or assess an idea — with your coding agent. English · 简体中文 · 日本語 · 한국어 Spec Kit is an open source toolkit that gives AI coding agents structured processes, reusable templates, and documented outcomes. Start with a ready-made process, customize it, or bring your own. Choose your process | What you need | Process | Outcome | | --- | --- | --- | | Build a feature or application | Spec-Driven Development | A specification carried through planning, implementation, and convergence | | Diagnose and repair broken behavior | Bug fixing | An assessed cause, scoped fix, and recorded verification | | Decide whether an idea deserves investment | Idea assessment | "
+  },
+  {
+   "repo": "The-PR-Agent/pr-agent",
+   "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+   "lang": "Python",
+   "stars": "280",
+   "topics": [
+    "ai",
+    "anthropic",
+    "code-review",
+    "coding-assistant",
+    "devtools",
+    "ollama"
+   ],
+   "total_stars": 14785,
+   "homepage": "https://www.pr-agent.ai",
+   "readme": "The Original Open-Source PR Reviewer This repository contains the open-source PR Agent Project. It is not the Qodo offering for open-source projects. PR-Agent is an open-source, AI-powered code review agent and a community-maintained legacy project of Qodo. It is distinct from Qodo's primary AI code review offering, which provides a feature-rich, context-aware experience. Qodo offers a free version for open-source projects and integrates seamlessly with GitHub, GitLab, Bitbucket, and Azure DevOps for high-quality automated reviews. Sponsors PR-Agent is a community-maintained open-source project, with its ongoing development supported by our sponsors. If you'd like to support the project, con"
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+   "lang": "Python",
+   "stars": "617",
+   "topics": [
+    "ai-video-generator",
+    "content-creation",
+    "ffmpeg",
+    "instagram-reels",
+    "llm",
+    "python"
+   ],
+   "total_stars": 139009,
+   "homepage": "",
+   "readme": "MoneyPrinterTurbo 💸 一站式 AI 短视频生成工具 只需提供视频 主题 或 关键词 ，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。 简体中文 | English | 日本語 | 版本发布 | 问题反馈 界面预览 🖥️ WebUI API 特别感谢 ❤️ 感谢 Kimi 赞助本项目！Kimi K3.1 Pro 是 Moonshot AI 迄今能力最强的 3T 级开放权重模型，拥有原生视觉能力与 100 万 Token 上下文，在知识工作、推理和长周期任务中展现前沿性能。在 MoneyPrinterTurbo 中，K3.1 Pro 能直接驱动视频创作，不仅撰写视频文案，还会提炼素材搜索关键词、决定成片画面；对内容理解越准确，匹配到的素材就越贴题。 MoneyPrinterTurbo 用户专属优惠：新用户通过专属链接注册，首次成功充值可获充值金额 10% 的 API 额度。活动截至 2026 年 12 月 31 日。前往 Kimi 开放平台（中文站｜Global）体验 API。** 火山引擎 感谢字节火山引擎赞助本项目！火山方舟 Agent/Coding Plan 国模套餐 首购 9.9 ，支持 GLM-5.3、Kimi-K3、DeepSeek、MiniMax、Doubao 等，注册免费领 2500w Token ，统一 API，适配编码与智能体开发。 立即前往 感谢 APIMart 赞助了本项目！APIMart 是专注 AI 图片/视频生成的低价 API 平台， GPT-Image-2 低至 &#36;0.006/张，1 美元可出图 16"
+  },
+  {
+   "repo": "garrytan/gstack",
+   "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "lang": "TypeScript",
+   "stars": "290",
+   "topics": [],
+   "total_stars": 139365,
+   "homepage": "",
+   "readme": "gstack gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR. All slash commands, all Markdown, all free, MIT license. I'm Garry Tan, President & CEO of Y Combinator. This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone. The story, the productivity numbers and how I run ten sprints at once are in Why gstack. Fork it. Improve"
+  },
+  {
+   "repo": "FareedKhan-dev/kimi-k3-in-c",
+   "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+   "lang": "C",
+   "stars": "351",
+   "topics": [
+    "avx2",
+    "c99",
+    "cpu-inference",
+    "deep-learning",
+    "from-scratch",
+    "inference-engine"
+   ],
+   "total_stars": 10324,
+   "homepage": "https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59",
+   "readme": "kimi-k3-in-c A 2.78-trillion-parameter model. One CPU. 8 GB of RAM. Kimi K3 inference in portable C99. No BLAS. No framework. No GPU. T parameters TB checkpoint on disk GB peak RSS, measured KB the whole engine GPUs The same 2.78-trillion-parameter model, the same answer, on whatever machine you own. More memory only buys speed: the machine you have RAM time per token what is going on an ordinary laptop GB s the whole model streams off the disk on every step a high-end laptop GB s some of the model now sits in memory a desktop GB s more of it sits in memory a heavy workstation GB+ s the model fits entirely in memory, the disk wait is gone Same short prompt at every size, and the output is by"
+  },
+  {
+   "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
+   "desc": "",
+   "lang": "C#",
+   "stars": "1,778",
+   "topics": [],
+   "total_stars": 6636,
+   "homepage": "",
+   "readme": "简体中文** | 繁體中文 | English | 日本語 | Türkçe | Español | Čeština 全能的光盘盘面可见图像生成与刻录工具 Disc Image Studio 是一个多平台的光盘盘面图像生成与刻录工具，帮助您使用任何刻录光驱在任何 DVD / CD / 单层蓝光 光盘上刻蚀出肉眼可见的图像。 效果预览 概述 Disc Image Studio 可将一张图片转换成符合 CD、DVD 与单层 BD-R 光盘物理层约束的数据，刻录后将使光盘盘面呈现肉眼可见的图案。 界面预览 快速开始 Windows 下载 `win-x64.exe` 后可直接运行。Linux 或 macOS 请下载与 CPU 匹配的**实验性 CLI** 压缩包，解压后运行 `./disc-image-studio --help`。这些发布包均自带 .NET 运行时。 GitHub Releases 新建工程 在主页选择 CD、DVD 或蓝光，指定输出位置后创建工程。 设计盘面 在设计页导入图片，用图层完成排版，并在右栏「影调」模块调整抖动、伽马、亮度与灰阶档位。 预览与导出 在预览页核对盘面投影，在导出页生成 ISO / RAW / WAV+CUE，或使用即时刻录功能直接写入空白盘片。 即时刻录为实验性功能，请只使用可报废的测试介质。 功能 光盘数据生成 CD 支持**：支持任何 CD 。您可导出带格式头的 WAV 音轨及配套 CUE，兼容 cdrecord, ImgBurn等刻录软件；也允许导出 RAW 音轨。详见 CD 刻录兼容说明。 DVD 支持**：支持任何 DVD。您可导出"
+  },
+  {
+   "repo": "MichaelCade/90DaysOfDevOps",
+   "desc": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principl",
+   "lang": "Shell",
+   "stars": "97",
+   "topics": [
+    "ansible",
+    "backup",
+    "containers",
+    "devops",
+    "iac",
+    "kubernetes"
+   ],
+   "total_stars": 30444,
+   "homepage": "https://www.90daysofdevops.com/",
+   "readme": "DaysOfDevOps This repository started as a way to document my journey on getting a better foundational knowledge of \"DevOps\". It was started on the 1st January 2022 and ran to the 31st March 2022 which is 90 Days! What started off as a learning in public project has quickly become a structured way of learning the foundations of DevOps principles, processes and tooling. Maybe you can help contribute some resources you have found useful to the project. DevOps - Written content by myself but then translated and corrected and enhanced by the community DevSecOps - Focus on Security and other topics we did not get to in 2022, Perspectives from communinty subject matter experts. Community Edition - "
   },
   {
    "repo": "D4Vinci/Scrapling",
    "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scra",
    "lang": "Python",
-   "stars": "1,658",
+   "stars": "2,005",
    "topics": [
     "ai",
     "ai-scraping",
@@ -166,36 +210,43 @@
     "crawling",
     "crawling-python"
    ],
-   "total_stars": 94904,
+   "total_stars": 96606,
    "homepage": "https://scrapling.readthedocs.io/en/latest/",
    "readme": "Effortless Web Scraping for the Modern Web Selection methods &middot; Fetchers &middot; Spiders &middot; Proxy Rotation &middot; CLI &middot; MCP Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library. Scrape static pages, render JavaScript, interact with websites, and extract data from the API calls behind them. Build crawlers with reusable sessions, proxy rotation, automatic retries, pause/resume, and built-in data exports. Use it from Python, the terminal, or your AI agent through its MCP server and Agent Skill. From extracting a few fields to collecting a whole website as clean Markdown, Sc"
   },
   {
-   "repo": "shiyu-coder/Kronos",
-   "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "repo": "Thysrael/Horizon",
+   "desc": "📡 Your own AI-powered news radar. Generates daily briefings in English &amp; Chinese. | 用 AI 构建你专属的新闻雷达",
    "lang": "Python",
-   "stars": "503",
-   "topics": [],
-   "total_stars": 46531,
-   "homepage": "",
-   "readme": "Kronos: A Foundation Model for the Language of Financial Markets Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Kronos is the **first open-source foundation model** for financial candlesticks (K-lines), trained on data from over **45 global exchanges**. 📰 News 🚩 **[2025.11.10]** Kronos has been accpeted by AAAI 2026. 🚩 **[2025.08.17]** We have released the scripts for fine-tuning! Check them out to adapt Kronos to your own tasks. 🚩 **[2025.08.02]** Our paper is now available on arXiv! 📜 Introduction Kronos** is a family of decoder-only foundation models, pre-trained specifically for the \"language\" of financial markets—K-line sequences. Unlike general-purpose TSFMs, Krono"
+   "stars": "121",
+   "topics": [
+    "aggregator",
+    "feishu-bot",
+    "llm",
+    "mcp",
+    "news",
+    "openclaw"
+   ],
+   "total_stars": 12516,
+   "homepage": "https://www.horizon1123.top",
+   "readme": "🌅 Horizon Enjoy the News itself. Leave others to Horizon 📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 构建你专属的 AI 新闻雷达 📖 Live Demo · 📋 Configuration Guide · 💬 QQ Group · 简体中文 · 日本語 Screenshots Ranked Daily Briefing Context, Summary & Discussion More Screenshots Terminal Output Feishu Notification Email Delivery WeChat Delivery Why Horizon? Good reads are scattered across feeds, forums, and timelines. Your attention isn't unlimited. Horizon collects, filters, and deduplicates them, then brings the worthwhile ones to you with context and community discussion. Your taste shapes what you read—and what you want from it. A news story calls for “why it matters”;"
   },
   {
-   "repo": "Donchitos/Claude-Code-Game-Studios",
-   "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-   "lang": "Shell",
-   "stars": "1,182",
+   "repo": "scenario-labs/skills",
+   "desc": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that dri",
+   "lang": "Python",
+   "stars": "224",
    "topics": [
+    "3d-models",
+    "agent-skills",
     "ai-agents",
-    "ai-assisted-development",
-    "anthropic",
-    "claude",
-    "claude-code",
-    "game-design"
+    "ai-art",
+    "blender",
+    "claude-code"
    ],
-   "total_stars": 34690,
-   "homepage": "",
-   "readme": "Claude Code Game Studios Turn a single Claude Code session into a full game development studio. agents. 74 skills. One coordinated AI team. Why This Exists Building a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code. There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios** solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own th"
+   "total_stars": 2459,
+   "homepage": "https://www.skills.sh/scenario-labs/skills",
+   "readme": "Scenario Agent Skills Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertainment, and any creative vertical. The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, conference talks, and official documentation. They need the application, not the Scenario M"
   }
  ]
 }
