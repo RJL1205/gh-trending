@@ -1,201 +1,264 @@
 {
  "since": "daily",
- "fetched_at": "2026-11-06T01:43:24+00:00",
- "changed_at": "2026-11-06T01:43:24+00:00",
- "count": 14,
+ "fetched_at": "2026-11-07T01:03:59+00:00",
+ "changed_at": "2026-11-07T01:03:59+00:00",
+ "count": 17,
  "items": [
+  {
+   "repo": "zed-industries/zed",
+   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "lang": "Rust",
+   "stars": "306",
+   "topics": [
+    "gpui",
+    "rust-lang",
+    "text-editor",
+    "zed"
+   ],
+   "total_stars": 93630,
+   "homepage": "https://zed.dev",
+   "readme": "Zed Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Installation On macOS, Linux, and Windows you can download Zed directly or install Zed via your local package manager (macOS/Linux/Windows). Other platforms are not yet available: Web (tracking discussion) Developing Zed Building Zed for macOS Building Zed for Linux Building Zed for Windows Contributing See CONTRIBUTING.md for ways you can contribute to Zed. Also... we're hiring! Check out our jobs page for open roles. Licensing Zed source code is licensed primarily under GPL-3.0-or-later, with Apache-2.0 components where marked. License information for third party dependencies must be "
+  },
   {
    "repo": "NVIDIA/auto-ontology",
    "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
    "lang": "Python",
-   "stars": "2,679",
+   "stars": "2,015",
    "topics": [],
-   "total_stars": 7418,
+   "total_stars": 9038,
    "homepage": "",
    "readme": "Auto Ontology Agents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own. It enables developers to: Discover: generate enterprise ontologies from metadata; connect existing ontologies and seman"
   },
   {
-   "repo": "mattpocock/skills",
-   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-   "lang": "Shell",
-   "stars": "2,071",
-   "topics": [],
-   "total_stars": 315294,
-   "homepage": "https://aihero.dev/skills",
-   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
+   "repo": "rails/rails",
+   "desc": "Ruby on Rails",
+   "lang": "Ruby",
+   "stars": "142",
+   "topics": [
+    "activejob",
+    "activerecord",
+    "framework",
+    "html",
+    "mvc",
+    "rails"
+   ],
+   "total_stars": 59026,
+   "homepage": "https://rubyonrails.org",
+   "readme": "Welcome to Rails What's Rails? Rails is a web application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern. Understanding the MVC pattern is key to understanding Rails. MVC divides your application into three layers: Model, View, and Controller, each with a specific responsibility. Model layer The _**Model layer**_ represents the domain model (such as Account, Product, Person, Post, etc.) and encapsulates the business logic specific to your application. In Rails, database-backed model classes are derived from `ActiveRecord::Base`. Active Record allows you to present the data from database rows as objects"
   },
   {
-   "repo": "garrytan/gstack",
-   "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "repo": "mpv-player/mpv",
+   "desc": "🎥 Command line media player",
+   "lang": "C",
+   "stars": "37",
+   "topics": [
+    "audio",
+    "c",
+    "ffmpeg",
+    "mplayer",
+    "mpv",
+    "multimedia"
+   ],
+   "total_stars": 37876,
+   "homepage": "https://mpv.io",
+   "readme": "mpv External links Overview System requirements Downloads Changelog Compilation Release cycle Bug reports Contributing License Contact External links Wiki User Scripts [FAQ][FAQ] Manual Overview mpv** is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types. There is a [FAQ][FAQ]. Releases can be found on the [release list][releases]. System requirements A not too ancient Linux (usually, only the latest releases of distributions are actively supported), Windows 10 1607 or later, or macOS 10.15 or later. A somewhat capable CPU. Hardware decoding might help if the CPU is too slow to decode video in"
+  },
+  {
+   "repo": "rust-lang/rust",
+   "desc": "Empowering everyone to build reliable and efficient software.",
+   "lang": "Rust",
+   "stars": "192",
+   "topics": [
+    "compiler",
+    "language",
+    "rust"
+   ],
+   "total_stars": 121450,
+   "homepage": "https://www.rust-lang.org",
+   "readme": "[Website][Rust] | [Getting started] | [Learn] | [Documentation] | [Contributing] This is the main source code repository for [Rust]. It contains the compiler, standard library, and documentation. [Rust]: https://www.rust-lang.org/ [Getting Started]: https://www.rust-lang.org/learn/get-started [Learn]: https://www.rust-lang.org/learn [Documentation]: https://www.rust-lang.org/learn#learn-use [Contributing]: CONTRIBUTING.md Why Rust? Performance:** Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages. Reliability:** Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time. Producti"
+  },
+  {
+   "repo": "react/react",
+   "desc": "The library for web and native user interfaces.",
+   "lang": "JavaScript",
+   "stars": "248",
+   "topics": [
+    "declarative",
+    "frontend",
+    "javascript",
+    "library",
+    "react",
+    "ui"
+   ],
+   "total_stars": 252257,
+   "homepage": "https://react.dev",
+   "readme": "React &middot; React is a JavaScript library for building user interfaces. Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug. Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM. Learn Once, Write Anywhere:** We don't make a"
+  },
+  {
+   "repo": "angular/angular",
+   "desc": "Deliver web apps with confidence 🚀",
    "lang": "TypeScript",
-   "stars": "612",
-   "topics": [],
-   "total_stars": 139965,
-   "homepage": "",
-   "readme": "gstack gstack turns Claude Code (and other coding agents) into a virtual engineering team: a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR. All slash commands, all Markdown, all free, MIT license. I'm Garry Tan, President & CEO of Y Combinator. This is the open source software factory I use every day, and I'm sharing it because these tools should be available to everyone. The story, the productivity numbers and how I run ten sprints at once are in Why gstack. Fork it. Improve"
+   "stars": "135",
+   "topics": [
+    "angular",
+    "javascript",
+    "pwa",
+    "typescript",
+    "web",
+    "web-framework"
+   ],
+   "total_stars": 101361,
+   "homepage": "https://angular.dev",
+   "readme": "Angular - The modern web developer's platform Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. angular.dev Contributing Guidelines · Submit an Issue · Blog Documentation Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website. [Getting Started][quickstart] [Architecture][architecture] [Components and Templates][componentstemplates] [Forms][forms] [API][api] Advanced [Angular Elements][angularelements] [Server Side Rendering][ssr] [Schematics][schematics] [Lazy Loading][lazyloading] [Animations][animations] Local Development To contribute to the Angular Docs, ch"
   },
   {
-   "repo": "Usagi-org/ai-goofish-monitor",
-   "desc": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
-   "lang": "Python",
-   "stars": "240",
+   "repo": "symfony/symfony",
+   "desc": "The Symfony PHP framework",
+   "lang": "PHP",
+   "stars": "128",
    "topics": [
-    "ai",
-    "ai-assistant",
-    "ai-tools",
-    "automation",
-    "gemini",
-    "goofish"
+    "bundle",
+    "framework",
+    "hacktoberfest",
+    "php",
+    "php-framework",
+    "symfony"
    ],
-   "total_stars": 17591,
-   "homepage": "",
-   "readme": "闲鱼智能监控系统 [中文] ｜ English 基于 Playwright 和 AI 的闲鱼多任务实时监控，提供完整的 Web 管理界面。 核心特性 Web 可视化管理**: 任务管理、账号管理、AI 标准编辑、运行日志、结果浏览 AI 驱动**: 自然语言创建任务，多模态模型深度分析商品 多任务并发**: 独立配置关键词、价格、筛选条件和 AI Prompt 高级筛选**: 包邮、新发布时间范围、省/市/区三级区域筛选 即时通知**: 支持 ntfy.sh、企业微信、Bark、Telegram、Webhook等多渠道 定时调度**: 支持 Cron 配置周期性任务 账号与代理轮换**: 多账号管理、任务绑定账号、代理池轮换与失败重试 Docker 部署**: 一键容器化部署 截图 🐳 Docker 部署（推荐） 如果镜像无法访问或下载速度慢，可尝试使用加速： 默认 Web UI 地址：`http://127.0.0.1:8000` Docker 镜像已内置 Chromium，无需宿主机额外安装浏览器。 官方镜像地址：`ghcr.io/usagi-org/ai-goofish:latest` 更新镜像：`docker compose pull && docker compose up -d` 如果你修改了 `.env` 中的 `SERVER_PORT`，请同步更新 `docker-compose.yaml` 里的端口映射。 `docker-compose.yaml` 默认会把 SQLite 主库挂载到 `./data:/app/data`，数据库文件默认为 `data/app."
+   "total_stars": 31430,
+   "homepage": "https://symfony.com",
+   "readme": "[Symfony][1] is a **PHP framework** for web and console applications and a set of reusable **PHP components**. Symfony is used by thousands of web applications and most of the [popular PHP projects][2]. Installation [Install Symfony][4] with Composer (see [requirements details][3]). Symfony follows the [semantic versioning][5] strictly, publishes \"Long Term Support\" (LTS) versions and has a [release process][6] that is predictable and business-friendly. Sponsor Symfony 8.2 is looking for [backers][27]. Help Symfony by [sponsoring][31] its development! Documentation Read the [Getting Started guide][7] if you are new to Symfony. Try the [Symfony Demo application][23] to learn Symfony in practi"
   },
   {
-   "repo": "D4Vinci/Scrapling",
-   "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scra",
-   "lang": "Python",
-   "stars": "1,655",
+   "repo": "prometheus/prometheus",
+   "desc": "The Prometheus monitoring system and time series database.",
+   "lang": "Go",
+   "stars": "148",
    "topics": [
-    "ai",
-    "ai-scraping",
-    "automation",
-    "crawler",
-    "crawling",
-    "crawling-python"
+    "alerting",
+    "graphing",
+    "hacktoberfest",
+    "metrics",
+    "monitoring",
+    "prometheus"
    ],
-   "total_stars": 98020,
-   "homepage": "https://scrapling.readthedocs.io/en/latest/",
-   "readme": "Effortless Web Scraping for the Modern Web Selection methods &middot; Fetchers &middot; Spiders &middot; Proxy Rotation &middot; CLI &middot; MCP Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library. Scrape static pages, render JavaScript, interact with websites, and extract data from the API calls behind them. Build crawlers with reusable sessions, proxy rotation, automatic retries, pause/resume, and built-in data exports. Use it from Python, the terminal, or your AI agent through its MCP server and Agent Skill. From extracting a few fields to collecting a whole website as clean Markdown, Sc"
-  },
-  {
-   "repo": "vercel-labs/agent-desktop",
-   "desc": "Computer use CLI for AI agents",
-   "lang": "Rust",
-   "stars": "2,173",
-   "topics": [
-    "accessibility",
-    "accessibility-api",
-    "ai-agents",
-    "automation",
-    "cli",
-    "computer-use"
-   ],
-   "total_stars": 16911,
-   "homepage": "https://agent-browser.dev/desktop",
-   "readme": "agent-desktop Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree. agent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repeats. The loop lives in your agent; agent-desktop has no model inside. It ships as a CLI and a C library. Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content. Keep them out of public logs and uploads. Install Bun,"
-  },
-  {
-   "repo": "max-sixty/worktrunk",
-   "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-   "lang": "Rust",
-   "stars": "546",
-   "topics": [
-    "agents",
-    "claude-code",
-    "codex",
-    "developer-tools",
-    "git",
-    "worktrees"
-   ],
-   "total_stars": 11528,
-   "homepage": "https://worktrunk.dev",
-   "readme": "&nbsp;&nbsp;Worktrunk November 2026**: Worktrunk was released at the start of the year, and has quickly become the most popular git worktree manager. It's built with love (there's no slop!). Please let me know any frictions at all; I'm intensely focused on continuing to make Worktrunk excellent, and the biggest help is folks posting problems they perceive. Worktrunk is a CLI for git worktree management, designed for running AI agents in parallel. Worktrunk's three core commands make worktrees as easy as branches. Plus, Worktrunk has a bunch of quality-of-life features to simplify working with many parallel changes, including hooks to automate local workflows & copy-on-write build caches. A q"
+   "total_stars": 67183,
+   "homepage": "https://prometheus.io/",
+   "readme": "Prometheus Visit prometheus.io for the full documentation, examples and guides. [ ][quay] [ ][hub] Prometheus, a Cloud Native Computing Foundation project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed. The features that distinguish Prometheus from other metrics and monitoring systems are: A **multi-dimensional** data model (time series defined by metric name and set of key/value dimensions) PromQL, a **powerful and flexible query language** to leverage this dimensionality No dependency on distributed storage; **single s"
   },
   {
    "repo": "google/skills",
    "desc": "Agent Skills for Google products and technologies",
    "lang": "Python",
-   "stars": "211",
+   "stars": "534",
    "topics": [
     "google",
     "googlecloud",
     "skills"
    ],
-   "total_stars": 22395,
+   "total_stars": 22838,
    "homepage": "",
    "readme": "Agent Skills This repository contains Agent Skills for Google products and technologies, including Google Cloud. Installation When prompted, select specific skills or all skills, the target agents to configure, and the installation scope (project or global). If `npx` is not available in your environment, install Node.js, which includes `npm` and `npx`. Updating Skills To update previously installed skills to the latest versions, run the following command. This command gives you an option to also remove obsolete skills. Available Skills Getting started with Google Cloud** Authenticating and Authorizing to Google Cloud (IAM)** Google Cloud Recipe: Foundation Builder** Onboarding to Google Clou"
   },
   {
-   "repo": "vercel-labs/agent-browser",
-   "desc": "Browser automation CLI for AI agents",
+   "repo": "microsoft/vscode",
+   "desc": "Visual Studio Code",
+   "lang": "TypeScript",
+   "stars": "301",
+   "topics": [
+    "editor",
+    "electron",
+    "microsoft",
+    "typescript",
+    "visual-studio-code"
+   ],
+   "total_stars": 195024,
+   "homepage": "https://code.visualstudio.com",
+   "readme": "Visual Studio Code - Open Source (\"Code - OSS\") The Repository This repository (\"`Code - OSS`\") is where we (Microsoft) develop the Visual Studio Code product together with the community. Not only do we work on code and issues here, but we also publish our roadmap, monthly iteration plans, and our endgame plans. This source code is available to everyone under the standard MIT license. Visual Studio Code Visual Studio Code is a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional Microsoft product license. Visual Studio Code combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It pr"
+  },
+  {
+   "repo": "nushell/nushell",
+   "desc": "A new type of shell",
    "lang": "Rust",
-   "stars": "150",
-   "topics": [],
-   "total_stars": 45920,
-   "homepage": "https://agent-browser.dev",
-   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
-  },
-  {
-   "repo": "scenario-labs/skills",
-   "desc": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that dri",
-   "lang": "Python",
-   "stars": "667",
+   "stars": "131",
    "topics": [
-    "3d-models",
-    "agent-skills",
-    "ai-agents",
-    "ai-art",
-    "blender",
-    "claude-code"
+    "nushell",
+    "rust",
+    "shell"
    ],
-   "total_stars": 3087,
-   "homepage": "https://www.skills.sh/scenario-labs/skills",
-   "readme": "Scenario Agent Skills Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertainment, and any creative vertical. The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity, Godot, Roblox Studio), distilled from expert tutorials, conference talks, and official documentation. They need the application, not the Scenario M"
+   "total_stars": 40984,
+   "homepage": "https://www.nushell.sh/",
+   "readme": "Nushell A new type of shell. Table of Contents Status Learning About Nu Installation Configuration Philosophy Pipelines Opening files Plugins Goals Officially Supported By Contributing License Status This project has reached a minimum-viable-product level of quality. Many people use it as their daily driver, but it may be unstable for some commands. Nu's design is subject to change as it matures. Learning About Nu The Nushell book is the primary source of Nushell documentation. You can find a full list of Nu commands in the book, and we have many examples of using Nu in our cookbook. We're also active on Discord; come and chat with us! Installation To quickly install Nu: To use `Nu` in GitHu"
   },
   {
-   "repo": "ConardLi/garden-skills",
-   "desc": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+   "repo": "etcd-io/etcd",
+   "desc": "Distributed reliable key-value store for the most critical data of a distributed system",
+   "lang": "Go",
+   "stars": "128",
+   "topics": [
+    "cncf",
+    "consensus",
+    "database",
+    "distributed-database",
+    "distributed-systems",
+    "etcd"
+   ],
+   "total_stars": 52614,
+   "homepage": "https://etcd.io",
+   "readme": "etcd Note**: The `main` branch may be in an *unstable or even broken state* during development. For stable versions, see [releases][github-release]. etcd is a distributed reliable key-value store for the most critical data of a distributed system, with a focus on being: Simple*: well-defined, user-facing API (gRPC) Secure*: automatic TLS with optional client cert authentication Fast*: benchmarked 10,000 writes/sec Reliable*: properly distributed using Raft etcd is written in Go and uses the [Raft][] consensus algorithm to manage a highly-available replicated log. etcd is used in production by many companies, and the development team stands behind it in critical deployment scenarios, where et"
+  },
+  {
+   "repo": "openssl/openssl",
+   "desc": "General purpose TLS and crypto library",
+   "lang": "C",
+   "stars": "26",
+   "topics": [
+    "cryptography",
+    "decryption",
+    "encryption",
+    "openssl",
+    "ssl",
+    "tls"
+   ],
+   "total_stars": 31292,
+   "homepage": "https://openssl-library.org/",
+   "readme": "Welcome to the OpenSSL Project ============================== [![openssl logo]][www.openssl.org] [![github actions ci badge]][github actions ci] OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit for the Transport Layer Security (TLS, formerly SSL), Datagram TLS (DTLS), and QUIC protocols. The protocol implementations are based on a full-strength general purpose cryptographic library, which can also be used stand-alone. Also included is a cryptographic module validated to conform with FIPS standards. OpenSSL is descended from the SSLeay library developed by Eric A. Young and Tim J. Hudson. The official Home Page of the OpenSSL Project is [www.openssl.org]. Table of Cont"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "2,070",
+   "topics": [],
+   "total_stars": 316721,
+   "homepage": "https://aihero.dev/skills",
+   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
+  },
+  {
+   "repo": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "175",
-   "topics": [
-    "agent",
-    "claude",
-    "gpt-image-2",
-    "rag",
-    "skills",
-    "web-design"
-   ],
-   "total_stars": 14158,
-   "homepage": "https://github.com/ConardLi/garden-skills",
-   "readme": "Garden Skills A curated collection of production-ready Agent Skills for Claude Code, Cursor, Codex, and other AI coding agents.** motion-showreel Code-rendered short video web-video-presentation Web video / presentation web-design-engineer Design / frontend gpt-image-2 Image generation / prompting beautiful-article Any source → beautiful article kb-retriever Local knowledge retrieval English · 中文文档 · 日本語 Table of contents | Install | Use | Contribute | |---|---|---| | Install `skills` CLI (npx) Claude Code plugin marketplace Pinned `.zip` from Releases Manual copy Git submodule | Compatibility What is a Skill? | Contributing Acknowledgments License | `motion-showreel` Category:** Motion Grap"
-  },
-  {
-   "repo": "microsoft/VibeVoice",
-   "desc": "Open-Source Frontier Voice AI",
-   "lang": "Python",
-   "stars": "223",
+   "stars": "2,548",
    "topics": [],
-   "total_stars": 55968,
-   "homepage": "https://microsoft.github.io/VibeVoice/",
-   "readme": "🎙️ VibeVoice: Open-Source Frontier Voice AI 📰 News : 🚀 We released VibeVoice-ASR-Streaming , a unified streaming ASR model that continuously transcribes ''who said what'' as speech arrives, with support for customized hotwords and 10 languages. [ Demo ] [ Models ] [ Report ] : ⚡ We released VibeVoice-ASR-BitNet , an edge CPU inference engine for VibeVoice-ASR. Through heterogeneous quantization (I8_S + I2_S), the model is compressed from 4.62 GB to 1.58 GB with real-time inference (RTF Code ] [ Models ] [ Report ] : 🚀 VibeVoice-ASR is now integrated into Azure AI Foundry Labs ! You can now explore and test our unified speech-to-text capabilities directly through Microsoft Foundry. : 🚀 VibeVo"
-  },
-  {
-   "repo": "floci-io/floci",
-   "desc": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-   "lang": "Java",
-   "stars": "779",
-   "topics": [
-    "aws",
-    "aws-emulation",
-    "devops",
-    "docker",
-    "ec2",
-    "ecs"
-   ],
-   "total_stars": 30435,
-   "homepage": "https://floci.io/floci/",
-   "readme": "Any Cloud. Locally. Light, fluffy, and always free No account. No auth token. No feature gates. Just docker compose up . Quick Start · Features · Services · SDKs · Testcontainers · Migration · Docs What is Floci? Floci is a free, open-source local AWS emulator for development, testing, and CI. It gives you AWS-shaped services on your machine without requiring a cloud account, an auth token, or paid feature gates. Point your AWS SDK, CLI, Terraform, CDK, OpenTofu, or test suite at `http://localhost:4566` and keep your existing workflows. Already using LocalStack? Floci is a drop-in replacement: swap the image and keep going. See Migrating from LocalStack. Floci is the AWS member of the Floci "
-  },
-  {
-   "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
-   "desc": "",
-   "lang": "C#",
-   "stars": "984",
-   "topics": [],
-   "total_stars": 7295,
+   "total_stars": 64022,
    "homepage": "",
-   "readme": "简体中文** | 繁體中文 | English | 日本語 | Türkçe | Español | Čeština 全能的光盘盘面可见图像生成与刻录工具 Disc Image Studio 是一个多平台的光盘盘面图像生成与刻录工具，帮助您使用任何刻录光驱在任何 DVD / CD / 单层蓝光 光盘上刻蚀出肉眼可见的图像。 效果预览 概述 Disc Image Studio 可将一张图片转换成符合 CD、DVD 与单层 BD-R 光盘物理层约束的数据，刻录后将使光盘盘面呈现肉眼可见的图案。 界面预览 快速开始 Windows 下载 `win-x64.exe` 后可直接运行。Linux 或 macOS 请下载与 CPU 匹配的**实验性 CLI** 压缩包，解压后运行 `./disc-image-studio --help`。这些发布包均自带 .NET 运行时。 GitHub Releases 新建工程 在主页选择 CD、DVD 或蓝光，指定输出位置后创建工程。 设计盘面 在设计页导入图片，用图层完成排版，并在右栏「影调」模块调整抖动、伽马、亮度与灰阶档位。 预览与导出 在预览页核对盘面投影，在导出页生成 ISO / RAW / WAV+CUE，或使用即时刻录功能直接写入空白盘片。 即时刻录为实验性功能，请只使用可报废的测试介质。 功能 光盘数据生成 CD 支持**：支持任何 CD 。您可导出带格式头的 WAV 音轨及配套 CUE，兼容 cdrecord, ImgBurn等刻录软件；也允许导出 RAW 音轨。详见 CD 刻录兼容说明。 DVD 支持**：支持任何 DVD。您可导出"
+   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+  },
+  {
+   "repo": "astral-sh/ruff",
+   "desc": "An extremely fast Python linter and code formatter, written in Rust.",
+   "lang": "Rust",
+   "stars": "169",
+   "topics": [
+    "linter",
+    "pep8",
+    "python",
+    "python3",
+    "ruff",
+    "rust"
+   ],
+   "total_stars": 50692,
+   "homepage": "https://docs.astral.sh/ruff",
+   "readme": "Ruff Docs** | **Playground** An extremely fast Python linter and code formatter, written in Rust. Linting the CPython codebase from scratch. ⚡️ 10-100x faster than existing linters (like Flake8) and formatters (like Black) 🐍 Installable via `pip` 🛠️ `pyproject.toml` support 🤝 Python 3.15 compatibility ⚖️ Drop-in parity with Flake8, isort, and Black 📦 Built-in caching, to avoid re-analyzing unchanged files 🔧 Fix support, for automatic error correction (e.g., automatically remove unused imports) 📏 Over 900 built-in rules, with native re-implementations of popular Flake8 plugins, like flake8-bugbear ⌨️ First-party editor integrations for VS Code and more 🌎 Monorepo-friendly, with hierarchical a"
   }
  ]
 }
