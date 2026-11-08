@@ -1,14 +1,14 @@
 {
  "since": "weekly",
- "fetched_at": "2026-11-07T01:04:08+00:00",
- "changed_at": "2026-11-07T01:04:08+00:00",
- "count": 18,
+ "fetched_at": "2026-11-08T00:51:51+00:00",
+ "changed_at": "2026-11-08T00:51:51+00:00",
+ "count": 19,
  "items": [
   {
    "repo": "thedotmack/claude-mem",
    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
    "lang": "TypeScript",
-   "stars": "8,726",
+   "stars": "7,482",
    "topics": [
     "ai",
     "ai-agents",
@@ -17,42 +17,15 @@
     "artificial-intelligence",
     "chromadb"
    ],
-   "total_stars": 114030,
+   "total_stars": 114490,
    "homepage": "https://claude-mem.ai",
-   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Persistent memory compression system built for Claude Code . Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Claude-Mem seamlessly preserves context across sessions by automatically capturing tool usage observation"
-  },
-  {
-   "repo": "Donchitos/Claude-Code-Game-Studios",
-   "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-   "lang": "Shell",
-   "stars": "6,018",
-   "topics": [
-    "ai-agents",
-    "ai-assisted-development",
-    "anthropic",
-    "claude",
-    "claude-code",
-    "game-design"
-   ],
-   "total_stars": 36129,
-   "homepage": "",
-   "readme": "Claude Code Game Studios Turn a single Claude Code session into a full game development studio. agents. 74 skills. One coordinated AI team. Why This Exists Building a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code. There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios** solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own th"
-  },
-  {
-   "repo": "pingdotgg/t3code",
-   "desc": "",
-   "lang": "TypeScript",
-   "stars": "16,782",
-   "topics": [],
-   "total_stars": 49823,
-   "homepage": "https://t3.codes",
-   "readme": "T3 Code T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app. Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them. \"Wait, what are you selling me?\" Nothing. We built T3 Code because we wanted the best possible development experience with agents. We were inspired by existing solutions like the Codex desktop app, Conductor, Claude Desktop and Cursor Glass, but none met our bar. We wanted something performant, remote-ready, and truly open. If we eve"
+   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Your coding agent forgets everything between sessions. Claude-Mem remembers for it. Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Every new session, your agent starts from zero. It re-reads the same files, re-ask"
   },
   {
    "repo": "max-sixty/worktrunk",
    "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
    "lang": "Rust",
-   "stars": "2,184",
+   "stars": "2,292",
    "topics": [
     "agents",
     "claude-code",
@@ -61,37 +34,81 @@
     "git",
     "worktrees"
    ],
-   "total_stars": 11803,
+   "total_stars": 11948,
    "homepage": "https://worktrunk.dev",
    "readme": "&nbsp;&nbsp;Worktrunk November 2026**: Worktrunk was released at the start of the year, and has quickly become the most popular git worktree manager. It's built with love (there's no slop!). Please let me know any frictions at all; I'm intensely focused on continuing to make Worktrunk excellent, and the biggest help is folks posting problems they perceive. Worktrunk is a CLI for git worktree management, designed for running AI agents in parallel. Worktrunk's three core commands make worktrees as easy as branches. Plus, Worktrunk has a bunch of quality-of-life features to simplify working with many parallel changes, including hooks to automate local workflows & copy-on-write build caches. A q"
   },
   {
-   "repo": "Nutlope/hallmark",
-   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-   "lang": "CSS",
-   "stars": "6,900",
+   "repo": "Donchitos/Claude-Code-Game-Studios",
+   "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+   "lang": "Shell",
+   "stars": "5,719",
+   "topics": [
+    "ai-agents",
+    "ai-assisted-development",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "game-design"
+   ],
+   "total_stars": 36590,
+   "homepage": "",
+   "readme": "Claude Code Game Studios Turn a single Claude Code session into a full game development studio. agents. 74 skills. One coordinated AI team. Why This Exists Building a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code. There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios** solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own th"
+  },
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+   "lang": "TypeScript",
+   "stars": "4,906",
+   "topics": [
+    "bazi",
+    "chinese-astrology",
+    "divination",
+    "fortune-telling",
+    "nextjs",
+    "open-source"
+   ],
+   "total_stars": 16722,
+   "homepage": "https://ouranic.cn/?from=gh-about",
+   "readme": "紫微斗数 · 开源排盘引擎 算法是公开的传统智慧，不应该被锁在围墙里 中文** · English 一、项目理念**：紫微斗数是中国传统命理学的瑰宝，倪海厦老师在《天纪》中系统梳理了正宗的紫微斗数体系。我们希望通过技术手段让更多人接触和学习这门学问。 开源排盘算法和知识库，是因为我们相信：**算法是公开的传统智慧，不应该被锁在围墙里**。真正的价值在于解读的深度、用户体验的打磨、以及持续运营的积累。 二、项目信息**：基于 倪海厦《天纪》 教学体系的紫微斗数排盘系统，包含完整排盘算法、四化系统、格局知识库、古籍原文数据，以及一套完整开源的紫微斗数解读数据：**v4.0 解读数据集——67.5 万张命盘 × 13 维 = 877 万段解读，正文约 204 亿字，解压后 56.6 GB**（2026-10-15 发布）。 | 数据集 | 命盘 | 解读段数 | 解压后 | 覆盖年份 | 每张盘解读字数 | |---|---|---|---|---|---| | **v4.0 解读数据集**（2026-10-15） | **674,976** | **8,774,688** | **56.6 GB** | **1950–2026**（只含真实日期） | **约 3.0 万字** | | v3.0 样本数据集 | 518,400 | 6,739,200 | 33.1 GB | 1924–1983 | 约 2.1 万字 | | 变化 | +30% | +30% | **+71%** | +17 年 | +44% | v3.0 每张盘解读字数按 2,160 张盘抽样估算，其余数字为全量统计"
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars": "17,100",
    "topics": [],
-   "total_stars": 49635,
-   "homepage": "https://www.usehallmark.com/",
-   "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of ever"
+   "total_stars": 51280,
+   "homepage": "https://t3.codes",
+   "readme": "T3 Code T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app. Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them. \"Wait, what are you selling me?\" Nothing. We built T3 Code because we wanted the best possible development experience with agents. We were inspired by existing solutions like the Codex desktop app, Conductor, Claude Desktop and Cursor Glass, but none met our bar. We wanted something performant, remote-ready, and truly open. If we eve"
   },
   {
    "repo": "anthropics/skills",
    "desc": "Public repository for Agent Skills",
    "lang": "Python",
-   "stars": "3,159",
+   "stars": "2,796",
    "topics": [
     "agent-skills"
    ],
-   "total_stars": 188176,
+   "total_stars": 188788,
    "homepage": "",
    "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "lang": "CSS",
+   "stars": "6,624",
+   "topics": [],
+   "total_stars": 50283,
+   "homepage": "https://www.usehallmark.com/",
+   "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of ever"
   },
   {
    "repo": "milind-soni/OpenMausBot",
    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
    "lang": "TypeScript",
-   "stars": "6,395",
+   "stars": "7,077",
    "topics": [
     "ai-agents",
     "claude-code",
@@ -100,141 +117,15 @@
     "docker",
     "electron"
    ],
-   "total_stars": 15295,
+   "total_stars": 16984,
    "homepage": "https://www.openmausbot.com/",
    "readme": "OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** openmausbot.com** &nbsp;·&nbsp; Download &nbsp;·&nbsp; Open source Grok Bot alternative, compared OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud comp"
-  },
-  {
-   "repo": "pbakaus/impeccable",
-   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-   "lang": "Rust",
-   "stars": "8,172",
-   "topics": [
-    "agent-skills",
-    "ai",
-    "anti-slop",
-    "design",
-    "slop"
-   ],
-   "total_stars": 104814,
-   "homepage": "https://impeccable.style",
-   "readme": "Impeccable The design vocabulary for your coding agent. Steer with `polish` and `bolder`, review with `critique` and `audit`, and catch AI slop before it ships. From your project root: Reload your coding tool, then run `/impeccable init` in your agent (`$impeccable init` on Codex). Works with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at impeccable.style/docs. | Without Impeccable | With Impeccable | |---|---| | | | Same model (Fable 5.1), same brief: a fourteen-room family guesthouse on the Ligurian coast. Wit"
-  },
-  {
-   "repo": "obra/superpowers",
-   "desc": "An agentic skills framework &amp; software development methodology that works.",
-   "lang": "Shell",
-   "stars": "4,577",
-   "topics": [
-    "ai",
-    "brainstorming",
-    "coding",
-    "obra",
-    "sdlc",
-    "skills"
-   ],
-   "total_stars": 313609,
-   "homepage": "",
-   "readme": "Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. Table of Contents How it works Commercial Services Getting Started Claude Code Antigravity Codex App Codex CLI Cursor Devin CLI Factory Droid Gemini CLI GitHub Copilot CLI Grok Build CLI Kimi Code OpenCode Pi Qwen Code Hermes Agent Muse The Basic Workflow When Something Goes Wrong Community What's Inside Philosophy Contributing Updating License Visual companion telemetry How it works It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, "
-  },
-  {
-   "repo": "HKUDS/DeepTutor",
-   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-   "lang": "Python",
-   "stars": "4,588",
-   "topics": [
-    "ai-agents",
-    "ai-tutor",
-    "clawbot",
-    "cli-tool",
-    "deepresearch",
-    "interactive-learning"
-   ],
-   "total_stars": 55940,
-   "homepage": "http://arxiv.org/abs/2604.26962",
-   "readme": "DeepTutor: Lifelong Personalized Tutoring &#32; &#32; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Features · Get Started · Explore · CLI · Ecosystem · Community 🤝 **We're actively recruiting maintainers!** See the Contributing Guide for the roles, requirements and how to apply. 📦 Releases [2026.11.6]** v1.7.2 — Complete desktop downloads, selected-text speech, easier model setup, Korean interface preview, NVIDIA NIM embeddings, and more reliable mastery, retrieval, and updates. [2026.11.1]** v1.7.1 — Desktop previews, broader localization, password changes, checked video lessons, Anki and calendar exports, more providers, and wide reliabi"
-  },
-  {
-   "repo": "hyprwm/Hyprland",
-   "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-   "lang": "C++",
-   "stars": "1,413",
-   "topics": [
-    "compositor",
-    "cpp26",
-    "wayland",
-    "wayland-compositor"
-   ],
-   "total_stars": 40447,
-   "homepage": "https://hypr.land",
-   "readme": "[![Badge Workflow]][Workflow] [![Badge License]][License] ![Badge Language] [![Badge Pull Requests]][Pull Requests] [![Badge Issues]][Issues] ![Badge Hi Mom] Hyprland is a 100% independent, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. It provides the latest Wayland features, is highly customizable, has all the eyecandy, the most powerful plugins, easy IPC, much more QoL stuff than other compositors and more... [ Install ][Install]** [ Quick Start ][Quick Start]** [ Configure ][Configure]** [ Contribute ][Contribute]** Features All of the eyecandy: gradient borders, many types of blur, animations, glow, shadows and much more A lot of customization % independent, no w"
-  },
-  {
-   "repo": "jakubkrehel/skills",
-   "desc": "A collection of agent skills that help you build great interfaces.",
-   "lang": "Markdown",
-   "stars": "1,921",
-   "topics": [],
-   "total_stars": 11293,
-   "homepage": "https://jakub.kr/skills",
-   "readme": "A collection of agent skills that cover UI, typography, colors, accessibility, layout, product writing and help you build a great interface. These skills cover topics that I write about on my personal website and my design engineering magazine, Interfaces. Skills that help build great interfaces better-interface**: Reviews a screen, flow or whole interface across **accessibility**, **layout**, **writing**, **typography**, **color** and **UI polish**, and returns one ranked report. better-ui**: Polishes surfaces, icons and motion with exact values for **border radius**, **optical alignment**, **shadows**, **icon states** and **animation**. better-typography**: Sets and reviews how text render"
-  },
-  {
-   "repo": "calesthio/OpenMontage",
-   "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-   "lang": "Python",
-   "stars": "4,405",
-   "topics": [
-    "agent",
-    "agentic-ai",
-    "ai",
-    "claude",
-    "copilot",
-    "cursor"
-   ],
-   "total_stars": 77705,
-   "homepage": "https://www.openmontage.video/",
-   "readme": "Monty the Clapper — the official mascot of OpenMontage OpenMontage The first open-source, agentic video production system. Paste A Video &nbsp;·&nbsp; Quick Start &nbsp;·&nbsp; Try These Prompts &nbsp;·&nbsp; Pipelines &nbsp;·&nbsp; How It Works &nbsp;·&nbsp; Providers &nbsp;·&nbsp; Review Guide &nbsp;·&nbsp; Agent Guide Follow The Build Something new is taking shape.** We're building something new for creatives, and we're looking for curious minds to try it early. Curious? Take a first look and join the early users.** Turn your AI coding assistant into a full video production studio. Describe what you want in plain language — your agent handles research, scripting, asset generation, editing"
-  },
-  {
-   "repo": "The-PR-Agent/pr-agent",
-   "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
-   "lang": "Python",
-   "stars": "1,523",
-   "topics": [
-    "ai",
-    "anthropic",
-    "code-review",
-    "coding-assistant",
-    "devtools",
-    "ollama"
-   ],
-   "total_stars": 15306,
-   "homepage": "https://www.pr-agent.ai",
-   "readme": "The Original Open-Source PR Reviewer This repository contains the open-source PR Agent Project. It is not the Qodo offering for open-source projects. PR-Agent is an open-source, AI-powered code review agent and a community-maintained legacy project of Qodo. It is distinct from Qodo's primary AI code review offering, which provides a feature-rich, context-aware experience. Qodo offers a free version for open-source projects and integrates seamlessly with GitHub, GitLab, Bitbucket, and Azure DevOps for high-quality automated reviews. Sponsors PR-Agent is a community-maintained open-source project, with its ongoing development supported by our sponsors. If you'd like to support the project, con"
-  },
-  {
-   "repo": "nightly-labs/openbot",
-   "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-   "lang": "TypeScript",
-   "stars": "1,808",
-   "topics": [
-    "ai-agents",
-    "bun",
-    "codex",
-    "electron",
-    "local-first",
-    "macos"
-   ],
-   "total_stars": 6060,
-   "homepage": "https://openbot.run/",
-   "readme": "OpenBot OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local Codex App Server and Claude Code, plus Grok CLI, OpenCode, Gemini, Cursor CLI, Cline CLI, Kimi Code CLI, Devin CLI, GitHub Copilot CLI, and Hermes Agent through ACP. It gives every agent its own workspace and conversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent messaging in one desktop app. OpenBot is ready for production use. A new release ships almost every day. [!WARNING] Agents run with `danger-full-access` and `approvalPolicy: never`. They can read and modify files, run commands, use the network, and control the embedded browser without per-ac"
   },
   {
    "repo": "D4Vinci/Scrapling",
    "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scra",
    "lang": "Python",
-   "stars": "8,372",
+   "stars": "8,712",
    "topics": [
     "ai",
     "ai-scraping",
@@ -243,29 +134,128 @@
     "crawling",
     "crawling-python"
    ],
-   "total_stars": 98846,
+   "total_stars": 99329,
    "homepage": "https://scrapling.readthedocs.io/en/latest/",
    "readme": "Effortless Web Scraping for the Modern Web Selection methods &middot; Fetchers &middot; Spiders &middot; Proxy Rotation &middot; CLI &middot; MCP Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library. Scrape static pages, render JavaScript, interact with websites, and extract data from the API calls behind them. Build crawlers with reusable sessions, proxy rotation, automatic retries, pause/resume, and built-in data exports. Use it from Python, the terminal, or your AI agent through its MCP server and Agent Skill. From extracting a few fields to collecting a whole website as clean Markdown, Sc"
   },
   {
-   "repo": "multica-ai/andrej-karpathy-skills",
-   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-   "lang": "",
-   "stars": "3,671",
+   "repo": "calesthio/OpenMontage",
+   "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "lang": "Python",
+   "stars": "4,369",
+   "topics": [
+    "agent",
+    "agentic-ai",
+    "ai",
+    "claude",
+    "copilot",
+    "cursor"
+   ],
+   "total_stars": 78281,
+   "homepage": "https://www.openmontage.video/",
+   "readme": "English** | Português (Brasil) | Español | 简体中文 Monty the Clapper — the official mascot of OpenMontage OpenMontage The first open-source, agentic video production system. Paste A Video &nbsp;·&nbsp; Quick Start &nbsp;·&nbsp; Try These Prompts &nbsp;·&nbsp; Pipelines &nbsp;·&nbsp; How It Works &nbsp;·&nbsp; Providers &nbsp;·&nbsp; Review Guide &nbsp;·&nbsp; Agent Guide Follow The Build Something new is taking shape.** We're building something new for creatives, and we're looking for curious minds to try it early. Curious? Take a first look and join the early users.** Turn your AI coding assistant into a full video production studio. Describe what you want in plain language — your agent handle"
+  },
+  {
+   "repo": "jakubkrehel/skills",
+   "desc": "A collection of agent skills that help you build great interfaces.",
+   "lang": "Markdown",
+   "stars": "1,938",
    "topics": [],
-   "total_stars": 230292,
+   "total_stars": 11516,
+   "homepage": "https://jakub.kr/skills",
+   "readme": "A collection of agent skills that cover UI, typography, colors, accessibility, layout, product writing and help you build a great interface. These skills cover topics that I write about on my personal website and my design engineering magazine, Interfaces. Skills that help build great interfaces better-interface**: Reviews a screen, flow or whole interface across **accessibility**, **layout**, **writing**, **typography**, **color** and **UI polish**, and returns one ranked report. better-ui**: Polishes surfaces, icons and motion with exact values for **border radius**, **optical alignment**, **shadows**, **icon states** and **animation**. better-typography**: Sets and reviews how text render"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": "1,476",
+   "topics": [],
+   "total_stars": 46829,
+   "homepage": "https://agent-browser.dev",
+   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "9,664",
+   "topics": [],
+   "total_stars": 317712,
+   "homepage": "https://aihero.dev/skills",
+   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
+  },
+  {
+   "repo": "hyprwm/Hyprland",
+   "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+   "lang": "C++",
+   "stars": "1,436",
+   "topics": [
+    "compositor",
+    "cpp26",
+    "wayland",
+    "wayland-compositor"
+   ],
+   "total_stars": 40498,
+   "homepage": "https://hypr.land",
+   "readme": "[![Badge Workflow]][Workflow] [![Badge License]][License] ![Badge Language] [![Badge Pull Requests]][Pull Requests] [![Badge Issues]][Issues] ![Badge Hi Mom] Hyprland is a 100% independent, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. It provides the latest Wayland features, is highly customizable, has all the eyecandy, the most powerful plugins, easy IPC, much more QoL stuff than other compositors and more... [ Install ][Install]** [ Quick Start ][Quick Start]** [ Configure ][Configure]** [ Contribute ][Contribute]** Features All of the eyecandy: gradient borders, many types of blur, animations, glow, shadows and much more A lot of customization % independent, no w"
+  },
+  {
+   "repo": "github/spec-kit",
+   "desc": "💫 Toolkit to help you get started with SDD or any other process!",
+   "lang": "Python",
+   "stars": "4,280",
+   "topics": [
+    "ai",
+    "copilot",
+    "development",
+    "engineering",
+    "prd",
+    "spec"
+   ],
+   "total_stars": 148421,
+   "homepage": "https://github.github.com/spec-kit/",
+   "readme": ""
+  },
+  {
+   "repo": "obra/superpowers",
+   "desc": "An agentic skills framework &amp; software development methodology that works.",
+   "lang": "Shell",
+   "stars": "4,466",
+   "topics": [],
+   "total_stars": "",
    "homepage": "",
-   "readme": "Karpathy-Inspired Claude Code Guidelines Check out my new project Multica — an open-source platform for running and managing coding agents with reusable skills. Follow me on X: https://x.com/jiayuan_jy A single `CLAUDE.md` file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. English | 简体中文 The Problems From Andrej's post: \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\" \"They really like to overcomplicate code and APIs, bloat abstractions, do"
+   "readme": ""
+  },
+  {
+   "repo": "The-PR-Agent/pr-agent",
+   "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+   "lang": "Python",
+   "stars": "1,576",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "lang": "Rust",
+   "stars": "7,623",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "shiyu-coder/Kronos",
    "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
    "lang": "Python",
-   "stars": "2,984",
+   "stars": "2,937",
    "topics": [],
-   "total_stars": 47070,
+   "total_stars": "",
    "homepage": "",
-   "readme": "Kronos: A Foundation Model for the Language of Financial Markets Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Kronos is the **first open-source foundation model** for financial candlesticks (K-lines), trained on data from over **45 global exchanges**. 📰 News 🚩 **[2025.11.10]** Kronos has been accpeted by AAAI 2026. 🚩 **[2025.08.17]** We have released the scripts for fine-tuning! Check them out to adapt Kronos to your own tasks. 🚩 **[2025.08.02]** Our paper is now available on arXiv! 📜 Introduction Kronos** is a family of decoder-only foundation models, pre-trained specifically for the \"language\" of financial markets—K-line sequences. Unlike general-purpose TSFMs, Krono"
+   "readme": ""
   }
  ]
 }

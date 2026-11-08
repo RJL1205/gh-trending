@@ -1,138 +1,80 @@
 {
  "since": "daily",
- "fetched_at": "2026-11-07T01:03:59+00:00",
- "changed_at": "2026-11-07T01:03:59+00:00",
- "count": 17,
+ "fetched_at": "2026-11-08T00:51:44+00:00",
+ "changed_at": "2026-11-08T00:51:44+00:00",
+ "count": 15,
  "items": [
   {
-   "repo": "zed-industries/zed",
-   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
    "lang": "Rust",
-   "stars": "306",
-   "topics": [
-    "gpui",
-    "rust-lang",
-    "text-editor",
-    "zed"
-   ],
-   "total_stars": 93630,
-   "homepage": "https://zed.dev",
-   "readme": "Zed Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Installation On macOS, Linux, and Windows you can download Zed directly or install Zed via your local package manager (macOS/Linux/Windows). Other platforms are not yet available: Web (tracking discussion) Developing Zed Building Zed for macOS Building Zed for Linux Building Zed for Windows Contributing See CONTRIBUTING.md for ways you can contribute to Zed. Also... we're hiring! Check out our jobs page for open roles. Licensing Zed source code is licensed primarily under GPL-3.0-or-later, with Apache-2.0 components where marked. License information for third party dependencies must be "
-  },
-  {
-   "repo": "NVIDIA/auto-ontology",
-   "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-   "lang": "Python",
-   "stars": "2,015",
+   "stars": "190",
    "topics": [],
-   "total_stars": 9038,
-   "homepage": "",
-   "readme": "Auto Ontology Agents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own. It enables developers to: Discover: generate enterprise ontologies from metadata; connect existing ontologies and seman"
+   "total_stars": 46829,
+   "homepage": "https://agent-browser.dev",
+   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
   },
   {
-   "repo": "rails/rails",
-   "desc": "Ruby on Rails",
-   "lang": "Ruby",
-   "stars": "142",
-   "topics": [
-    "activejob",
-    "activerecord",
-    "framework",
-    "html",
-    "mvc",
-    "rails"
-   ],
-   "total_stars": 59026,
-   "homepage": "https://rubyonrails.org",
-   "readme": "Welcome to Rails What's Rails? Rails is a web application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern. Understanding the MVC pattern is key to understanding Rails. MVC divides your application into three layers: Model, View, and Controller, each with a specific responsibility. Model layer The _**Model layer**_ represents the domain model (such as Account, Product, Person, Post, etc.) and encapsulates the business logic specific to your application. In Rails, database-backed model classes are derived from `ActiveRecord::Base`. Active Record allows you to present the data from database rows as objects"
-  },
-  {
-   "repo": "mpv-player/mpv",
-   "desc": "🎥 Command line media player",
-   "lang": "C",
-   "stars": "37",
-   "topics": [
-    "audio",
-    "c",
-    "ffmpeg",
-    "mplayer",
-    "mpv",
-    "multimedia"
-   ],
-   "total_stars": 37876,
-   "homepage": "https://mpv.io",
-   "readme": "mpv External links Overview System requirements Downloads Changelog Compilation Release cycle Bug reports Contributing License Contact External links Wiki User Scripts [FAQ][FAQ] Manual Overview mpv** is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types. There is a [FAQ][FAQ]. Releases can be found on the [release list][releases]. System requirements A not too ancient Linux (usually, only the latest releases of distributions are actively supported), Windows 10 1607 or later, or macOS 10.15 or later. A somewhat capable CPU. Hardware decoding might help if the CPU is too slow to decode video in"
-  },
-  {
-   "repo": "rust-lang/rust",
-   "desc": "Empowering everyone to build reliable and efficient software.",
-   "lang": "Rust",
-   "stars": "192",
-   "topics": [
-    "compiler",
-    "language",
-    "rust"
-   ],
-   "total_stars": 121450,
-   "homepage": "https://www.rust-lang.org",
-   "readme": "[Website][Rust] | [Getting started] | [Learn] | [Documentation] | [Contributing] This is the main source code repository for [Rust]. It contains the compiler, standard library, and documentation. [Rust]: https://www.rust-lang.org/ [Getting Started]: https://www.rust-lang.org/learn/get-started [Learn]: https://www.rust-lang.org/learn [Documentation]: https://www.rust-lang.org/learn#learn-use [Contributing]: CONTRIBUTING.md Why Rust? Performance:** Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages. Reliability:** Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time. Producti"
-  },
-  {
-   "repo": "react/react",
-   "desc": "The library for web and native user interfaces.",
+   "repo": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "248",
-   "topics": [
-    "declarative",
-    "frontend",
-    "javascript",
-    "library",
-    "react",
-    "ui"
-   ],
-   "total_stars": 252257,
-   "homepage": "https://react.dev",
-   "readme": "React &middot; React is a JavaScript library for building user interfaces. Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug. Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM. Learn Once, Write Anywhere:** We don't make a"
+   "stars": "2,085",
+   "topics": [],
+   "total_stars": 65729,
+   "homepage": "",
+   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
   },
   {
-   "repo": "angular/angular",
-   "desc": "Deliver web apps with confidence 🚀",
+   "repo": "google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "lang": "Python",
+   "stars": "443",
+   "topics": [
+    "google",
+    "googlecloud",
+    "skills"
+   ],
+   "total_stars": 23404,
+   "homepage": "",
+   "readme": "Agent Skills This repository contains Agent Skills for Google products and technologies, including Google Cloud. Installation When prompted, select specific skills or all skills, the target agents to configure, and the installation scope (project or global). If `npx` is not available in your environment, install Node.js, which includes `npm` and `npx`. Updating Skills To update previously installed skills to the latest versions, run the following command. This command gives you an option to also remove obsolete skills. Available Skills Getting started with Google Cloud** Authenticating and Authorizing to Google Cloud (IAM)** Google Cloud Recipe: Foundation Builder** Onboarding to Google Clou"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "1,100",
+   "topics": [],
+   "total_stars": 317712,
+   "homepage": "https://aihero.dev/skills",
+   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
+  },
+  {
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": "390",
+   "topics": [
+    "agent-skills"
+   ],
+   "total_stars": 188788,
+   "homepage": "",
+   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
+  },
+  {
+   "repo": "meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
    "lang": "TypeScript",
-   "stars": "135",
-   "topics": [
-    "angular",
-    "javascript",
-    "pwa",
-    "typescript",
-    "web",
-    "web-framework"
-   ],
-   "total_stars": 101361,
-   "homepage": "https://angular.dev",
-   "readme": "Angular - The modern web developer's platform Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. angular.dev Contributing Guidelines · Submit an Issue · Blog Documentation Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website. [Getting Started][quickstart] [Architecture][architecture] [Components and Templates][componentstemplates] [Forms][forms] [API][api] Advanced [Angular Elements][angularelements] [Server Side Rendering][ssr] [Schematics][schematics] [Lazy Loading][lazyloading] [Animations][animations] Local Development To contribute to the Angular Docs, ch"
-  },
-  {
-   "repo": "symfony/symfony",
-   "desc": "The Symfony PHP framework",
-   "lang": "PHP",
-   "stars": "128",
-   "topics": [
-    "bundle",
-    "framework",
-    "hacktoberfest",
-    "php",
-    "php-framework",
-    "symfony"
-   ],
-   "total_stars": 31430,
-   "homepage": "https://symfony.com",
-   "readme": "[Symfony][1] is a **PHP framework** for web and console applications and a set of reusable **PHP components**. Symfony is used by thousands of web applications and most of the [popular PHP projects][2]. Installation [Install Symfony][4] with Composer (see [requirements details][3]). Symfony follows the [semantic versioning][5] strictly, publishes \"Long Term Support\" (LTS) versions and has a [release process][6] that is predictable and business-friendly. Sponsor Symfony 8.2 is looking for [backers][27]. Help Symfony by [sponsoring][31] its development! Documentation Read the [Getting Started guide][7] if you are new to Symfony. Try the [Symfony Demo application][23] to learn Symfony in practi"
+   "stars": "96",
+   "topics": [],
+   "total_stars": 14527,
+   "homepage": "http://astryx.atmeta.com",
+   "readme": "Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta** · Built on React 19+ and StyleX Docs** · **Storybook** · **Sandbox** · **Contributing** · **Discord** Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and "
   },
   {
    "repo": "prometheus/prometheus",
    "desc": "The Prometheus monitoring system and time series database.",
    "lang": "Go",
-   "stars": "148",
+   "stars": "322",
    "topics": [
     "alerting",
     "graphing",
@@ -141,113 +83,49 @@
     "monitoring",
     "prometheus"
    ],
-   "total_stars": 67183,
+   "total_stars": 67448,
    "homepage": "https://prometheus.io/",
    "readme": "Prometheus Visit prometheus.io for the full documentation, examples and guides. [ ][quay] [ ][hub] Prometheus, a Cloud Native Computing Foundation project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts when specified conditions are observed. The features that distinguish Prometheus from other metrics and monitoring systems are: A **multi-dimensional** data model (time series defined by metric name and set of key/value dimensions) PromQL, a **powerful and flexible query language** to leverage this dimensionality No dependency on distributed storage; **single s"
   },
   {
-   "repo": "google/skills",
-   "desc": "Agent Skills for Google products and technologies",
+   "repo": "sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
    "lang": "Python",
-   "stars": "534",
+   "stars": "1,766",
    "topics": [
-    "google",
-    "googlecloud",
-    "skills"
+    "cli",
+    "cti",
+    "cybersecurity",
+    "forensics",
+    "hacktoberfest",
+    "information-gathering"
    ],
-   "total_stars": 22838,
-   "homepage": "",
-   "readme": "Agent Skills This repository contains Agent Skills for Google products and technologies, including Google Cloud. Installation When prompted, select specific skills or all skills, the target agents to configure, and the installation scope (project or global). If `npx` is not available in your environment, install Node.js, which includes `npm` and `npx`. Updating Skills To update previously installed skills to the latest versions, run the following command. This command gives you an option to also remove obsolete skills. Available Skills Getting started with Google Cloud** Authenticating and Authorizing to Google Cloud (IAM)** Google Cloud Recipe: Foundation Builder** Onboarding to Google Clou"
+   "total_stars": 100470,
+   "homepage": "https://sherlockproject.xyz",
+   "readme": "Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Contributing Installation &#8202;&#8202; [!WARNING] Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be __broken__. Users of these systems should defer to `uv`/`pipx`/`pip` or Docker. | Method | Notes | | - | - | | `pipx install sherlock-project` | `pip` or `uv` may be used in place of `pipx` | | `docker run -it --rm sherlock/sherlock` | | `dnf install sherlock-project` | | Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packag"
   },
   {
-   "repo": "microsoft/vscode",
-   "desc": "Visual Studio Code",
+   "repo": "milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
    "lang": "TypeScript",
-   "stars": "301",
+   "stars": "1,955",
    "topics": [
-    "editor",
-    "electron",
-    "microsoft",
-    "typescript",
-    "visual-studio-code"
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "computer-use",
+    "docker",
+    "electron"
    ],
-   "total_stars": 195024,
-   "homepage": "https://code.visualstudio.com",
-   "readme": "Visual Studio Code - Open Source (\"Code - OSS\") The Repository This repository (\"`Code - OSS`\") is where we (Microsoft) develop the Visual Studio Code product together with the community. Not only do we work on code and issues here, but we also publish our roadmap, monthly iteration plans, and our endgame plans. This source code is available to everyone under the standard MIT license. Visual Studio Code Visual Studio Code is a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional Microsoft product license. Visual Studio Code combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It pr"
-  },
-  {
-   "repo": "nushell/nushell",
-   "desc": "A new type of shell",
-   "lang": "Rust",
-   "stars": "131",
-   "topics": [
-    "nushell",
-    "rust",
-    "shell"
-   ],
-   "total_stars": 40984,
-   "homepage": "https://www.nushell.sh/",
-   "readme": "Nushell A new type of shell. Table of Contents Status Learning About Nu Installation Configuration Philosophy Pipelines Opening files Plugins Goals Officially Supported By Contributing License Status This project has reached a minimum-viable-product level of quality. Many people use it as their daily driver, but it may be unstable for some commands. Nu's design is subject to change as it matures. Learning About Nu The Nushell book is the primary source of Nushell documentation. You can find a full list of Nu commands in the book, and we have many examples of using Nu in our cookbook. We're also active on Discord; come and chat with us! Installation To quickly install Nu: To use `Nu` in GitHu"
-  },
-  {
-   "repo": "etcd-io/etcd",
-   "desc": "Distributed reliable key-value store for the most critical data of a distributed system",
-   "lang": "Go",
-   "stars": "128",
-   "topics": [
-    "cncf",
-    "consensus",
-    "database",
-    "distributed-database",
-    "distributed-systems",
-    "etcd"
-   ],
-   "total_stars": 52614,
-   "homepage": "https://etcd.io",
-   "readme": "etcd Note**: The `main` branch may be in an *unstable or even broken state* during development. For stable versions, see [releases][github-release]. etcd is a distributed reliable key-value store for the most critical data of a distributed system, with a focus on being: Simple*: well-defined, user-facing API (gRPC) Secure*: automatic TLS with optional client cert authentication Fast*: benchmarked 10,000 writes/sec Reliable*: properly distributed using Raft etcd is written in Go and uses the [Raft][] consensus algorithm to manage a highly-available replicated log. etcd is used in production by many companies, and the development team stands behind it in critical deployment scenarios, where et"
-  },
-  {
-   "repo": "openssl/openssl",
-   "desc": "General purpose TLS and crypto library",
-   "lang": "C",
-   "stars": "26",
-   "topics": [
-    "cryptography",
-    "decryption",
-    "encryption",
-    "openssl",
-    "ssl",
-    "tls"
-   ],
-   "total_stars": 31292,
-   "homepage": "https://openssl-library.org/",
-   "readme": "Welcome to the OpenSSL Project ============================== [![openssl logo]][www.openssl.org] [![github actions ci badge]][github actions ci] OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit for the Transport Layer Security (TLS, formerly SSL), Datagram TLS (DTLS), and QUIC protocols. The protocol implementations are based on a full-strength general purpose cryptographic library, which can also be used stand-alone. Also included is a cryptographic module validated to conform with FIPS standards. OpenSSL is descended from the SSLeay library developed by Eric A. Young and Tim J. Hudson. The official Home Page of the OpenSSL Project is [www.openssl.org]. Table of Cont"
-  },
-  {
-   "repo": "mattpocock/skills",
-   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-   "lang": "Shell",
-   "stars": "2,070",
-   "topics": [],
-   "total_stars": 316721,
-   "homepage": "https://aihero.dev/skills",
-   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
-  },
-  {
-   "repo": "cloudflare/security-audit-skill",
-   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-   "lang": "JavaScript",
-   "stars": "2,548",
-   "topics": [],
-   "total_stars": 64022,
-   "homepage": "",
-   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+   "total_stars": 16984,
+   "homepage": "https://www.openmausbot.com/",
+   "readme": "OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** openmausbot.com** &nbsp;·&nbsp; Download &nbsp;·&nbsp; Open source Grok Bot alternative, compared OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud comp"
   },
   {
    "repo": "astral-sh/ruff",
    "desc": "An extremely fast Python linter and code formatter, written in Rust.",
    "lang": "Rust",
-   "stars": "169",
+   "stars": "350",
    "topics": [
     "linter",
     "pep8",
@@ -256,9 +134,86 @@
     "ruff",
     "rust"
    ],
-   "total_stars": 50692,
+   "total_stars": 50977,
    "homepage": "https://docs.astral.sh/ruff",
    "readme": "Ruff Docs** | **Playground** An extremely fast Python linter and code formatter, written in Rust. Linting the CPython codebase from scratch. ⚡️ 10-100x faster than existing linters (like Flake8) and formatters (like Black) 🐍 Installable via `pip` 🛠️ `pyproject.toml` support 🤝 Python 3.15 compatibility ⚖️ Drop-in parity with Flake8, isort, and Black 📦 Built-in caching, to avoid re-analyzing unchanged files 🔧 Fix support, for automatic error correction (e.g., automatically remove unused imports) 📏 Over 900 built-in rules, with native re-implementations of popular Flake8 plugins, like flake8-bugbear ⌨️ First-party editor integrations for VS Code and more 🌎 Monorepo-friendly, with hierarchical a"
+  },
+  {
+   "repo": "tailwindlabs/tailwindcss",
+   "desc": "A utility-first CSS framework for rapid UI development.",
+   "lang": "TypeScript",
+   "stars": "122",
+   "topics": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwindcss"
+   ],
+   "total_stars": 98471,
+   "homepage": "https://tailwindcss.com/",
+   "readme": "A utility-first CSS framework for rapidly building custom user interfaces. Documentation For full documentation, visit tailwindcss.com. Community For help, discussion about best practices, or feature ideas: Discuss Tailwind CSS on GitHub Contributing If you're interested in contributing to Tailwind CSS, please read our contributing docs **before submitting a pull request**."
+  },
+  {
+   "repo": "mbillow/localthings",
+   "desc": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+   "lang": "Python",
+   "stars": "186",
+   "topics": [
+    "coap-protocol",
+    "coap-server",
+    "custom-component",
+    "dtls",
+    "hacs",
+    "hacs-integration"
+   ],
+   "total_stars": 1060,
+   "homepage": "",
+   "readme": "LocalThings Control your Samsung appliances from Home Assistant over your home network, with no cloud account.** LocalThings connects Home Assistant to Samsung washers, dryers, refrigerators, air conditioners, ovens and other appliances that work with the SmartThings app. It talks to each appliance on your local network. Updates are fast.** Appliances that support push send changes as they happen. LocalThings checks the rest every 30 seconds. It works without the internet.** After setup, LocalThings never contacts Samsung's servers. Your data stays home.** LocalThings sends nothing to Samsung. The appliance itself still keeps its own connection to Samsung, and LocalThings doesn't change that"
+  },
+  {
+   "repo": "zed-industries/zed",
+   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "lang": "Rust",
+   "stars": "1,114",
+   "topics": [
+    "gpui",
+    "rust-lang",
+    "text-editor",
+    "zed"
+   ],
+   "total_stars": 94279,
+   "homepage": "https://zed.dev",
+   "readme": "Zed Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Installation On macOS, Linux, and Windows you can download Zed directly or install Zed via your local package manager (macOS/Linux/Windows). Other platforms are not yet available: Web (tracking discussion) Developing Zed Building Zed for macOS Building Zed for Linux Building Zed for Windows Contributing See CONTRIBUTING.md for ways you can contribute to Zed. Also... we're hiring! Check out our jobs page for open roles. Licensing Zed source code is licensed primarily under GPL-3.0-or-later, with Apache-2.0 components where marked. License information for third party dependencies must be "
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . ",
+   "lang": "TypeScript",
+   "stars": "191",
+   "topics": [
+    "dsh-plugin"
+   ],
+   "total_stars": 4610,
+   "homepage": "",
+   "readme": "billion-context English | 中文 Context-compression plugin — billion-context is all you need. small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality npm install -g billion-context --prefix=~/.local &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cache health at a glance:** a healthy session keeps a **95–97%** prefix-cache hit rate — compression itself costs ≤2%. Sustained lower? Check attribution with `/acp` or `/acp-cache` (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug ("
+  },
+  {
+   "repo": "dsx-ai-factory/nvke",
+   "desc": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+   "lang": "Go",
+   "stars": "123",
+   "topics": [
+    "bare-metal",
+    "cluster-api",
+    "gpu",
+    "kubernetes",
+    "nvidia"
+   ],
+   "total_stars": 558,
+   "homepage": "https://docs.nvidia.com/nvke/",
+   "readme": "NVIDIA Kubernetes Engine (NVKE) Run a managed Kubernetes service on your own NVIDIA GPU infrastructure.** NVIDIA Kubernetes® Engine (NVKE) provides the management plane that platform teams install to create and operate Kubernetes clusters for their customers. Each workload cluster has its own Kubernetes control plane, etcd and node pools. You operate the NVKE management plane; your customers use their clusters through the Kubernetes API and `kubectl`. Preview:** NVKE is available as a preview. APIs, configuration and behavior can change between releases, and we do not recommend NVKE for production workloads. See Preview status and known limitations. Get started · Documentation · Contribute ·"
   }
  ]
 }
