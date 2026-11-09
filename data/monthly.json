@@ -1,14 +1,14 @@
 {
  "since": "monthly",
- "fetched_at": "2026-11-08T00:51:56+00:00",
- "changed_at": "2026-11-08T00:51:56+00:00",
- "count": 10,
+ "fetched_at": "2026-11-09T01:08:46+00:00",
+ "changed_at": "2026-11-09T01:08:46+00:00",
+ "count": 12,
  "items": [
   {
    "repo": "morluto/rea",
    "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "lang": "TypeScript",
-   "stars": "429,845",
+   "stars": "425,123",
    "topics": [
     "agent-skills",
     "ai",
@@ -17,7 +17,7 @@
     "cli",
     "cpp"
    ],
-   "total_stars": 441049,
+   "total_stars": 443841,
    "homepage": "https://rea.tools",
    "readme": "English** · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano · Ελληνικά · മലയാളം · Roman Urdu · Română REA: Reverse Engineer Anything One MCP for reverse engineering across binaries, applications, and runtime behavior. See a feature you like. Understand how it works, down to the binary level.** Website · Guides · Showcases** Quick start · How REA works · What you can analyze · Showcases · Build RL environments · FAQ · Documentation npx rea-agents setup [!IMPORTANT] Get REA from morluto/rea, rea.tools, or the rea-agents npm package. Follow the installation and"
   },
@@ -25,131 +25,111 @@
    "repo": "Nutlope/hallmark",
    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
    "lang": "CSS",
-   "stars": "20,523",
+   "stars": "21,146",
    "topics": [],
-   "total_stars": 50283,
+   "total_stars": 50973,
    "homepage": "https://www.usehallmark.com/",
    "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of ever"
-  },
-  {
-   "repo": "storytold/artcraft",
-   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-   "lang": "Rust",
-   "stars": "35,633",
-   "topics": [
-    "3d-graphics",
-    "ai",
-    "aivideo",
-    "filmmaking",
-    "imagegeneration"
-   ],
-   "total_stars": 39557,
-   "homepage": "https://getartcraft.com",
-   "readme": "ArtCraft The IDE for artists. https://github.com/user-attachments/assets/7339bd09-3e0d-44a7-a024-af9de64e4c11 Watch the two-minute ArtCraft demo on YouTube Download ArtCraft · GitHub releases · Build from source ArtCraft is the IDE for interactive AI image and video creation. Compose in 2D, stage scenes in 3D, and choose the models that fit your work. Turn prompting into *crafting* with visual tools for precise, repeatable results. Show, Don't Tell: Advanced Crafting Features Artists need control over composition, character identity, and camera placement. Build the scene before you generate it. Click any preview to view it at full size. | Feature | Preview | | -------------------------------"
   },
   {
    "repo": "cloudflare/security-audit-skill",
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "39,571",
+   "stars": "40,289",
    "topics": [],
-   "total_stars": 65729,
+   "total_stars": 66874,
    "homepage": "",
    "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
   },
   {
-   "repo": "boykopovar/AnyPS5",
-   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
-   "lang": "C++",
-   "stars": "43,690",
-   "topics": [
-    "anyps5",
-    "dynamic-library",
-    "game-porting",
-    "ps5",
-    "ps5-tools",
-    "spir-v"
-   ],
-   "total_stars": 52061,
-   "homepage": "https://boykopovar.github.io/AnyPS5/",
-   "readme": "English** | Português (Brasil) | Español | Català | Italiano | 简体中文 | Русский | Bahasa Indonesia About Tool for automatic executables porting to Linux and Windows. The relinker-only build runs on macOS, including Apple silicon. Web converter** - files stay on your device. Includes a relinker that converts executable to the target system's native format and implementations of system prx libraries suitable for dynamic linking. No emulation or separate runtime process. Discord**, Usage, Build instructions, Architecture, Technical debt of the project, code style conventions, contributing Status Progress history System libraries: percentage of the functions known to the project so far (declared i"
-  },
-  {
-   "repo": "debpalash/VoiceStudio",
-   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
-   "lang": "Python",
-   "stars": "49,671",
-   "topics": [
-    "ai",
-    "audiobook",
-    "cuda",
-    "dubbing",
-    "elevenlabs-alternative",
-    "huggingface"
-   ],
-   "total_stars": 103877,
-   "homepage": "https://voicestudio.sh",
-   "readme": "VoiceStudio 🎉 100,000 GitHub stars — thank you! AI voice studio. On your device. Clone, design, dub, dictate, transcribe and narrate in 646 languages. Runs on your laptop, desktop, servers, phone, tablets and more Website · Download · Get started · Docs · VoiceStudio Pro · VoiceStudio Cloud 🇬🇧 English · 🇨🇳 简体中文 · 🇯🇵 日本語 · 🇰🇷 한국어 · 🇷🇺 Русский · 🇸🇦 العربية · 🇩🇪 Deutsch · 🇪🇸 Español · 🇫🇷 Français · 🇮🇳 हिन्दी 🇮🇩 Bahasa Indonesia · 🇮🇹 Italiano · 🇳🇱 Nederlands · 🇵🇱 Polski · 🇵🇹 Português · 🇹🇭 ไทย · 🇹🇷 Türkçe · 🇹🇼 繁體中文 · 🇺🇦 Українська · 🇻🇳 Tiếng Việt Strategic sponsors · Special sponsor Demo workspace · Default dark theme · Watch the HD tour What you can do Voice cloning Turn a clean reference recor"
+   "repo": "storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars": "33,780",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "heygen-com/hyperframes",
    "desc": "Write HTML. Render video. Built for agents.",
    "lang": "TypeScript",
-   "stars": "22,531",
-   "topics": [
-    "ai",
-    "ai-agents",
-    "animation",
-    "claude-code",
-    "ffmpeg",
-    "framework"
-   ],
-   "total_stars": 80582,
-   "homepage": "https://hyperframes.heygen.com",
-   "readme": "Write HTML. Render video. Built for agents. Studio | Quickstart | Showcase | Playground | Catalog | Docs | Discord Download the desktop app: macOS · Windows · Linux (.deb) HyperFrames is a free, open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. The HyperFrames Studio app is free to use as well; its Pro plan adds HeyGen's top video, image, voice and music models. Using Claude Code, Codex, Cursor, or another coding agent? Run `npx hyperframes skills update` once, then ask your agent to make a video. Quick Start With"
+   "stars": "22,360",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars": "50,169",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "pingdotgg/t3code",
    "desc": "",
    "lang": "TypeScript",
-   "stars": "24,785",
+   "stars": "25,840",
    "topics": [],
-   "total_stars": 51280,
-   "homepage": "https://t3.codes",
-   "readme": "T3 Code T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app. Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them. \"Wait, what are you selling me?\" Nothing. We built T3 Code because we wanted the best possible development experience with agents. We were inspired by existing solutions like the Codex desktop app, Conductor, Claude Desktop and Cursor Glass, but none met our bar. We wanted something performant, remote-ready, and truly open. If we eve"
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "thedotmack/claude-mem",
    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
    "lang": "TypeScript",
-   "stars": "17,493",
-   "topics": [
-    "ai",
-    "ai-agents",
-    "ai-memory",
-    "anthropic",
-    "artificial-intelligence",
-    "chromadb"
-   ],
-   "total_stars": 114490,
-   "homepage": "https://claude-mem.ai",
-   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Your coding agent forgets everything between sessions. Claude-Mem remembers for it. Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Every new session, your agent starts from zero. It re-reads the same files, re-ask"
+   "stars": "17,296",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars": "39,354",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "pbakaus/impeccable",
    "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
    "lang": "Rust",
-   "stars": "27,680",
-   "topics": [
-    "agent-skills",
-    "ai",
-    "anti-slop",
-    "design",
-    "slop"
-   ],
-   "total_stars": 105541,
-   "homepage": "https://impeccable.style",
-   "readme": "Impeccable The design vocabulary for your coding agent. Steer with `polish` and `bolder`, review with `critique` and `audit`, and catch AI slop before it ships. From your project root: Reload your coding tool, then run `/impeccable init` in your agent (`$impeccable init` on Codex). Works with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at impeccable.style/docs. | Without Impeccable | With Impeccable | |---|---| | | | Same model (Fable 5.1), same brief: a fourteen-room family guesthouse on the Ligurian coast. Wit"
+   "stars": "28,008",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "HKUDS/DeepTutor",
+   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "lang": "Python",
+   "stars": "16,065",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars": "17,344",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   }
  ]
 }
