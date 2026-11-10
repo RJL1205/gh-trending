@@ -1,41 +1,53 @@
 {
  "since": "weekly",
- "fetched_at": "2026-11-09T01:08:44+00:00",
- "changed_at": "2026-11-09T01:08:44+00:00",
- "count": 17,
+ "fetched_at": "2026-11-10T03:44:42+00:00",
+ "changed_at": "2026-11-10T03:44:42+00:00",
+ "count": 14,
  "items": [
   {
    "repo": "NVIDIA/auto-ontology",
    "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
    "lang": "Python",
-   "stars": "9,327",
+   "stars": "10,159",
    "topics": [],
-   "total_stars": 10402,
+   "total_stars": 11088,
    "homepage": "",
    "readme": "Auto Ontology Agents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own. It enables developers to: Discover: generate enterprise ontologies from metadata; connect existing ontologies and seman"
   },
   {
-   "repo": "thedotmack/claude-mem",
-   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
-   "lang": "TypeScript",
-   "stars": "6,443",
+   "repo": "vercel-labs/agent-desktop",
+   "desc": "Computer use CLI for AI agents",
+   "lang": "Rust",
+   "stars": "12,120",
    "topics": [
-    "ai",
+    "accessibility",
+    "accessibility-api",
     "ai-agents",
-    "ai-memory",
-    "anthropic",
-    "artificial-intelligence",
-    "chromadb"
+    "automation",
+    "cli",
+    "computer-use"
    ],
-   "total_stars": 114903,
-   "homepage": "https://claude-mem.ai",
-   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Your coding agent forgets everything between sessions. Claude-Mem remembers for it. Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Every new session, your agent starts from zero. It re-reads the same files, re-ask"
+   "total_stars": 20632,
+   "homepage": "https://agent-browser.dev/desktop",
+   "readme": "agent-desktop Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree. agent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repeats. The loop lives in your agent; agent-desktop has no model inside. It ships as a CLI and a C library. Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content. Keep them out of public logs and uploads. Install Bun,"
+  },
+  {
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": "3,796",
+   "topics": [
+    "agent-skills"
+   ],
+   "total_stars": 191197,
+   "homepage": "",
+   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
   },
   {
    "repo": "max-sixty/worktrunk",
    "desc": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
    "lang": "Rust",
-   "stars": "2,313",
+   "stars": "2,395",
    "topics": [
     "agents",
     "claude-code",
@@ -44,44 +56,15 @@
     "git",
     "worktrees"
    ],
-   "total_stars": 12122,
+   "total_stars": 12289,
    "homepage": "https://worktrunk.dev",
    "readme": "&nbsp;&nbsp;Worktrunk November 2026**: Worktrunk was released at the start of the year, and has quickly become the most popular git worktree manager. It's built with love (there's no slop!). Please let me know any frictions at all; I'm intensely focused on continuing to make Worktrunk excellent, and the biggest help is folks posting problems they perceive. Worktrunk is a CLI for git worktree management, designed for running AI agents in parallel. Worktrunk's three core commands make worktrees as easy as branches. Plus, Worktrunk has a bunch of quality-of-life features to simplify working with many parallel changes, including hooks to automate local workflows & copy-on-write build caches. A q"
-  },
-  {
-   "repo": "anthropics/skills",
-   "desc": "Public repository for Agent Skills",
-   "lang": "Python",
-   "stars": "3,169",
-   "topics": [
-    "agent-skills"
-   ],
-   "total_stars": 189665,
-   "homepage": "",
-   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
-  },
-  {
-   "repo": "Donchitos/Claude-Code-Game-Studios",
-   "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-   "lang": "Shell",
-   "stars": "5,235",
-   "topics": [
-    "ai-agents",
-    "ai-assisted-development",
-    "anthropic",
-    "claude",
-    "claude-code",
-    "game-design"
-   ],
-   "total_stars": 37012,
-   "homepage": "",
-   "readme": "Claude Code Game Studios Turn a single Claude Code session into a full game development studio. agents. 74 skills. One coordinated AI team. Why This Exists Building a game solo with AI is powerful — but a single chat session has no structure. No one stops you from hardcoding magic numbers, skipping design docs, or writing spaghetti code. There's no QA pass, no design review, no one asking \"does this actually fit the game's vision?\" Claude Code Game Studios** solves this by giving your AI session the structure of a real studio. Instead of one general-purpose assistant, you get 49 specialized agents organized into a studio hierarchy — directors who guard the vision, department leads who own th"
   },
   {
    "repo": "milind-soni/OpenMausBot",
    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
    "lang": "TypeScript",
-   "stars": "7,621",
+   "stars": "8,325",
    "topics": [
     "ai-agents",
     "claude-code",
@@ -90,52 +73,69 @@
     "docker",
     "electron"
    ],
-   "total_stars": 18269,
+   "total_stars": 19893,
    "homepage": "https://www.mausbot.com/",
    "readme": "OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** openmausbot.com** &nbsp;·&nbsp; Download &nbsp;·&nbsp; Open source Grok Bot alternative, compared OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud comp"
+  },
+  {
+   "repo": "thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
+   "lang": "TypeScript",
+   "stars": "5,130",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "ai-memory",
+    "anthropic",
+    "artificial-intelligence",
+    "chromadb"
+   ],
+   "total_stars": 115446,
+   "homepage": "https://claude-mem.ai",
+   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Your coding agent forgets everything between sessions. Claude-Mem remembers for it. Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Every new session, your agent starts from zero. It re-reads the same files, re-ask"
+  },
+  {
+   "repo": "Donchitos/Claude-Code-Game-Studios",
+   "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+   "lang": "Shell",
+   "stars": "4,324",
+   "topics": [
+    "ai-agents",
+    "ai-assisted-development",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "game-design"
+   ],
+   "total_stars": 37644,
+   "homepage": "",
+   "readme": "Claude Code Game Studios Describe a game. Claude Code asks a few questions, writes a one-page brief, and builds a playable browser game from it. Then you change it, grow it and finish it, one step at a time. Make me a game Open Claude Code in a copy of this repository and say what you want: A few questions.** One round, picked from the genre: the choices that shape the game, how it should feel, how it looks, how hard it is, the goal. Each has a usual answer, so \"you pick\" works. A vague idea (\"a racing game\") gets two or three one-line pitches to choose from first. A one-page brief.** `design/game-brief.md`: your words kept as you typed them, the look, the first minute, the challenge, the fe"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": "2,994",
+   "topics": [],
+   "total_stars": 48603,
+   "homepage": "https://agent-browser.dev",
+   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
   },
   {
    "repo": "pingdotgg/t3code",
    "desc": "",
    "lang": "TypeScript",
-   "stars": "15,379",
+   "stars": "13,448",
    "topics": [],
-   "total_stars": 52513,
+   "total_stars": 54360,
    "homepage": "https://t3.codes",
    "readme": "T3 Code T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app (iOS, Android), web app and Electron-based desktop app. Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, Google Antigravity, and fx. If they're set up on your computer, T3 Code can control them. \"Wait, what are you selling me?\" Nothing. We built T3 Code because we wanted the best possible development experience with agents. We were inspired by existing solutions like the Codex desktop app, Conductor, Claude Desktop and Cursor Glass, but none met our bar. We wanted something performant, remote-ready, and truly open. If we eve"
-  },
-  {
-   "repo": "Nutlope/hallmark",
-   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-   "lang": "CSS",
-   "stars": "6,356",
-   "topics": [],
-   "total_stars": 50973,
-   "homepage": "https://www.usehallmark.com/",
-   "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of ever"
-  },
-  {
-   "repo": "Renhuai123/ziwei-doushu",
-   "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-   "lang": "TypeScript",
-   "stars": "4,191",
-   "topics": [
-    "bazi",
-    "chinese-astrology",
-    "divination",
-    "fortune-telling",
-    "nextjs",
-    "open-source"
-   ],
-   "total_stars": 16968,
-   "homepage": "https://ouranic.cn/?from=gh-about",
-   "readme": "紫微斗数 · 开源排盘引擎 算法是公开的传统智慧，不应该被锁在围墙里 中文** · English 一、项目理念**：紫微斗数是中国传统命理学的瑰宝，倪海厦老师在《天纪》中系统梳理了正宗的紫微斗数体系。我们希望通过技术手段让更多人接触和学习这门学问。 开源排盘算法和知识库，是因为我们相信：**算法是公开的传统智慧，不应该被锁在围墙里**。真正的价值在于解读的深度、用户体验的打磨、以及持续运营的积累。 二、项目信息**：基于 倪海厦《天纪》 教学体系的紫微斗数排盘系统，包含完整排盘算法、四化系统、格局知识库、古籍原文数据，以及一套完整开源的紫微斗数解读数据：**v4.0 解读数据集——67.5 万张命盘 × 13 维 = 877 万段解读，正文约 204 亿字，解压后 56.6 GB**（2026-10-15 发布）。 | 数据集 | 命盘 | 解读段数 | 解压后 | 覆盖年份 | 每张盘解读字数 | |---|---|---|---|---|---| | **v4.0 解读数据集**（2026-10-15） | **674,976** | **8,774,688** | **56.6 GB** | **1950–2026**（只含真实日期） | **约 3.0 万字** | | v3.0 样本数据集 | 518,400 | 6,739,200 | 33.1 GB | 1924–1983 | 约 2.1 万字 | | 变化 | +30% | +30% | **+71%** | +17 年 | +44% | v3.0 每张盘解读字数按 2,160 张盘抽样估算，其余数字为全量统计"
   },
   {
    "repo": "D4Vinci/Scrapling",
    "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scra",
    "lang": "Python",
-   "stars": "8,342",
+   "stars": "8,226",
    "topics": [
     "ai",
     "ai-scraping",
@@ -144,62 +144,15 @@
     "crawling",
     "crawling-python"
    ],
-   "total_stars": 99890,
+   "total_stars": 100643,
    "homepage": "https://scrapling.readthedocs.io/en/latest/",
    "readme": "Effortless Web Scraping for the Modern Web Selection methods &middot; Fetchers &middot; Spiders &middot; Proxy Rotation &middot; CLI &middot; MCP Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library. Scrape static pages, render JavaScript, interact with websites, and extract data from the API calls behind them. Build crawlers with reusable sessions, proxy rotation, automatic retries, pause/resume, and built-in data exports. Use it from Python, the terminal, or your AI agent through its MCP server and Agent Skill. From extracting a few fields to collecting a whole website as clean Markdown, Sc"
-  },
-  {
-   "repo": "vercel-labs/agent-browser",
-   "desc": "Browser automation CLI for AI agents",
-   "lang": "Rust",
-   "stars": "2,190",
-   "topics": [],
-   "total_stars": 47614,
-   "homepage": "https://agent-browser.dev",
-   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
-  },
-  {
-   "repo": "mattpocock/skills",
-   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-   "lang": "Shell",
-   "stars": "9,635",
-   "topics": [],
-   "total_stars": 318534,
-   "homepage": "https://aihero.dev/skills",
-   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
-  },
-  {
-   "repo": "jakubkrehel/skills",
-   "desc": "A collection of agent skills that help you build great interfaces.",
-   "lang": "Markdown",
-   "stars": "1,857",
-   "topics": [],
-   "total_stars": 11730,
-   "homepage": "https://jakub.kr/skills",
-   "readme": "A collection of agent skills that cover UI, typography, colors, accessibility, layout, product writing and help you build a great interface. These skills cover topics that I write about on my personal website and my design engineering magazine, Interfaces. Skills that help build great interfaces better-interface**: Reviews a screen, flow or whole interface across **accessibility**, **layout**, **writing**, **typography**, **color** and **UI polish**, and returns one ranked report. better-ui**: Polishes surfaces, icons and motion with exact values for **border radius**, **optical alignment**, **shadows**, **icon states** and **animation**. better-typography**: Sets and reviews how text render"
-  },
-  {
-   "repo": "github/spec-kit",
-   "desc": "💫 Toolkit to help you get started with SDD or any other process!",
-   "lang": "Python",
-   "stars": "4,045",
-   "topics": [
-    "ai",
-    "copilot",
-    "development",
-    "engineering",
-    "prd",
-    "spec"
-   ],
-   "total_stars": 148719,
-   "homepage": "https://github.github.com/spec-kit/",
-   "readme": "🌱 Spec Kit Build with a spec, fix a bug, or assess an idea — with your coding agent. English · 简体中文 · 日本語 · 한국어 Spec Kit is an open source toolkit that gives AI coding agents structured processes, reusable templates, and documented outcomes. Start with a ready-made process, customize it, or bring your own. Choose your process | What you need | Process | Outcome | | --- | --- | --- | | Build a feature or application | Spec-Driven Development | A specification carried through planning, implementation, and convergence | | Diagnose and repair broken behavior | Bug fixing | An assessed cause, scoped fix, and recorded verification | | Decide whether an idea deserves investment | Idea assessment | "
   },
   {
    "repo": "The-PR-Agent/pr-agent",
    "desc": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
    "lang": "Python",
-   "stars": "1,706",
+   "stars": "1,822",
    "topics": [
     "ai",
     "anthropic",
@@ -208,41 +161,39 @@
     "devtools",
     "ollama"
    ],
-   "total_stars": 15608,
+   "total_stars": 15745,
    "homepage": "https://www.pr-agent.ai",
    "readme": "The Original Open-Source PR Reviewer This repository contains the open-source PR Agent Project. It is not the Qodo offering for open-source projects. PR-Agent is an open-source, AI-powered code review agent and a community-maintained legacy project of Qodo. It is distinct from Qodo's primary AI code review offering, which provides a feature-rich, context-aware experience. Qodo offers a free version for open-source projects and integrates seamlessly with GitHub, GitLab, Bitbucket, and Azure DevOps for high-quality automated reviews. Sponsors PR-Agent is a community-maintained open-source project, with its ongoing development supported by our sponsors. If you'd like to support the project, con"
   },
   {
-   "repo": "hyprwm/Hyprland",
-   "desc": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-   "lang": "C++",
-   "stars": "1,465",
-   "topics": [
-    "compositor",
-    "cpp26",
-    "wayland",
-    "wayland-compositor"
-   ],
-   "total_stars": 40565,
-   "homepage": "https://hypr.land",
-   "readme": "[![Badge Workflow]][Workflow] [![Badge License]][License] ![Badge Language] [![Badge Pull Requests]][Pull Requests] [![Badge Issues]][Issues] ![Badge Hi Mom] Hyprland is a 100% independent, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. It provides the latest Wayland features, is highly customizable, has all the eyecandy, the most powerful plugins, easy IPC, much more QoL stuff than other compositors and more... [ Install ][Install]** [ Quick Start ][Quick Start]** [ Configure ][Configure]** [ Contribute ][Contribute]** Features All of the eyecandy: gradient borders, many types of blur, animations, glow, shadows and much more A lot of customization % independent, no w"
+   "repo": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars": "10,695",
+   "topics": [],
+   "total_stars": 68208,
+   "homepage": "",
+   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
   },
   {
-   "repo": "blader/humanizer",
-   "desc": "Agent skill that removes signs of AI-generated writing from text",
-   "lang": "Python",
-   "stars": "3,118",
-   "topics": [
-    "agent-skills",
-    "ai-humanizer",
-    "ai-writing",
-    "chatgpt",
-    "claude",
-    "claude-code"
-   ],
-   "total_stars": 66512,
-   "homepage": "https://skills.sh/blader/humanizer",
-   "readme": "Humanizer sponsored by cfo.ai Humanizer makes AI-written text sound like a person wrote it, without changing what it says. It is built on Wikipedia's Signs of AI writing, the guide Wikipedia editors use to catch AI-generated text, and it works in Claude Code, Codex, and any other agent that supports skills. Before:** I'm thrilled to announce that shared drafts are finally here! 🚀 For months, our own team was drowning in files named final_v7.docx — and we knew there had to be a better way. Now two people can edit the same doc at once, with every change appearing live for both of them. It's not just a feature; it's a whole new way to collaborate. Comments stay anchored to the exact sentence th"
+   "repo": "Nutlope/hallmark",
+   "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "lang": "CSS",
+   "stars": "5,987",
+   "topics": [],
+   "total_stars": 51883,
+   "homepage": "https://www.usehallmark.com/",
+   "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of ever"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "9,800",
+   "topics": [],
+   "total_stars": 319894,
+   "homepage": "https://aihero.dev/skills",
+   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
   }
  ]
 }

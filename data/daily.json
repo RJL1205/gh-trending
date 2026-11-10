@@ -1,14 +1,36 @@
 {
  "since": "daily",
- "fetched_at": "2026-11-09T01:08:38+00:00",
- "changed_at": "2026-11-09T01:08:38+00:00",
- "count": 9,
+ "fetched_at": "2026-11-10T03:44:36+00:00",
+ "changed_at": "2026-11-10T03:44:36+00:00",
+ "count": 11,
  "items": [
+  {
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars": "1,038",
+   "topics": [
+    "agent-skills"
+   ],
+   "total_stars": 191197,
+   "homepage": "",
+   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
+  },
+  {
+   "repo": "meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": "3,278",
+   "topics": [],
+   "total_stars": 20479,
+   "homepage": "http://astryx.atmeta.com",
+   "readme": "Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta** · Built on React 19+ and StyleX Docs** · **Storybook** · **Sandbox** · **Contributing** · **Discord** Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and "
+  },
   {
    "repo": "sherlock-project/sherlock",
    "desc": "Hunt down social media accounts by username across social networks",
    "lang": "Python",
-   "stars": "2,373",
+   "stars": "4,267",
    "topics": [
     "cli",
     "cti",
@@ -17,31 +39,110 @@
     "hacktoberfest",
     "information-gathering"
    ],
-   "total_stars": 103566,
+   "total_stars": 107416,
    "homepage": "https://sherlockproject.xyz",
    "readme": "Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Contributing Installation &#8202;&#8202; [!WARNING] Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be __broken__. Users of these systems should defer to `uv`/`pipx`/`pip` or Docker. | Method | Notes | | - | - | | `pipx install sherlock-project` | `pip` or `uv` may be used in place of `pipx` | | `docker run -it --rm sherlock/sherlock` | | `dnf install sherlock-project` | | Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packag"
   },
   {
-   "repo": "dsx-ai-factory/nvke",
-   "desc": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
-   "lang": "Go",
-   "stars": "345",
+   "repo": "google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": "574",
    "topics": [
-    "bare-metal",
-    "cluster-api",
-    "gpu",
-    "kubernetes",
-    "nvidia"
+    "mujoco",
+    "physics",
+    "robotics"
    ],
-   "total_stars": 857,
-   "homepage": "https://docs.nvidia.com/nvke/",
-   "readme": "NVIDIA Kubernetes Engine (NVKE) Run a managed Kubernetes service on your own NVIDIA GPU infrastructure.** NVIDIA Kubernetes® Engine (NVKE) provides the management plane that platform teams install to create and operate Kubernetes clusters for their customers. Each workload cluster has its own Kubernetes control plane, etcd and node pools. You operate the NVKE management plane; your customers use their clusters through the Kubernetes API and `kubectl`. Preview:** NVKE is available as a preview. APIs, configuration and behavior can change between releases, and we do not recommend NVKE for production workloads. See Preview status and known limitations. Get started · Documentation · Contribute ·"
+   "total_stars": 16990,
+   "homepage": "https://mujoco.org",
+   "readme": "MuJoCo** stands for **Mu**lti-**Jo**int dynamics with **Co**ntact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment. This repository is maintained by Google DeepMind. MuJoCo has a C API and is intended for researchers and developers. The runtime simulation module is tuned to maximize performance and operates on low-level data structures that are preallocated by the built-in XML compiler. The library includes interactive visualization in native desktop windows and web b"
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "lang": "Python",
+   "stars": "551",
+   "topics": [],
+   "total_stars": 20096,
+   "homepage": "",
+   "readme": "Claude Quickstarts Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs. Getting Started To use these quickstarts, you'll need an Claude API key. If you don't have one yet, you can sign up for free at console.anthropic.com. Available Quickstarts Customer Support Agent A customer support agent powered by Claude. This project demonstrates how to leverage Claude's natural language understanding and generation capabilities to create an AI-assisted customer support system with access to a knowledge bas"
+  },
+  {
+   "repo": "garrytan/gbrain",
+   "desc": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+   "lang": "TypeScript",
+   "stars": "216",
+   "topics": [],
+   "total_stars": 32237,
+   "homepage": "",
+   "readme": "Give the agent you already use a memory you control.** GBrain stores explicit facts with their sources, supports corrections and withdrawal, and makes the same memory available across your agents. Start with keyless memory and keyword retrieval; add semantic search, synthesis, and background enrichment when you need them. GBrain is MIT-licensed and free to self-host; gbrain.io is optional paid hosting. [!TIP] Need hosted? First time running an agent?** Try **gbrain.io**, hosted GBrain, for the easiest experience: one brain for you and your team, connected to ChatGPT, Claude and Cursor, with nothing to install or keep online. Stuck? Email support@gbrain.io and a person will set it up with you"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": "916",
+   "topics": [],
+   "total_stars": 48603,
+   "homepage": "https://agent-browser.dev",
+   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
+  },
+  {
+   "repo": "ruvnet/RuView",
+   "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+   "lang": "Rust",
+   "stars": "172",
+   "topics": [
+    "claude",
+    "claude-code",
+    "esp32",
+    "firmware",
+    "home-assistant",
+    "home-automation"
+   ],
+   "total_stars": 103554,
+   "homepage": "https://cognitum.one",
+   "readme": "π RuView Start here Hardware Models AI toolkit Smart home Cognitum Seed See through walls with WiFi** ## Turn ordinary WiFi into a spatial intelligence / sensing system.** Detect people, measure breathing and heart rate, track movement, and monitor rooms — through walls, in the dark, with no cameras or wearables. Just physics. Works natively with the four major smart-home ecosystems: **Home Assistant** via the HA-DISCO MQTT publisher, **Apple Home & HomePod** as a discoverable HAP-1.1 bridge, **Google Home** + **Amazon Alexa** via the same HA bridge or a Matter endpoint. Siri, Google Assistant, and Alexa can voice presence and vitals by room with zero custom skills. Drop into any **Home Assi"
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": "506",
+   "topics": [
+    "a-stock",
+    "ai-agent",
+    "aigc",
+    "llm",
+    "quant",
+    "quantitative-finance"
+   ],
+   "total_stars": 69063,
+   "homepage": "https://dsa.zhulinsen.tech",
+   "readme": "📈 股票智能分析系统 &nbsp; 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览** · **功能特性** · **快速开始** · **推送效果** · **文档中心** · **完整指南** 简体中文 | English | 繁體中文 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 🖥️ 产品预览 ✨ 功能特性 | 能力 | 覆盖内容 | |------|------| | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 市场支持边界 | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 "
+  },
+  {
+   "repo": "homeassistant-ai/ha-mcp",
+   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "lang": "Python",
+   "stars": "31",
+   "topics": [
+    "ai",
+    "claude",
+    "hacs",
+    "home-assistant",
+    "home-automation",
+    "llm"
+   ],
+   "total_stars": 6080,
+   "homepage": "https://homeassistant-ai.github.io/ha-mcp/",
+   "readme": "Breaking change (v7.3.0):** `ha_config_set_yaml` has been moved to beta. HA-MCP — Manage Home Assistant with AI Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. 🚀 Get Started The recommended way to run ha-mcp is the **HA-MCP integration**. It installs into Home Assistant through HACS (the built-in Marketplace on Home Assistant 2026.11+), runs the full server **in-process**, and works on **every** Home Assistant installation type — Home Assistant OS, Supervised, Container, and Core — with full feature parity. It is the easiest setup in every case: setup asks for an administrator access token and how clients may connect. Add it to Home Assistant via HACS or,"
   },
   {
    "repo": "milind-soni/OpenMausBot",
    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
    "lang": "TypeScript",
-   "stars": "1,439",
+   "stars": "1,587",
    "topics": [
     "ai-agents",
     "claude-code",
@@ -50,77 +151,9 @@
     "docker",
     "electron"
    ],
-   "total_stars": 18269,
+   "total_stars": 19893,
    "homepage": "https://www.mausbot.com/",
    "readme": "OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** openmausbot.com** &nbsp;·&nbsp; Download &nbsp;·&nbsp; Open source Grok Bot alternative, compared OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud comp"
-  },
-  {
-   "repo": "anthropics/claude-quickstarts",
-   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-   "lang": "Python",
-   "stars": "32",
-   "topics": [],
-   "total_stars": 19426,
-   "homepage": "",
-   "readme": "Claude Quickstarts Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs. Getting Started To use these quickstarts, you'll need an Claude API key. If you don't have one yet, you can sign up for free at console.anthropic.com. Available Quickstarts Customer Support Agent A customer support agent powered by Claude. This project demonstrates how to leverage Claude's natural language understanding and generation capabilities to create an AI-assisted customer support system with access to a knowledge bas"
-  },
-  {
-   "repo": "vercel-labs/agent-browser",
-   "desc": "Browser automation CLI for AI agents",
-   "lang": "Rust",
-   "stars": "815",
-   "topics": [],
-   "total_stars": 47614,
-   "homepage": "https://agent-browser.dev",
-   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
-  },
-  {
-   "repo": "meta/astryx",
-   "desc": "An open source design system that's fully customizable and agent ready",
-   "lang": "TypeScript",
-   "stars": "875",
-   "topics": [],
-   "total_stars": 16823,
-   "homepage": "http://astryx.atmeta.com",
-   "readme": "Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta** · Built on React 19+ and StyleX Docs** · **Storybook** · **Sandbox** · **Contributing** · **Discord** Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and "
-  },
-  {
-   "repo": "anthropics/skills",
-   "desc": "Public repository for Agent Skills",
-   "lang": "Python",
-   "stars": "792",
-   "topics": [
-    "agent-skills"
-   ],
-   "total_stars": 189664,
-   "homepage": "",
-   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
-  },
-  {
-   "repo": "google-deepmind/mujoco",
-   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-   "lang": "C++",
-   "stars": "41",
-   "topics": [
-    "mujoco",
-    "physics",
-    "robotics"
-   ],
-   "total_stars": 16426,
-   "homepage": "https://mujoco.org",
-   "readme": "MuJoCo** stands for **Mu**lti-**Jo**int dynamics with **Co**ntact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment. This repository is maintained by Google DeepMind. MuJoCo has a C API and is intended for researchers and developers. The runtime simulation module is tuned to maximize performance and operates on low-level data structures that are preallocated by the built-in XML compiler. The library includes interactive visualization in native desktop windows and web b"
-  },
-  {
-   "repo": "ranxianglei/billion-context",
-   "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . ",
-   "lang": "TypeScript",
-   "stars": "460",
-   "topics": [
-    "dsh-plugin"
-   ],
-   "total_stars": 5162,
-   "homepage": "",
-   "readme": "billion-context English | 中文 Context-compression plugin — billion-context is all you need. small context windows (100K is enough) · 5× fewer tokens · month-long single sessions (billions of tokens) · high compression quality npm install -g billion-context --prefix=~/.local &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cache health at a glance:** a healthy session keeps a **95–97%** prefix-cache hit rate — compression itself costs ≤2%. Sustained lower? Check attribution with `/acp` or `/acp-cache` (see FAQ); usual causes, in order: upstream cache TTL expiry · model switch · a bili bug ("
   }
  ]
 }
