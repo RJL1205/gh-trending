@@ -1,115 +1,24 @@
 {
  "since": "daily",
- "fetched_at": "2026-11-12T02:24:18+00:00",
- "changed_at": "2026-11-12T02:24:18+00:00",
- "count": 10,
+ "fetched_at": "2026-11-13T02:02:18+00:00",
+ "changed_at": "2026-11-13T02:02:18+00:00",
+ "count": 13,
  "items": [
   {
-   "repo": "meta/astryx",
-   "desc": "An open source design system that's fully customizable and agent ready",
-   "lang": "TypeScript",
-   "stars": "2,776",
-   "topics": [],
-   "total_stars": 25130,
-   "homepage": "http://astryx.atmeta.com",
-   "readme": "Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta** · Built on React 19+ and StyleX Docs** · **Storybook** · **Sandbox** · **Contributing** · **Discord** Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and "
-  },
-  {
-   "repo": "ZhuLinsen/daily_stock_analysis",
-   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-   "lang": "Python",
-   "stars": "278",
-   "topics": [
-    "a-stock",
-    "ai-agent",
-    "aigc",
-    "llm",
-    "quant",
-    "quantitative-finance"
-   ],
-   "total_stars": 70354,
-   "homepage": "https://dsa.zhulinsen.tech",
-   "readme": "📈 股票智能分析系统 &nbsp; 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览** · **功能特性** · **快速开始** · **推送效果** · **文档中心** · **完整指南** 简体中文 | English | 繁體中文 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 🖥️ 产品预览 ✨ 功能特性 | 能力 | 覆盖内容 | |------|------| | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 市场支持边界 | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 "
-  },
-  {
    "repo": "GoogleChrome/modern-web-guidance-src",
-   "desc": "",
+   "desc": "Keep your coding agent up to date with the latest web best practices",
    "lang": "TypeScript",
-   "stars": "159",
+   "stars": "739",
    "topics": [],
-   "total_stars": 1830,
+   "total_stars": 3096,
    "homepage": "https://goo.gle/modern-web-guidance",
    "readme": "Modern Web Guidance (Source) This repo is the source repository for GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. Modern Web Guidance** is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform. See CONTRIBUTING.md and GOVERNANCE.md for how we work on the project and orientation of the codebase. Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, al"
-  },
-  {
-   "repo": "shadcn/improve",
-   "desc": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-   "lang": "",
-   "stars": "361",
-   "topics": [],
-   "total_stars": 10964,
-   "homepage": "",
-   "readme": "improve An agent skill that audits any codebase and writes implementation plans for other agents to execute. The idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product. Install Works in any agent that supports Agent Skills format. The plans it writes are plain markdown, so any agent (or human) can pick them up. Usage How to use A typical first run, start to finish: Open your agent in the repo and run `/improve` (or `/improve quick` to keep it cheap). It maps the repo, audits it, and comes ba"
-  },
-  {
-   "repo": "addyosmani/agent-skills",
-   "desc": "Production-grade engineering skills for AI coding agents.",
-   "lang": "JavaScript",
-   "stars": "787",
-   "topics": [
-    "agent-skills",
-    "antigravity",
-    "claude-code",
-    "codex",
-    "cursor",
-    "skills"
-   ],
-   "total_stars": 116004,
-   "homepage": "https://skills.addy.ie",
-   "readme": "Agent Skills Production-grade engineering skills for AI coding agents.** Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. Commands slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | |-------------------|---------|---------------| | Define what to build | `/spec` | Spec before code | | Plan how to build it | `/plan` | Small, atomic tasks | | Build incrementally | `/build` | One slice at a time | | Prove it works | `/test` | Tests are "
-  },
-  {
-   "repo": "vercel-labs/agent-browser",
-   "desc": "Browser automation CLI for AI agents",
-   "lang": "Rust",
-   "stars": "708",
-   "topics": [],
-   "total_stars": 49918,
-   "homepage": "https://agent-browser.dev",
-   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
-  },
-  {
-   "repo": "we-promise/sure",
-   "desc": "The personal finance app for everyone (by everyone)",
-   "lang": "Ruby",
-   "stars": "1,078",
-   "topics": [],
-   "total_stars": 13021,
-   "homepage": "https://sure.am",
-   "readme": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: Discord • Website • Issues [!IMPORTANT] This repository is a community fork of the now-abandoned Maybe Finance project. Learn more in their final release doc. Backstory The Maybe Finance (archived/abandoned repo) team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023. After spending nearly $1 million on develo"
-  },
-  {
-   "repo": "homeassistant-ai/ha-mcp",
-   "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-   "lang": "Python",
-   "stars": "645",
-   "topics": [
-    "ai",
-    "claude",
-    "hacs",
-    "home-assistant",
-    "home-automation",
-    "llm"
-   ],
-   "total_stars": 7412,
-   "homepage": "https://homeassistant-ai.github.io/ha-mcp/",
-   "readme": "Breaking change (v7.3.0):** `ha_config_set_yaml` has been moved to beta. HA-MCP — Manage Home Assistant with AI Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants. 🚀 Get Started The recommended way to run ha-mcp is the **HA-MCP integration**. It installs into Home Assistant through HACS (the built-in Marketplace on Home Assistant 2026.11+), runs the full server **in-process**, and works on **every** Home Assistant installation type — Home Assistant OS, Supervised, Container, and Core — with full feature parity. It is the easiest setup in every case: setup asks for an administrator access token and how clients may connect. Add it to Home Assistant via HACS or,"
   },
   {
    "repo": "openai/codex-security",
    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
    "lang": "TypeScript",
-   "stars": "52",
+   "stars": "643",
    "topics": [
     "ai-security",
     "application-security",
@@ -118,26 +27,162 @@
     "codex",
     "codex-security"
    ],
-   "total_stars": 11801,
+   "total_stars": 12466,
    "homepage": "https://developers.openai.com/codex/security",
    "readme": "Codex Security Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the `@openai/codex-security` CLI and TypeScript SDK. In Codex:** choose a security workflow. In a terminal:** install the CLI and scan your repository. In automation:** use the TypeScript SDK or GitHub Action. Features Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. Validate candidate findings, generate patches, and verify existing fixes. Draft `SECURITY.md` policies and save threat models for later review. Browse saved scans and findings, identify duplicates, ass"
   },
   {
-   "repo": "TheAlgorithms/Java",
-   "desc": "All Algorithms implemented in Java",
-   "lang": "Java",
-   "stars": "51",
+   "repo": "nvm-sh/nvm",
+   "desc": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+   "lang": "Shell",
+   "stars": "63",
    "topics": [
-    "algorithm",
-    "algorithm-challenges",
-    "algorithms",
-    "algorithms-datastructures",
-    "data-structures",
-    "hacktoberfest"
+    "bash",
+    "install",
+    "lts",
+    "node",
+    "node-js",
+    "nodejs"
    ],
-   "total_stars": 67065,
+   "total_stars": 96022,
    "homepage": "",
-   "readme": "The Algorithms - Java You can run and edit the algorithms, or contribute to them using Gitpod.io (a free online development environment) with a single click. All algorithms are implemented in Java (for educational purposes) These implementations are intended for learning purposes. As such, they may be less efficient than the Java standard library. Contribution Guidelines Please read our Contribution Guidelines before you contribute to this project. Algorithms Our directory contains the full list of algorithms implemented in Java."
+   "readme": "Node Version Manager [ ][3] [ ][4] Table of Contents Intro About Installing and Updating Install & Update Script Additional Notes Installing in Docker Installing in Docker for CICD-Jobs Troubleshooting on Linux Troubleshooting on macOS Ansible Verify Installation Important Notes Git Install Manual Install Manual Upgrade Usage Long-term Support Version Categories Migrating Global Packages While Installing Migrating Global Packages Between Installed Versions Offline Install Default Global Packages From File While Installing io.js System Version of Node Listing Versions Setting Custom Colors Persisting custom colors Suppressing colorized output Restoring PATH Set default node version Use a mirr"
+  },
+  {
+   "repo": "pookjw/HermesEnabler",
+   "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
+   "lang": "Objective-C",
+   "stars": "218",
+   "topics": [],
+   "total_stars": 1554,
+   "homepage": "",
+   "readme": "HermesEnabler 2 English · 한국어 · 简体中文 · 繁體中文 · 日本語 · Español · Français · Deutsch · Português Supported only on watchOS 27.0 through 27.3 beta 1. Installation macOS On macOS you can install the prebuilt IPA with Sideloadly or build the app directly with Xcode. Either way, the iPhone must be paired with the target Apple Watch, and the Watch must run a supported watchOS version. Install the IPA Known issue with Sideloadly 0.72:** Issue #43 reports that this version may remove the embedded Watch app while signing. If the iPhone app installs but HermesEnabler2 is missing from the Watch, use Xcode instead. This report is specific to version 0.72; compatibility with other versions has not been conf"
+  },
+  {
+   "repo": "we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": "967",
+   "topics": [],
+   "total_stars": 13957,
+   "homepage": "https://sure.am",
+   "readme": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: Discord • Website • Issues [!IMPORTANT] This repository is a community fork of the now-abandoned Maybe Finance project. Learn more in their final release doc. Backstory The Maybe Finance (archived/abandoned repo) team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023. After spending nearly $1 million on develo"
+  },
+  {
+   "repo": "QwenLM/qwen-code",
+   "desc": "An open-source AI coding agent that lives in your terminal.",
+   "lang": "TypeScript",
+   "stars": "151",
+   "topics": [
+    "agentic",
+    "ai",
+    "ai-agent",
+    "ai-coding",
+    "cli",
+    "coding-agent"
+   ],
+   "total_stars": 29844,
+   "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
+   "readme": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.** 中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 | **Qwen Code 1.0 Preview** | | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | Qwen Code 1.0 Preview brings together the agent harness capabilities of Qoder and Qwen Code in an open-source release. Try Qwen Code "
+  },
+  {
+   "repo": "ashhart/TensorFold",
+   "desc": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+   "lang": "Zig",
+   "stars": "54",
+   "topics": [
+    "ai",
+    "ai-tools",
+    "llm",
+    "llm-inference",
+    "llm-tools"
+   ],
+   "total_stars": 1952,
+   "homepage": "https://tensorfold.dev",
+   "readme": "TensorFold TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs. The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly. Serving needs no Python or MLX installation. Building with a coding agent? Have it load the contributor skill before it writes any code. Contributing with agents Please use Agent Traffic Control before editing TensorFold so contributors and agents can avoid duplicate work and conflicting changes. Check the live agent radar before choosing an issue and follow CONTRIBUTING.md and the ATC contributor instructions. Install or upgrade ATC to 0.9.4 or later, then run from an updated TensorFold clone: Replace `ISSU"
+  },
+  {
+   "repo": "nodejs/node",
+   "desc": "Node.js JavaScript runtime ✨🐢🚀✨",
+   "lang": "JavaScript",
+   "stars": "62",
+   "topics": [
+    "javascript",
+    "js",
+    "linux",
+    "macos",
+    "mit",
+    "node"
+   ],
+   "total_stars": 123607,
+   "homepage": "https://nodejs.org",
+   "readme": "Node.js Node.js is an open-source, cross-platform JavaScript runtime environment. For information on using Node.js, see the [Node.js website][]. The Node.js project uses an open governance model. The [OpenJS Foundation][] provides support for the project. Contributors are expected to act in a collaborative manner to move the project forward. We encourage the constructive exchange of contrary opinions and compromise. The TSC reserves the right to limit or block contributors who repeatedly act in ways that discourage, exhaust, or otherwise negatively affect other participants. This project has a [Code of Conduct][].** Table of contents Support Release types Download Current and LTS releases Ni"
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": "816",
+   "topics": [
+    "agent-skills",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "skills"
+   ],
+   "total_stars": 116703,
+   "homepage": "https://skills.addy.ie",
+   "readme": "Agent Skills Production-grade engineering skills for AI coding agents.** Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. Commands slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | |-------------------|---------|---------------| | Define what to build | `/spec` | Spec before code | | Plan how to build it | `/plan` | Small, atomic tasks | | Build incrementally | `/build` | One slice at a time | | Prove it works | `/test` | Tests are "
+  },
+  {
+   "repo": "meta/astryx",
+   "desc": "An open source design system that's fully customizable and agent ready",
+   "lang": "TypeScript",
+   "stars": "1,830",
+   "topics": [],
+   "total_stars": 26610,
+   "homepage": "http://astryx.atmeta.com",
+   "readme": "Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta** · Built on React 19+ and StyleX Docs** · **Storybook** · **Sandbox** · **Contributing** · **Discord** Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and "
+  },
+  {
+   "repo": "CopilotKit/OpenBot",
+   "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "lang": "TypeScript",
+   "stars": "298",
+   "topics": [
+    "ag-ui",
+    "agent-governance",
+    "ai-agents",
+    "browser-automation",
+    "copilotkit",
+    "generative-ui"
+   ],
+   "total_stars": 11647,
+   "homepage": "open.bot",
+   "readme": "OpenBot AI coworkers. Ready for the enterprise. A modular, self-hostable workspace for AI coworkers. Choose your models. Bring your agents. Own your infrastructure. open.bot · Docs · Deploy on Kubernetes · Run from source Notarized .dmg for Apple silicon and Intel Macs · signed installer for Windows x64 · no terminal or developer tools needed · Release notes From CopilotKit, creators of AG-UI. https://github.com/user-attachments/assets/c60f07da-8b6d-46eb-a573-17fc1e65a644 Watch a Bot use its browser and tools, answer with interactive results, and wait for your approval before it sends. Take over when it needs you, and connect the agents you already run. Getting started On your laptop The eas"
+  },
+  {
+   "repo": "Alishahryar1/free-claude-code",
+   "desc": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harn",
+   "lang": "Python",
+   "stars": "415",
+   "topics": [],
+   "total_stars": 69338,
+   "homepage": "",
+   "readme": "Quick Start · Providers · Clients · Integrations · Manage Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic. Features Route any supported harness to models from any supported provider. supported harnesses: Claude Code, Codex, Pi, OpenCode, Cline, Hermes, DeepSeek Harness, Grok Build, Muse Code, Aider, Antigravity CLI, or VS Code Chat. Preserved native streaming, tool use, and interleaved thinking for maximum performance. For Claude Code, route Fable, Opus, Sonnet, and Haiku to supported models. supported providers, including free, paid, subscription, and local providers. B+ free tokens per month. FCC follows prov"
+  },
+  {
+   "repo": "ggml-org/llama.cpp",
+   "desc": "LLM inference in C/C++",
+   "lang": "C++",
+   "stars": "176",
+   "topics": [
+    "ggml"
+   ],
+   "total_stars": 134583,
+   "homepage": "https://llama.app",
+   "readme": "llama.cpp LLM inference in C/C++ ggml / ops / maintainer PRs%20sort%3Aupdated-desc) / dev stats / lib llama API / llama-server REST API Quick start A few options to get `llama.cpp` installed on your machine: Visit https://llama.app and follow the instructions Run with Docker - see our Docker documentation Download pre-built binaries from the releases page Build from source by cloning this repository - check out our build guide Once installed: VLM session with llama cli Built-in web UI against llama serve Description The main goal of `llama.cpp` is to enable LLM (and VLM) inference with minimal setup and state-of-the-art performance on a wide range of hardware - locally and in the cloud. Plai"
   }
  ]
 }
