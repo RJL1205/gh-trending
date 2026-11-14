@@ -1,18 +1,35 @@
 {
  "since": "weekly",
- "fetched_at": "2026-11-13T02:02:25+00:00",
- "changed_at": "2026-11-13T02:02:25+00:00",
- "count": 11,
+ "fetched_at": "2026-11-14T01:37:41+00:00",
+ "changed_at": "2026-11-14T01:37:41+00:00",
+ "count": 15,
  "items": [
+  {
+   "repo": "sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
+   "lang": "Python",
+   "stars": "13,364",
+   "topics": [
+    "cli",
+    "cti",
+    "cybersecurity",
+    "forensics",
+    "hacktoberfest",
+    "information-gathering"
+   ],
+   "total_stars": 111171,
+   "homepage": "https://sherlockproject.xyz",
+   "readme": "Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Contributing Installation &#8202;&#8202; [!WARNING] Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be __broken__. Users of these systems should defer to `uv`/`pipx`/`pip` or Docker. | Method | Notes | | - | - | | `pipx install sherlock-project` | `pip` or `uv` may be used in place of `pipx` | | `docker run -it --rm sherlock/sherlock` | | `dnf install sherlock-project` | | Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packag"
+  },
   {
    "repo": "anthropics/skills",
    "desc": "Public repository for Agent Skills",
    "lang": "Python",
-   "stars": "6,055",
+   "stars": "6,169",
    "topics": [
     "agent-skills"
    ],
-   "total_stars": 193720,
+   "total_stars": 194152,
    "homepage": "",
    "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
   },
@@ -20,7 +37,7 @@
    "repo": "milind-soni/OpenMausBot",
    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
    "lang": "TypeScript",
-   "stars": "9,104",
+   "stars": "7,763",
    "topics": [
     "ai-agents",
     "claude-code",
@@ -29,7 +46,7 @@
     "docker",
     "electron"
    ],
-   "total_stars": 21740,
+   "total_stars": 22209,
    "homepage": "https://www.mausbot.com/",
    "readme": "OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** openmausbot.com** &nbsp;·&nbsp; Download &nbsp;·&nbsp; Open source Grok Bot alternative, compared OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud comp"
   },
@@ -37,37 +54,137 @@
    "repo": "vercel-labs/agent-browser",
    "desc": "Browser automation CLI for AI agents",
    "lang": "Rust",
-   "stars": "4,601",
+   "stars": "4,360",
    "topics": [],
-   "total_stars": 50351,
+   "total_stars": 50746,
    "homepage": "https://agent-browser.dev",
    "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
+  },
+  {
+   "repo": "google/elephant-goldfish-model",
+   "desc": "Open-source plugin for designing and reviewing software with agents",
+   "lang": "Python",
+   "stars": "5,560",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills"
+   ],
+   "total_stars": 18634,
+   "homepage": "https://egm.dev",
+   "readme": "Design with an elephant. Review with a goldfish. Install &ensp;·&ensp; Quickstart &ensp;·&ensp; Documentation &ensp;·&ensp; Website Develop ideas with context and review documents with fresh eyes. EGM is an open-source plugin for AI assistants. Elephant** holds your project context and drafts the specification. **Goldfish** reviewers examine the draft and referenced source material without the earlier conversation, helping expose unstated assumptions and blind spots. **You** make the architectural trade-offs and approve the specification before implementing. The built-in draft and design-review workflow targets software specifications. For other documents, choose reviewers and standards with"
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": "3,778",
+   "topics": [
+    "a-stock",
+    "ai-agent",
+    "aigc",
+    "llm",
+    "quant",
+    "quantitative-finance"
+   ],
+   "total_stars": 71635,
+   "homepage": "https://dsa.zhulinsen.tech",
+   "readme": "📈 股票智能分析系统 &nbsp; 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览** · **功能特性** · **快速开始** · **推送效果** · **文档中心** · **完整指南** 简体中文 | English | 繁體中文 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 🖥️ 产品预览 点击动图查看完整演示 ✨ 功能特性 | 能力 | 覆盖内容 | |------|------| | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 市场支持边界 | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点"
   },
   {
    "repo": "NVIDIA/auto-ontology",
    "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
    "lang": "Python",
-   "stars": "5,802",
+   "stars": "4,108",
    "topics": [],
-   "total_stars": 12264,
+   "total_stars": 12566,
    "homepage": "",
    "readme": "Auto Ontology Agents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic models customers already own. It enables developers to: Discover: generate enterprise ontologies from metadata; connect existing ontologies and seman"
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": "1,764",
+   "topics": [
+    "mujoco",
+    "physics",
+    "robotics"
+   ],
+   "total_stars": 17877,
+   "homepage": "https://mujoco.org",
+   "readme": "MuJoCo** stands for **Mu**lti-**Jo**int dynamics with **Co**ntact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment. This repository is maintained by Google DeepMind. MuJoCo has a C API and is intended for researchers and developers. The runtime simulation module is tuned to maximize performance and operates on low-level data structures that are preallocated by the built-in XML compiler. The library includes interactive visualization in native desktop windows and web b"
+  },
+  {
+   "repo": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars": "7,599",
+   "topics": [],
+   "total_stars": 323848,
+   "homepage": "https://aihero.dev/skills",
+   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
+  },
+  {
+   "repo": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars": "3,502",
+   "topics": [
+    "agent-skills",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "skills"
+   ],
+   "total_stars": 117161,
+   "homepage": "https://skills.addy.ie",
+   "readme": "Agent Skills Production-grade engineering skills for AI coding agents.** Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. Commands slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | |-------------------|---------|---------------| | Define what to build | `/spec` | Spec before code | | Plan how to build it | `/plan` | Small, atomic tasks | | Build incrementally | `/build` | One slice at a time | | Prove it works | `/test` | Tests are "
   },
   {
    "repo": "cloudflare/security-audit-skill",
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "10,700",
+   "stars": "8,829",
    "topics": [],
-   "total_stars": 71247,
+   "total_stars": 71948,
    "homepage": "",
    "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+  },
+  {
+   "repo": "zed-industries/zed",
+   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "lang": "Rust",
+   "stars": "2,117",
+   "topics": [
+    "gpui",
+    "rust-lang",
+    "text-editor",
+    "zed"
+   ],
+   "total_stars": 94966,
+   "homepage": "https://zed.dev",
+   "readme": "Zed Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Installation On macOS, Linux, and Windows you can download Zed directly or install Zed via your local package manager (macOS/Linux/Windows). Other platforms are not yet available: Web (tracking discussion) Developing Zed Building Zed for macOS Building Zed for Linux Building Zed for Windows Contributing See CONTRIBUTING.md for ways you can contribute to Zed. Also... we're hiring! Check out our jobs page for open roles. Licensing Zed source code is licensed primarily under GPL-3.0-or-later, with Apache-2.0 components where marked. License information for third party dependencies must be "
+  },
+  {
+   "repo": "anthropics/claude-quickstarts",
+   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "lang": "Python",
+   "stars": "1,731",
+   "topics": [],
+   "total_stars": 20873,
+   "homepage": "",
+   "readme": "Claude Quickstarts Claude Quickstarts is a collection of projects designed to help developers quickly get started with building applications using the Claude API. Each quickstart provides a foundation that you can easily build upon and customize for your specific needs. Getting Started To use these quickstarts, you'll need an Claude API key. If you don't have one yet, you can sign up for free at console.anthropic.com. Available Quickstarts Customer Support Agent A customer support agent powered by Claude. This project demonstrates how to leverage Claude's natural language understanding and generation capabilities to create an AI-assisted customer support system with access to a knowledge bas"
   },
   {
    "repo": "vercel-labs/agent-desktop",
    "desc": "Computer use CLI for AI agents",
    "lang": "Rust",
-   "stars": "6,414",
+   "stars": "5,408",
    "topics": [
     "accessibility",
     "accessibility-api",
@@ -76,79 +193,26 @@
     "cli",
     "computer-use"
    ],
-   "total_stars": 22755,
+   "total_stars": 23309,
    "homepage": "https://agent-browser.dev/desktop",
    "readme": "agent-desktop Computer use for AI agents: see and operate desktop apps on macOS, Windows, and Linux through the OS accessibility tree. agent-desktop gives an AI agent computer use without screenshots or pixel matching. It reads the accessibility tree of a desktop app and returns it as JSON, with a ref for every element the agent can act on. The agent clicks or types on a ref, reads the UI again to check the result, and repeats. The loop lives in your agent; agent-desktop has no model inside. It ships as a CLI and a C library. Snapshots, clipboard reads, screenshots, command output, and debug artifacts can contain private desktop content. Keep them out of public logs and uploads. Install Bun,"
   },
   {
-   "repo": "mattpocock/skills",
-   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-   "lang": "Shell",
-   "stars": "8,731",
-   "topics": [],
-   "total_stars": 323042,
-   "homepage": "https://aihero.dev/skills",
-   "readme": "Skills For Real Engineers My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve. These skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy. If you want to keep up with changes to these skills, and any new ones I create, you can join ~60,000 other devs on my newsletter: Sign Up To The Newsletter Installation (30-second setup) A p"
-  },
-  {
-   "repo": "zed-industries/zed",
-   "desc": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-   "lang": "Rust",
-   "stars": "2,339",
+   "repo": "lobehub/lobehub",
+   "desc": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+   "lang": "TypeScript",
+   "stars": "1,126",
    "topics": [
-    "gpui",
-    "rust-lang",
-    "text-editor",
-    "zed"
+    "agent",
+    "agent-collaboration",
+    "agent-harness",
+    "loop-engineering",
+    "mcp",
+    "personal-assistant"
    ],
-   "total_stars": 94857,
-   "homepage": "https://zed.dev",
-   "readme": "Zed Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Installation On macOS, Linux, and Windows you can download Zed directly or install Zed via your local package manager (macOS/Linux/Windows). Other platforms are not yet available: Web (tracking discussion) Developing Zed Building Zed for macOS Building Zed for Linux Building Zed for Windows Contributing See CONTRIBUTING.md for ways you can contribute to Zed. Also... we're hiring! Check out our jobs page for open roles. Licensing Zed source code is licensed primarily under GPL-3.0-or-later, with Apache-2.0 components where marked. License information for third party dependencies must be "
-  },
-  {
-   "repo": "google-deepmind/mujoco",
-   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-   "lang": "C++",
-   "stars": "1,671",
-   "topics": [
-    "mujoco",
-    "physics",
-    "robotics"
-   ],
-   "total_stars": 17774,
-   "homepage": "https://mujoco.org",
-   "readme": "MuJoCo** stands for **Mu**lti-**Jo**int dynamics with **Co**ntact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment. This repository is maintained by Google DeepMind. MuJoCo has a C API and is intended for researchers and developers. The runtime simulation module is tuned to maximize performance and operates on low-level data structures that are preallocated by the built-in XML compiler. The library includes interactive visualization in native desktop windows and web b"
-  },
-  {
-   "repo": "google/skills",
-   "desc": "Agent Skills for Google products and technologies",
-   "lang": "Python",
-   "stars": "1,933",
-   "topics": [
-    "google",
-    "googlecloud",
-    "skills"
-   ],
-   "total_stars": 24077,
-   "homepage": "",
-   "readme": "Agent Skills This repository contains Agent Skills for Google products and technologies, including Google Cloud. Installation When prompted, select specific skills or all skills, the target agents to configure, and the installation scope (project or global). If `npx` is not available in your environment, install Node.js, which includes `npm` and `npx`. Updating Skills To update previously installed skills to the latest versions, run the following command. This command gives you an option to also remove obsolete skills. Available Skills Getting started with Google Cloud** Authenticating and Authorizing to Google Cloud (IAM)** Google Cloud Recipe: Foundation Builder** Onboarding to Google Clou"
-  },
-  {
-   "repo": "D4Vinci/Scrapling",
-   "desc": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scra",
-   "lang": "Python",
-   "stars": "4,743",
-   "topics": [
-    "ai",
-    "ai-scraping",
-    "automation",
-    "crawler",
-    "crawling",
-    "crawling-python"
-   ],
-   "total_stars": 102163,
-   "homepage": "https://scrapling.readthedocs.io/en/latest/",
-   "readme": "Effortless Web Scraping for the Modern Web Selection methods &middot; Fetchers &middot; Spiders &middot; Proxy Rotation &middot; CLI &middot; MCP Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library. Scrape static pages, render JavaScript, interact with websites, and extract data from the API calls behind them. Build crawlers with reusable sessions, proxy rotation, automatic retries, pause/resume, and built-in data exports. Use it from Python, the terminal, or your AI agent through its MCP server and Agent Skill. From extracting a few fields to collecting a whole website as clean Markdown, Sc"
+   "total_stars": 85401,
+   "homepage": "https://lobehub.com",
+   "readme": "[![][image-banner]][vercel-link] LobeHub Super-Agents on Your Team** Add super-agents to the chats your team already uses. They take on work by themselves and get better every week. English** · 简体中文 · [Official Site][official-site] · [Changelog][changelog] · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link] [![][github-release-shield]][github-release-link] [![][docker-release-shield]][docker-release-link] [![][vercel-shield]][vercel-link] [![][discord-shield]][discord-link] [![][codecov-shield]][codecov-link] [![][github-action-test-shield]][github-action-test-link] [![][github-action-release-shield]][github-action-release-link] [![][github-releasedate-shield]][github-release"
   }
  ]
 }

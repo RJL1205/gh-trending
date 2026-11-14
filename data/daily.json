@@ -1,16 +1,33 @@
 {
  "since": "daily",
- "fetched_at": "2026-11-13T02:02:18+00:00",
- "changed_at": "2026-11-13T02:02:18+00:00",
- "count": 13,
+ "fetched_at": "2026-11-14T01:37:35+00:00",
+ "changed_at": "2026-11-14T01:37:35+00:00",
+ "count": 12,
  "items": [
+  {
+   "repo": "alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS,",
+   "lang": "Go",
+   "stars": "215",
+   "topics": [
+    "agent",
+    "agent-skills",
+    "code-review",
+    "code-review-assistant",
+    "harness",
+    "repository-level-context"
+   ],
+   "total_stars": 50649,
+   "homepage": "https://open-codereview.ai",
+   "readme": "OpenCodeReview English | 简体中文 | 日本語 | 한국어 | Русский What is Open Code Review? Open Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubated it into an open source project for the community. Simply configure a model endpoint to get started. It reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. The agent can read full file contents, search th"
+  },
   {
    "repo": "GoogleChrome/modern-web-guidance-src",
    "desc": "Keep your coding agent up to date with the latest web best practices",
    "lang": "TypeScript",
-   "stars": "739",
+   "stars": "1,925",
    "topics": [],
-   "total_stars": 3096,
+   "total_stars": 4890,
    "homepage": "https://goo.gle/modern-web-guidance",
    "readme": "Modern Web Guidance (Source) This repo is the source repository for GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. Modern Web Guidance** is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform. See CONTRIBUTING.md and GOVERNANCE.md for how we work on the project and orientation of the codebase. Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, al"
   },
@@ -18,7 +35,7 @@
    "repo": "openai/codex-security",
    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
    "lang": "TypeScript",
-   "stars": "643",
+   "stars": "751",
    "topics": [
     "ai-security",
     "application-security",
@@ -27,162 +44,127 @@
     "codex",
     "codex-security"
    ],
-   "total_stars": 12466,
+   "total_stars": 13150,
    "homepage": "https://developers.openai.com/codex/security",
    "readme": "Codex Security Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the `@openai/codex-security` CLI and TypeScript SDK. In Codex:** choose a security workflow. In a terminal:** install the CLI and scan your repository. In automation:** use the TypeScript SDK or GitHub Action. Features Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. Validate candidate findings, generate patches, and verify existing fixes. Draft `SECURITY.md` policies and save threat models for later review. Browse saved scans and findings, identify duplicates, ass"
   },
   {
-   "repo": "nvm-sh/nvm",
-   "desc": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-   "lang": "Shell",
-   "stars": "63",
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": "256",
    "topics": [
-    "bash",
-    "install",
-    "lts",
-    "node",
-    "node-js",
-    "nodejs"
+    "a-stock",
+    "ai-agent",
+    "aigc",
+    "llm",
+    "quant",
+    "quantitative-finance"
    ],
-   "total_stars": 96022,
-   "homepage": "",
-   "readme": "Node Version Manager [ ][3] [ ][4] Table of Contents Intro About Installing and Updating Install & Update Script Additional Notes Installing in Docker Installing in Docker for CICD-Jobs Troubleshooting on Linux Troubleshooting on macOS Ansible Verify Installation Important Notes Git Install Manual Install Manual Upgrade Usage Long-term Support Version Categories Migrating Global Packages While Installing Migrating Global Packages Between Installed Versions Offline Install Default Global Packages From File While Installing io.js System Version of Node Listing Versions Setting Custom Colors Persisting custom colors Suppressing colorized output Restoring PATH Set default node version Use a mirr"
-  },
-  {
-   "repo": "pookjw/HermesEnabler",
-   "desc": "Enable Hermès Watch Faces on any Apple Watch devices",
-   "lang": "Objective-C",
-   "stars": "218",
-   "topics": [],
-   "total_stars": 1554,
-   "homepage": "",
-   "readme": "HermesEnabler 2 English · 한국어 · 简体中文 · 繁體中文 · 日本語 · Español · Français · Deutsch · Português Supported only on watchOS 27.0 through 27.3 beta 1. Installation macOS On macOS you can install the prebuilt IPA with Sideloadly or build the app directly with Xcode. Either way, the iPhone must be paired with the target Apple Watch, and the Watch must run a supported watchOS version. Install the IPA Known issue with Sideloadly 0.72:** Issue #43 reports that this version may remove the embedded Watch app while signing. If the iPhone app installs but HermesEnabler2 is missing from the Watch, use Xcode instead. This report is specific to version 0.72; compatibility with other versions has not been conf"
+   "total_stars": 71635,
+   "homepage": "https://dsa.zhulinsen.tech",
+   "readme": "📈 股票智能分析系统 &nbsp; 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览** · **功能特性** · **快速开始** · **推送效果** · **文档中心** · **完整指南** 简体中文 | English | 繁體中文 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 🖥️ 产品预览 点击动图查看完整演示 ✨ 功能特性 | 能力 | 覆盖内容 | |------|------| | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 市场支持边界 | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 | | Agent 策略问股 | 多轮追问，支持均线、缠论、波浪、趋势、热点"
   },
   {
    "repo": "we-promise/sure",
    "desc": "The personal finance app for everyone (by everyone)",
    "lang": "Ruby",
-   "stars": "967",
+   "stars": "925",
    "topics": [],
-   "total_stars": 13957,
+   "total_stars": 14770,
    "homepage": "https://sure.am",
    "readme": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: Discord • Website • Issues [!IMPORTANT] This repository is a community fork of the now-abandoned Maybe Finance project. Learn more in their final release doc. Backstory The Maybe Finance (archived/abandoned repo) team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023. After spending nearly $1 million on develo"
   },
   {
-   "repo": "QwenLM/qwen-code",
-   "desc": "An open-source AI coding agent that lives in your terminal.",
+   "repo": "backnotprop/plannotator",
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
    "lang": "TypeScript",
-   "stars": "151",
+   "stars": "108",
    "topics": [
-    "agentic",
-    "ai",
-    "ai-agent",
-    "ai-coding",
-    "cli",
-    "coding-agent"
-   ],
-   "total_stars": 29844,
-   "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
-   "readme": "The open-source AI coding agent for your terminal, editor, desktop, browser, and chat.** 中文 | Deutsch | français | 日本語 | Русский | Português (Brasil) | 한국어 | **Qwen Code 1.0 Preview** | | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | Qwen Code 1.0 Preview brings together the agent harness capabilities of Qoder and Qwen Code in an open-source release. Try Qwen Code "
-  },
-  {
-   "repo": "ashhart/TensorFold",
-   "desc": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-   "lang": "Zig",
-   "stars": "54",
-   "topics": [
-    "ai",
-    "ai-tools",
-    "llm",
-    "llm-inference",
-    "llm-tools"
-   ],
-   "total_stars": 1952,
-   "homepage": "https://tensorfold.dev",
-   "readme": "TensorFold TensorFold serves language models from a Zig binary on Apple Silicon and NVIDIA GPUs. The engine reads checkpoints, tokenizes requests and runs Metal or CUDA kernels directly. Serving needs no Python or MLX installation. Building with a coding agent? Have it load the contributor skill before it writes any code. Contributing with agents Please use Agent Traffic Control before editing TensorFold so contributors and agents can avoid duplicate work and conflicting changes. Check the live agent radar before choosing an issue and follow CONTRIBUTING.md and the ATC contributor instructions. Install or upgrade ATC to 0.9.4 or later, then run from an updated TensorFold clone: Replace `ISSU"
-  },
-  {
-   "repo": "nodejs/node",
-   "desc": "Node.js JavaScript runtime ✨🐢🚀✨",
-   "lang": "JavaScript",
-   "stars": "62",
-   "topics": [
-    "javascript",
-    "js",
-    "linux",
-    "macos",
-    "mit",
-    "node"
-   ],
-   "total_stars": 123607,
-   "homepage": "https://nodejs.org",
-   "readme": "Node.js Node.js is an open-source, cross-platform JavaScript runtime environment. For information on using Node.js, see the [Node.js website][]. The Node.js project uses an open governance model. The [OpenJS Foundation][] provides support for the project. Contributors are expected to act in a collaborative manner to move the project forward. We encourage the constructive exchange of contrary opinions and compromise. The TSC reserves the right to limit or block contributors who repeatedly act in ways that discourage, exhaust, or otherwise negatively affect other participants. This project has a [Code of Conduct][].** Table of contents Support Release types Download Current and LTS releases Ni"
-  },
-  {
-   "repo": "addyosmani/agent-skills",
-   "desc": "Production-grade engineering skills for AI coding agents.",
-   "lang": "JavaScript",
-   "stars": "816",
-   "topics": [
-    "agent-skills",
-    "antigravity",
+    "agents",
     "claude-code",
+    "code-review",
     "codex",
-    "cursor",
-    "skills"
+    "obsidian",
+    "opencode"
    ],
-   "total_stars": 116703,
-   "homepage": "https://skills.addy.ie",
-   "readme": "Agent Skills Production-grade engineering skills for AI coding agents.** Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. Commands slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | |-------------------|---------|---------------| | Define what to build | `/spec` | Spec before code | | Plan how to build it | `/plan` | Small, atomic tasks | | Build incrementally | `/build` | One slice at a time | | Prove it works | `/test` | Tests are "
+   "total_stars": 10471,
+   "homepage": "https://plannotator.ai",
+   "readme": "Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · (Legacy) Plan Mode Plannotator ⭐️ NEW:** Plannotator Inbox is the missing review layer between you and multi-agent work. It surfaces decisions, prototypes, variations, plans, and everything you need to stay in the loop. Works with all coding agents and personal assistants. P"
   },
   {
-   "repo": "meta/astryx",
-   "desc": "An open source design system that's fully customizable and agent ready",
-   "lang": "TypeScript",
-   "stars": "1,830",
-   "topics": [],
-   "total_stars": 26610,
-   "homepage": "http://astryx.atmeta.com",
-   "readme": "Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta** · Built on React 19+ and StyleX Docs** · **Storybook** · **Sandbox** · **Contributing** · **Discord** Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and "
-  },
-  {
-   "repo": "CopilotKit/OpenBot",
-   "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-   "lang": "TypeScript",
-   "stars": "298",
+   "repo": "louislam/uptime-kuma",
+   "desc": "A fancy self-hosted monitoring tool",
+   "lang": "JavaScript",
+   "stars": "71",
    "topics": [
-    "ag-ui",
-    "agent-governance",
-    "ai-agents",
-    "browser-automation",
-    "copilotkit",
-    "generative-ui"
+    "docker",
+    "monitor",
+    "monitoring",
+    "responsive",
+    "self-hosted",
+    "selfhosted"
    ],
-   "total_stars": 11647,
-   "homepage": "open.bot",
-   "readme": "OpenBot AI coworkers. Ready for the enterprise. A modular, self-hostable workspace for AI coworkers. Choose your models. Bring your agents. Own your infrastructure. open.bot · Docs · Deploy on Kubernetes · Run from source Notarized .dmg for Apple silicon and Intel Macs · signed installer for Windows x64 · no terminal or developer tools needed · Release notes From CopilotKit, creators of AG-UI. https://github.com/user-attachments/assets/c60f07da-8b6d-46eb-a573-17fc1e65a644 Watch a Bot use its browser and tools, answer with interactive results, and wait for your approval before it sends. Take over when it needs you, and connect the agents you already run. Getting started On your laptop The eas"
+   "total_stars": 93872,
+   "homepage": "https://uptime.kuma.pet",
+   "readme": "Uptime Kuma Uptime Kuma is an easy-to-use self-hosted monitoring tool. 🥔 Live Demo Try it! Demo Server (Location: Frankfurt - Germany): It is a temporary live demo, all data will be deleted after 10 minutes. Sponsored by Uptime Kuma Sponsors. [!WARNING] Be careful - the top result in Google, uptimekuma.co, is not our official website, we don't control the website. I recommend following the installation guide in this GitHub repo. ⭐ Features Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers Fancy, Reactive, Fast UI/UX Notifications via Telegram, Discord, Gotify, Slack, Pushover, Email (SMTP)"
   },
   {
-   "repo": "Alishahryar1/free-claude-code",
-   "desc": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harn",
-   "lang": "Python",
-   "stars": "415",
+   "repo": "block/buzz",
+   "desc": "A hive mind communication platform",
+   "lang": "Rust",
+   "stars": "97",
    "topics": [],
-   "total_stars": 69338,
+   "total_stars": 37303,
    "homepage": "",
-   "readme": "Quick Start · Providers · Clients · Integrations · Manage Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic. Features Route any supported harness to models from any supported provider. supported harnesses: Claude Code, Codex, Pi, OpenCode, Cline, Hermes, DeepSeek Harness, Grok Build, Muse Code, Aider, Antigravity CLI, or VS Code Chat. Preserved native streaming, tool use, and interleaved thinking for maximum performance. For Claude Code, route Fable, Opus, Sonnet, and Haiku to supported models. supported providers, including free, paid, subscription, and local providers. B+ free tokens per month. FCC follows prov"
+   "readme": "Buzz 🐝 A workspace where humans and agents build together, on a relay you own. Vision · Sovereign · Forge · Agents · Architecture · Releasing · Apache 2.0 People and agents building together in the same room. What is this, really? Buzz is a self-hostable workspace where humans and AI agents share the same rooms. A Buzz **community** is the workspace a user reaches by URL. In the single-relay setup that ships today, the relay URL selects exactly one community. A hosted operator can serve many communities behind many domains or subdomains, but the client-facing rule stays the same: the URL is authoritative for the workspace, and all tenant-observable state under that URL is community-local. It"
   },
   {
-   "repo": "ggml-org/llama.cpp",
-   "desc": "LLM inference in C/C++",
+   "repo": "tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "lang": "Python",
+   "stars": "69",
+   "topics": [],
+   "total_stars": 4189,
+   "homepage": "https://tradermonty.github.io/claude-trading-skills/",
+   "readme": "Claude Trading Skills Claude Trading Skills started as a personal project to use AI to improve my own trading process. Claude Trading Skills is a Claude Skills-based trading workflow toolkit for time-constrained individual investors. It is designed for investors who use long-term investing, ETFs, and dividend stocks as their core, while using disciplined swing trading as a satellite strategy when market conditions are favorable. The goal is not to outsource buy/sell decisions to AI. The goal is to structure market review, risk management, trade planning, journaling, and continuous improvement. It is open source because the workflows, checklists, and review habits behind better trading decisi"
+  },
+  {
+   "repo": "tailscale/tailcat",
+   "desc": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+   "lang": "Go",
+   "stars": "256",
+   "topics": [],
+   "total_stars": 9470,
+   "homepage": "https://tailscale.com/tailcat",
+   "readme": "\"Tailscale without Tailscale, by Tailscale\" Tailcat Tailcat is a remix of Tailscale open source pieces to act like netcat, but over Tailscale's data plane, without Tailscale's control plane. Tailscale's data plane (`magicsock`, internally) gives you point-to-point WireGuard®-encrypted tunnels between two machines with DERP as the NAT-hole-punching communication side channel and the ultimate relay-of-last-resort if NAT traversal fails. Instead of using the Tailscale control plane, all `tailcat` connection metadata is exchanged out of band, however you want. The `tailcat` CLI (in `cmd/tailcat`) is built on the `tailcat` Go library (importable as `github.com/tailscale/tailcat`). Whether you use"
+  },
+  {
+   "repo": "Likely7/Veyra-NRVideo",
+   "desc": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 ima",
    "lang": "C++",
-   "stars": "176",
+   "stars": "256",
+   "topics": [],
+   "total_stars": 1628,
+   "homepage": "",
+   "readme": "Veyra Real-time GPU Video Enhancement for Windows Super Resolution · Denoising · HDR · Frame Generation · Capture · PS5 / Xbox / PC Streaming** Turn local video, capture cards and game streaming into one real-time GPU enhancement pipeline. K+ cumulative Veyra portable-package downloads** (79,332 as of 2026-11-08) · **103K+ downloads across all GitHub Release assets** (103,337 including source archives, checksums and images). GitHub Releases · Counts are download events, not unique users. ⬇ Download Latest Release** &nbsp;&nbsp;·&nbsp;&nbsp; 📖 User Guide / Wiki** &nbsp;&nbsp;·&nbsp;&nbsp; 🇨🇳 简体中文** &nbsp;&nbsp;·&nbsp;&nbsp; 🐛 Report an Issue** One engine. Any source. Real-time enhancement. ⭐ "
+  },
+  {
+   "repo": "ChromeDevTools/chrome-devtools-mcp",
+   "desc": "Chrome DevTools for coding agents",
+   "lang": "TypeScript",
+   "stars": "67",
    "topics": [
-    "ggml"
+    "browser",
+    "chrome",
+    "chrome-devtools",
+    "debugging",
+    "devtools",
+    "mcp"
    ],
-   "total_stars": 134583,
-   "homepage": "https://llama.app",
-   "readme": "llama.cpp LLM inference in C/C++ ggml / ops / maintainer PRs%20sort%3Aupdated-desc) / dev stats / lib llama API / llama-server REST API Quick start A few options to get `llama.cpp` installed on your machine: Visit https://llama.app and follow the instructions Run with Docker - see our Docker documentation Download pre-built binaries from the releases page Build from source by cloning this repository - check out our build guide Once installed: VLM session with llama cli Built-in web UI against llama serve Description The main goal of `llama.cpp` is to enable LLM (and VLM) inference with minimal setup and state-of-the-art performance on a wide range of hardware - locally and in the cloud. Plai"
+   "total_stars": 55467,
+   "homepage": "https://developer.chrome.com/docs/devtools/agents",
+   "readme": "Chrome DevTools for agents Chrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser. It is available as a Model-Context-Protocol (MCP) server and as a [CLI][cli]. Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. [Tool reference][tool-reference] | [CLI][cli] | [Skills][skills] | [Changelog][changelog] | [Contributing][contributing] | [Troubleshooting][troubleshooting] | [Design Principles][design-principles] Key features Get performance insights**: Uses Chrome DevTools to record traces a"
   }
  ]
 }
