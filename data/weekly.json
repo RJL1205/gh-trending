@@ -1,118 +1,166 @@
 {
  "since": "weekly",
- "fetched_at": "2026-11-15T01:12:43+00:00",
- "changed_at": "2026-11-15T01:12:43+00:00",
+ "fetched_at": "2026-11-16T01:19:08+00:00",
+ "changed_at": "2026-11-16T01:19:08+00:00",
  "count": 11,
  "items": [
   {
    "repo": "meta/astryx",
    "desc": "An open source design system that's fully customizable and agent ready",
    "lang": "TypeScript",
-   "stars": "13,660",
+   "stars": "13,501",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "sherlock-project/sherlock",
-   "desc": "Hunt down social media accounts by username across social networks",
-   "lang": "Python",
-   "stars": "12,401",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 28886,
+   "homepage": "http://astryx.atmeta.com",
+   "readme": "Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta** · Built on React 19+ and StyleX Docs** · **Storybook** · **Sandbox** · **Contributing** · **Discord** Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and "
   },
   {
    "repo": "anthropics/skills",
    "desc": "Public repository for Agent Skills",
    "lang": "Python",
-   "stars": "6,220",
-   "topics": [],
-   "total_stars": "",
+   "stars": "6,077",
+   "topics": [
+    "agent-skills"
+   ],
+   "total_stars": 195372,
    "homepage": "",
-   "readme": ""
+   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
   },
   {
-   "repo": "vercel-labs/agent-browser",
-   "desc": "Browser automation CLI for AI agents",
-   "lang": "Rust",
-   "stars": "4,601",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "google/elephant-goldfish-model",
-   "desc": "Open-source plugin for designing and reviewing software with agents",
+   "repo": "sherlock-project/sherlock",
+   "desc": "Hunt down social media accounts by username across social networks",
    "lang": "Python",
-   "stars": "5,539",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "milind-soni/OpenMausBot",
-   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-   "lang": "TypeScript",
-   "stars": "6,413",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "ZhuLinsen/daily_stock_analysis",
-   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-   "lang": "Python",
-   "stars": "4,526",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "google-deepmind/mujoco",
-   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-   "lang": "C++",
-   "stars": "1,859",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "10,412",
+   "topics": [
+    "cli",
+    "cti",
+    "cybersecurity",
+    "forensics",
+    "hacktoberfest",
+    "information-gathering"
+   ],
+   "total_stars": 112496,
+   "homepage": "https://sherlockproject.xyz",
+   "readme": "Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Contributing Installation &#8202;&#8202; [!WARNING] Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be __broken__. Users of these systems should defer to `uv`/`pipx`/`pip` or Docker. | Method | Notes | | - | - | | `pipx install sherlock-project` | `pip` or `uv` may be used in place of `pipx` | | `docker run -it --rm sherlock/sherlock` | | `dnf install sherlock-project` | | Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packag"
   },
   {
    "repo": "backnotprop/plannotator",
    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
    "lang": "TypeScript",
-   "stars": "818",
+   "stars": "1,719",
+   "topics": [
+    "agents",
+    "claude-code",
+    "code-review",
+    "codex",
+    "obsidian",
+    "opencode"
+   ],
+   "total_stars": 11853,
+   "homepage": "https://plannotator.ai",
+   "readme": "Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · (Legacy) Plan Mode Plannotator ⭐️ NEW:** Plannotator Inbox is the missing review layer between you and multi-agent work. It surfaces decisions, prototypes, variations, plans, and everything you need to stay in the loop. Works with all coding agents and personal assistants. P"
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": "4,217",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 51636,
+   "homepage": "https://agent-browser.dev",
+   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
+  },
+  {
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": "4,548",
+   "topics": [
+    "a-stock",
+    "ai-agent",
+    "aigc",
+    "llm",
+    "quant",
+    "quantitative-finance"
+   ],
+   "total_stars": 72512,
+   "homepage": "https://dsa.zhulinsen.tech",
+   "readme": "📈 股票智能分析系统 &nbsp; 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览** · **功能特性** · **快速开始** · **推送效果** · **文档中心** · **完整指南** 简体中文 | English | 繁體中文 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 模型 $5 包月，Claude 1.9 折、GPT 0.9 折、DeepSeek 5.8 折，首充立减 20%。 专属链接注册 🖥️ 产品预览 点击动图查看完整演示 ✨ 功能特性 | 能力 | 覆盖内容 | |------|------| | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同市场的数据源和能力边界见 市场支持边界 | | Web / 桌面工作台 | 手动分析、任务进度、历史报告、完整 Mark"
+  },
+  {
+   "repo": "we-promise/sure",
+   "desc": "The personal finance app for everyone (by everyone)",
+   "lang": "Ruby",
+   "stars": "4,556",
+   "topics": [],
+   "total_stars": 15721,
+   "homepage": "https://sure.am",
+   "readme": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: Discord • Website • Issues [!IMPORTANT] This repository is a community fork of the now-abandoned Maybe Finance project. Learn more in their final release doc. Backstory The Maybe Finance (archived/abandoned repo) team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023. After spending nearly $1 million on develo"
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "lang": "TypeScript",
+   "stars": "5,463",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "computer-use",
+    "docker",
+    "electron"
+   ],
+   "total_stars": 23425,
+   "homepage": "https://www.mausbot.com/",
+   "readme": "OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** openmausbot.com** &nbsp;·&nbsp; Download &nbsp;·&nbsp; Open source Grok Bot alternative, compared OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud comp"
+  },
+  {
+   "repo": "google/elephant-goldfish-model",
+   "desc": "Open-source plugin for designing and reviewing software with agents",
+   "lang": "Python",
+   "stars": "5,060",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skills"
+   ],
+   "total_stars": 19784,
+   "homepage": "https://egm.dev",
+   "readme": "Design with an elephant. Review with a goldfish. Install &ensp;·&ensp; Quickstart &ensp;·&ensp; Documentation &ensp;·&ensp; Website Develop ideas with context and review documents with fresh eyes. EGM is an open-source plugin for AI assistants. Elephant** holds your project context and drafts the specification. **Goldfish** reviewers examine the draft and referenced source material without the earlier conversation, helping expose unstated assumptions and blind spots. **You** make the architectural trade-offs and approve the specification before implementing. The built-in draft and design-review workflow targets software specifications. For other documents, choose reviewers and standards with"
+  },
+  {
+   "repo": "google-deepmind/mujoco",
+   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "lang": "C++",
+   "stars": "1,922",
+   "topics": [
+    "mujoco",
+    "physics",
+    "robotics"
+   ],
+   "total_stars": 18074,
+   "homepage": "https://mujoco.org",
+   "readme": "MuJoCo** stands for **Mu**lti-**Jo**int dynamics with **Co**ntact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment. This repository is maintained by Google DeepMind. MuJoCo has a C API and is intended for researchers and developers. The runtime simulation module is tuned to maximize performance and operates on low-level data structures that are preallocated by the built-in XML compiler. The library includes interactive visualization in native desktop windows and web b"
   },
   {
    "repo": "addyosmani/agent-skills",
    "desc": "Production-grade engineering skills for AI coding agents.",
    "lang": "JavaScript",
-   "stars": "3,670",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
-  },
-  {
-   "repo": "anthropics/claude-quickstarts",
-   "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-   "lang": "Python",
-   "stars": "1,794",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "3,889",
+   "topics": [
+    "agent-skills",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "cursor",
+    "skills"
+   ],
+   "total_stars": 117955,
+   "homepage": "https://skills.addy.ie",
+   "readme": "Agent Skills Production-grade engineering skills for AI coding agents.** Skills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development. Commands slash commands that map to the development lifecycle. Each one activates the right skills automatically. | What you're doing | Command | Key principle | |-------------------|---------|---------------| | Define what to build | `/spec` | Spec before code | | Plan how to build it | `/plan` | Small, atomic tasks | | Build incrementally | `/build` | One slice at a time | | Prove it works | `/test` | Tests are "
   }
  ]
 }
