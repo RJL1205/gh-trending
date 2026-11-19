@@ -1,16 +1,16 @@
 {
  "since": "weekly",
- "fetched_at": "2026-11-18T03:04:15+00:00",
- "changed_at": "2026-11-18T03:04:15+00:00",
- "count": 14,
+ "fetched_at": "2026-11-19T02:44:05+00:00",
+ "changed_at": "2026-11-19T02:44:05+00:00",
+ "count": 15,
  "items": [
   {
    "repo": "GoogleChrome/modern-web-guidance-src",
    "desc": "Keep your coding agent up to date with the latest web best practices",
    "lang": "TypeScript",
-   "stars": "7,015",
+   "stars": "7,257",
    "topics": [],
-   "total_stars": 8484,
+   "total_stars": 8865,
    "homepage": "https://goo.gle/modern-web-guidance",
    "readme": "Modern Web Guidance (Source) This repo is the source repository for GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. Modern Web Guidance** is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform. See CONTRIBUTING.md and GOVERNANCE.md for how we work on the project and orientation of the codebase. Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, al"
   },
@@ -18,7 +18,7 @@
    "repo": "backnotprop/plannotator",
    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
    "lang": "TypeScript",
-   "stars": "2,926",
+   "stars": "3,290",
    "topics": [
     "agents",
     "claude-code",
@@ -27,7 +27,7 @@
     "obsidian",
     "opencode"
    ],
-   "total_stars": 13106,
+   "total_stars": 13476,
    "homepage": "https://plannotator.ai",
    "readme": "Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · (Legacy) Plan Mode Plannotator ⭐️ NEW:** Plannotator Inbox is the missing review layer between you and multi-agent work. It surfaces decisions, prototypes, variations, plans, and everything you need to stay in the loop. Works with all coding agents and personal assistants. P"
   },
@@ -35,9 +35,9 @@
    "repo": "meta/astryx",
    "desc": "An open source design system that's fully customizable and agent ready",
    "lang": "TypeScript",
-   "stars": "8,700",
+   "stars": "6,250",
    "topics": [],
-   "total_stars": 30209,
+   "total_stars": 30616,
    "homepage": "http://astryx.atmeta.com",
    "readme": "Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them. Currently in Beta** · Built on React 19+ and StyleX Docs** · **Storybook** · **Sandbox** · **Contributing** · **Discord** Overview Astryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day. It ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and "
   },
@@ -45,63 +45,17 @@
    "repo": "we-promise/sure",
    "desc": "The personal finance app for everyone (by everyone)",
    "lang": "Ruby",
-   "stars": "4,786",
+   "stars": "3,866",
    "topics": [],
-   "total_stars": 16286,
+   "total_stars": 16520,
    "homepage": "https://sure.am",
    "readme": "Deutsch | Español | Français | 日本語 | 한국어 | Português | Русский | 中文 Sure: The personal finance app for everyone Get involved: Discord • Website • Issues [!IMPORTANT] This repository is a community fork of the now-abandoned Maybe Finance project. Learn more in their final release doc. Backstory The Maybe Finance (archived/abandoned repo) team spent most of 2021–2022 building a full-featured personal finance and wealth management app. It even included an “Ask an Advisor” feature that connected users with a real CFP/CFA — all included with your subscription. The business end of things didn't work out, and so they stopped developing the app in mid-2023. After spending nearly $1 million on develo"
-  },
-  {
-   "repo": "ZhuLinsen/daily_stock_analysis",
-   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-   "lang": "Python",
-   "stars": "3,653",
-   "topics": [
-    "a-stock",
-    "ai-agent",
-    "aigc",
-    "llm",
-    "quant",
-    "quantitative-finance"
-   ],
-   "total_stars": 73124,
-   "homepage": "https://dsa.zhulinsen.tech",
-   "readme": "📈 股票智能分析系统 &nbsp; 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览** · **功能特性** · **快速开始** · **推送效果** · **文档中心** · **完整指南** 简体中文 | English | 繁體中文 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 模型 $5 包月，Claude 1.9 折、GPT 0.9 折、DeepSeek 5.8 折，首充立减 20%。 专属链接注册 🖥️ 产品预览 点击动图查看完整演示 [!TIP] 🚀 **作者配套开源项目**：AlphaSift · 智能选股 ｜ AlphaEvo · 策略回测与进化 ✨ 功能特性 | 能力 | 覆盖内容 | |------|------| | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同"
-  },
-  {
-   "repo": "anthropics/skills",
-   "desc": "Public repository for Agent Skills",
-   "lang": "Python",
-   "stars": "4,847",
-   "topics": [
-    "agent-skills"
-   ],
-   "total_stars": 196792,
-   "homepage": "",
-   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
-  },
-  {
-   "repo": "elementalsouls/Claude-BugHunter",
-   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure ",
-   "lang": "Python",
-   "stars": "2,508",
-   "topics": [
-    "ai-security",
-    "anthropic",
-    "application-security",
-    "bug-bounty",
-    "bugbounty",
-    "bugcrowd"
-   ],
-   "total_stars": 9511,
-   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
-   "readme": "claude-bughunter A self-contained Claude skill bundle for bug hunting and external red-team work · **83 skills** · 15 slash commands · **681 disclosed-report patterns** (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms (DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com). Built by **Sachin Sharma** — Bug Hunting & GenAI Security Research. SPONSORED BY &nbsp;&nbsp;&nbsp;&nbsp; What is this? `claude-bughunter` is a drop-in skill bundle for the Claude Co"
   },
   {
    "repo": "alibaba/open-code-review",
    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS,",
    "lang": "Go",
-   "stars": "3,675",
+   "stars": "4,383",
    "topics": [
     "agent",
     "agent-skills",
@@ -110,25 +64,35 @@
     "harness",
     "repository-level-context"
    ],
-   "total_stars": 53817,
+   "total_stars": 54195,
    "homepage": "https://open-codereview.ai",
    "readme": "OpenCodeReview English | 简体中文 | 日本語 | 한국어 | Русский What is Open Code Review? Open Code Review is an AI-powered code review CLI tool. It originated as Alibaba Group's internal official AI code review assistant — over the past two years, it has served tens of thousands of developers and identified millions of code defects. After thorough validation at massive scale, we incubated it into an open source project for the community. Simply configure a model endpoint to get started. It reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. The agent can read full file contents, search th"
   },
   {
-   "repo": "vercel-labs/agent-browser",
-   "desc": "Browser automation CLI for AI agents",
-   "lang": "Rust",
-   "stars": "3,429",
+   "repo": "google-labs-code/stitch-skills",
+   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "lang": "TypeScript",
+   "stars": "1,567",
    "topics": [],
-   "total_stars": 52406,
-   "homepage": "https://agent-browser.dev",
-   "readme": "agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. agent-browser is a native Rust CLI that gives an AI agent a browser it can drive one command at a time. `snapshot` returns the page as compact text with a ref such as `@e1` for each element. The agent acts on a ref, reads the page again to check the result, and repeats. The browser stays open between commands, so each step is one short shell call. Install Homebrew:** `brew install agent-browser`, then `agent-browser install`. Linux:** `agent-browser install --with-deps` also installs the browser's system libraries. No install:** `npx agent-browser open example.c"
+   "total_stars": 10428,
+   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
+   "readme": "Stitch Design Skills A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install). Quick Start Install Plugins (Recommended) The fastest way to set up the full Stitch plugin suite globally. Codex Add the Stitch Skills marketplace, then install the plugins you need. Via CLI (recommended) [!TIP] The `--sparse` flags are optional — they limit the checkout to only the listed paths for a faster clone. Omit them to pull the entire repository. Via the Codex UI Navigate to **Settings → Plugin Marketplaces → Add** and fill in: | Field | Valu"
+  },
+  {
+   "repo": "tradermonty/claude-trading-skills",
+   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "lang": "Python",
+   "stars": "3,242",
+   "topics": [],
+   "total_stars": 7091,
+   "homepage": "https://tradermonty.github.io/claude-trading-skills/",
+   "readme": "Claude Trading Skills Data handling:** Privacy policy · Security policy Claude Trading Skills started as a personal project to use AI to improve my own trading process. Claude Trading Skills is a Claude Skills-based trading workflow toolkit for time-constrained individual investors. It is designed for investors who use long-term investing, ETFs, and dividend stocks as their core, while using disciplined swing trading as a satellite strategy when market conditions are favorable. The goal is not to outsource buy/sell decisions to AI. The goal is to structure market review, risk management, trade planning, journaling, and continuous improvement. It is open source because the workflows, checklis"
   },
   {
    "repo": "ChromeDevTools/chrome-devtools-mcp",
    "desc": "Chrome DevTools for coding agents",
    "lang": "TypeScript",
-   "stars": "2,948",
+   "stars": "3,143",
    "topics": [
     "browser",
     "chrome",
@@ -137,52 +101,91 @@
     "devtools",
     "mcp"
    ],
-   "total_stars": 58063,
+   "total_stars": 58228,
    "homepage": "https://developer.chrome.com/docs/devtools/agents",
    "readme": "Chrome DevTools for agents Chrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser. It is available as a Model-Context-Protocol (MCP) server and as a [CLI][cli]. Both give your AI coding assistant access to the full power of Chrome DevTools for reliable automation, in-depth debugging, and performance analysis. [Tool reference][tool-reference] | [CLI][cli] | [Skills][skills] | [Changelog][changelog] | [Contributing][contributing] | [Troubleshooting][troubleshooting] | [Design Principles][design-principles] Key features Get performance insights**: Uses Chrome DevTools to record traces a"
   },
   {
-   "repo": "tradermonty/claude-trading-skills",
-   "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "repo": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
    "lang": "Python",
-   "stars": "2,985",
-   "topics": [],
-   "total_stars": 6890,
-   "homepage": "https://tradermonty.github.io/claude-trading-skills/",
-   "readme": "Claude Trading Skills Data handling:** Privacy policy · Security policy Claude Trading Skills started as a personal project to use AI to improve my own trading process. Claude Trading Skills is a Claude Skills-based trading workflow toolkit for time-constrained individual investors. It is designed for investors who use long-term investing, ETFs, and dividend stocks as their core, while using disciplined swing trading as a satellite strategy when market conditions are favorable. The goal is not to outsource buy/sell decisions to AI. The goal is to structure market review, risk management, trade planning, journaling, and continuous improvement. It is open source because the workflows, checklis"
+   "stars": "4,381",
+   "topics": [
+    "agent-skills"
+   ],
+   "total_stars": 197250,
+   "homepage": "",
+   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
   },
   {
-   "repo": "google-labs-code/stitch-skills",
-   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "repo": "ZhuLinsen/daily_stock_analysis",
+   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "lang": "Python",
+   "stars": "3,566",
+   "topics": [
+    "a-stock",
+    "ai-agent",
+    "aigc",
+    "llm",
+    "quant",
+    "quantitative-finance"
+   ],
+   "total_stars": 73374,
+   "homepage": "https://dsa.zhulinsen.tech",
+   "readme": "📈 股票智能分析系统 &nbsp; 🤖 基于 AI 大模型的 A股/港股/美股/日股/韩股/台股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览** · **功能特性** · **快速开始** · **推送效果** · **文档中心** · **完整指南** 简体中文 | English | 繁體中文 💖 赞助商 (Sponsors) 感谢 Modelflare 赞助本项目！由美国 Havenbyte LLC 运营，满血稳定不掺水，低成本接入 GPT、Claude、Gemini、Grok 及 40+ 图片/视频模型。指定 OpenAI 分组提供 65% / 75% / 85% 每日缓存命中率保障 ；单笔充值 US$20 解锁 GPT 0.015x ， US$50 解锁 Claude 0.03x 。 专属链接注册 模型 $5 包月，Claude 1.9 折、GPT 0.9 折、DeepSeek 5.8 折，首充立减 20%。 专属链接注册 🖥️ 产品预览 点击动图查看完整演示 [!TIP] 🚀 **作者配套开源项目**：AlphaSift · 智能选股 ｜ AlphaEvo · 策略回测与进化 ✨ 功能特性 | 能力 | 覆盖内容 | |------|------| | AI 决策报告 | 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 | | 多市场数据聚合 | 覆盖 A股、港股、美股、日股、韩股、台股和 ETF，支持行情、K 线、技术指标、新闻、公告、基本面与报告辅助数据；不同"
+  },
+  {
+   "repo": "mvanhorn/last30days-skill",
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "lang": "Python",
+   "stars": "2,423",
+   "topics": [
+    "ai-prompts",
+    "ai-skill",
+    "bluesky",
+    "claude",
+    "claude-code",
+    "clawhub"
+   ],
+   "total_stars": 70093,
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "ag-ui-protocol/ag-ui",
+   "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
    "lang": "TypeScript",
-   "stars": "1,197",
+   "stars": "3,221",
    "topics": [],
-   "total_stars": 10144,
-   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
-   "readme": "Stitch Design Skills A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install). Quick Start Install Plugins (Recommended) The fastest way to set up the full Stitch plugin suite globally. Codex Add the Stitch Skills marketplace, then install the plugins you need. Via CLI (recommended) [!TIP] The `--sparse` flags are optional — they limit the checkout to only the listed paths for a faster clone. Omit them to pull the entire repository. Via the Codex UI Navigate to **Settings → Plugin Marketplaces → Add** and fill in: | Field | Valu"
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
+  },
+  {
+   "repo": "vercel-labs/agent-browser",
+   "desc": "Browser automation CLI for AI agents",
+   "lang": "Rust",
+   "stars": "2,987",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "openai/codex-security",
    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
    "lang": "TypeScript",
-   "stars": "2,531",
-   "topics": [
-    "ai-security",
-    "application-security",
-    "cli",
-    "code-scanning",
-    "codex",
-    "codex-security"
-   ],
-   "total_stars": 13979,
-   "homepage": "https://developers.openai.com/codex/security",
-   "readme": "Codex Security Codex Security helps you find, investigate, and fix vulnerabilities in your code. Use its security workflows in Codex, or automate them with the `@openai/codex-security` CLI and TypeScript SDK. In Codex:** choose a security workflow. In a terminal:** install the CLI and scan your repository. In automation:** use the TypeScript SDK or GitHub Action. Features Scan repositories, selected paths, or Git changes. Deep scans repeat Standard scans and return their deduplicated findings. Validate candidate findings, generate patches, and verify existing fixes. Draft `SECURITY.md` policies and save threat models for later review. Browse saved scans and findings, identify duplicates, ass"
+   "stars": "2,630",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
-   "repo": "addyosmani/agent-skills",
-   "desc": "Production-grade engineering skills for AI coding agents.",
-   "lang": "JavaScript",
-   "stars": "3,884",
+   "repo": "dream-num/univer",
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "lang": "TypeScript",
+   "stars": "6,840",
    "topics": [],
    "total_stars": "",
    "homepage": "",
