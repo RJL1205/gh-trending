@@ -1,16 +1,16 @@
 {
  "since": "monthly",
- "fetched_at": "2026-11-20T02:30:50+00:00",
- "changed_at": "2026-11-20T02:30:50+00:00",
+ "fetched_at": "2026-11-21T02:42:13+00:00",
+ "changed_at": "2026-11-21T02:42:13+00:00",
  "count": 17,
  "items": [
   {
    "repo": "Nutlope/hallmark",
    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
    "lang": "CSS",
-   "stars": "27,756",
+   "stars": "28,266",
    "topics": [],
-   "total_stars": 58088,
+   "total_stars": 58640,
    "homepage": "https://www.usehallmark.com/",
    "readme": "Hallmark A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** usehallmark.com &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of ever"
   },
@@ -18,235 +18,157 @@
    "repo": "cloudflare/security-audit-skill",
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "lang": "JavaScript",
-   "stars": "44,608",
+   "stars": "43,310",
    "topics": [],
-   "total_stars": 75873,
+   "total_stars": "",
    "homepage": "",
-   "readme": "security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in Build your own vulnerability harness. The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. What it does The skill runs a structured audit in six phases: Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architect"
+   "readme": ""
   },
   {
    "repo": "milind-soni/OpenMausBot",
    "desc": "Open-source Grok Bot alternative with a virtual machine that bots can use",
    "lang": "TypeScript",
-   "stars": "20,640",
-   "topics": [
-    "ai-agents",
-    "claude-code",
-    "codex",
-    "computer-use",
-    "docker",
-    "electron"
-   ],
-   "total_stars": 25856,
-   "homepage": "https://www.mausbot.com/",
-   "readme": "OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** openmausbot.com** &nbsp;·&nbsp; Download &nbsp;·&nbsp; Open source Grok Bot alternative, compared OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud comp"
+   "stars": "21,024",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "pingdotgg/t3code",
    "desc": "The best way to control Claude Code, Codex and more from any computer or phone",
    "lang": "TypeScript",
-   "stars": "37,642",
-   "topics": [
-    "agent-orchestration",
-    "agents",
-    "ai",
-    "chatgpt",
-    "claude",
-    "claude-code"
-   ],
-   "total_stars": 66519,
-   "homepage": "https://t3.codes",
-   "readme": "T3 Code The open-source control plane for coding agents. Download · iOS · Android · Web · Docs · Discord T3 Code runs the coding agents on your machine and gives them one fast interface. Start a thread at your desk, then approve the next step from your phone. It works with Claude Code, Codex, Cursor, OpenCode, Grok Build, Antigravity, Kiro, Pi, Muse Code, fx, and any ACP agent. If an agent is set up on your computer, T3 Code can control it. What you get Your subscriptions.** T3 Code does not resell tokens. It drives the agents you are already signed in to. Every agent in one place.** Change models in the middle of a thread. Let Claude hand a task to Codex. Desktop, web, and phone.** One serv"
+   "stars": "38,744",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "anthropics/skills",
    "desc": "Public repository for Agent Skills",
    "lang": "Python",
-   "stars": "16,003",
-   "topics": [
-    "agent-skills"
-   ],
-   "total_stars": 197737,
+   "stars": "16,149",
+   "topics": [],
+   "total_stars": "",
    "homepage": "",
-   "readme": "Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: What are skills? Using skills in Claude How to create custom skills Equipping agents for the real world with Agent Skills About This Reposit"
+   "readme": ""
   },
   {
    "repo": "thedotmack/claude-mem",
    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, C",
    "lang": "TypeScript",
-   "stars": "17,313",
-   "topics": [
-    "ai",
-    "ai-agents",
-    "ai-memory",
-    "anthropic",
-    "artificial-intelligence",
-    "chromadb"
-   ],
-   "total_stars": 118467,
-   "homepage": "https://claude-mem.ai",
-   "readme": "&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 🇨🇳 中文 • 🇹🇼 繁體中文 • 🇯🇵 日本語 • 🇵🇹 Português • 🇧🇷 Português • 🇰🇷 한국어 • 🇪🇸 Español • 🇩🇪 Deutsch • 🇫🇷 Français • 🇮🇱 עברית • 🇸🇦 العربية • 🇷🇺 Русский • 🇵🇱 Polski • 🇨🇿 Čeština • 🇳🇱 Nederlands • 🇹🇷 Türkçe • 🇺🇦 Українська • 🇻🇳 Tiếng Việt • 🇵🇭 Tagalog • 🇮🇩 Indonesia • 🇹🇭 ไทย • 🇮🇳 हिन्दी • 🇧🇩 বাংলা • 🇵🇰 اردو • 🇷🇴 Română • 🇸🇪 Svenska • 🇮🇹 Italiano • 🇬🇷 Ελληνικά • 🇭🇺 Magyar • 🇫🇮 Suomi • 🇩🇰 Dansk • 🇳🇴 Norsk Your coding agent forgets everything between sessions. Claude-Mem remembers for it. Quick Start • How It Works • Search Tools • Documentation • Configuration • Troubleshooting • License Every new session, your agent starts from zero. It re-reads the same files, re-ask"
+   "stars": "17,381",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "Jakeschincariol/instagram-agent-skill",
    "desc": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
    "lang": "Python",
-   "stars": "5,322",
+   "stars": "5,504",
    "topics": [],
-   "total_stars": 7390,
+   "total_stars": "",
    "homepage": "",
-   "readme": "The Instagram agent skill Thirteen Claude skills that run an Instagram account. Free, MIT, no signup, no API key, nothing to connect. One of them writes your Reels off 26 hook formulas and scores the hook before you waste a take on it. One goes and finds the reels that are actually working in your niche and ranks them by how far each beat its own account. One writes the caption and shows you exactly what the feed shows before the \"... more\". One scores your profile out of 100 and rewrites what lost points. One plans the week. And one is the humanizer, which is the reason the rest are usable. It strips the em dashes, the slop vocabulary and the invisible watermark characters out of a draft, t"
+   "readme": ""
   },
   {
    "repo": "backnotprop/plannotator",
    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
    "lang": "TypeScript",
-   "stars": "4,143",
-   "topics": [
-    "agents",
-    "claude-code",
-    "code-review",
-    "codex",
-    "obsidian",
-    "opencode"
-   ],
-   "total_stars": 13683,
-   "homepage": "https://plannotator.ai",
-   "readme": "Everything you need to annotate and stay in the loop with your agents Inbox Surface • Artifacts • Code Review Annotate plans, specs, markdown, HTML, and other interactive artifacts. Review diffs and PRs. Send feedback to your agent. &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Plannotator Inbox · Official site · Code Review · Visual HTML Skills · Herdr Annotate · (Legacy) Plan Mode Plannotator ⭐️ NEW:** Plannotator Inbox is the missing review layer between you and multi-agent work. It surfaces decisions, prototypes, variations, plans, and everything you need to stay in the loop. Works with all coding agents and personal assistants. P"
+   "stars": "4,344",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "HKUDS/DeepTutor",
    "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
    "lang": "Python",
-   "stars": "19,312",
-   "topics": [
-    "ai-agents",
-    "ai-tutor",
-    "clawbot",
-    "cli-tool",
-    "deepresearch",
-    "interactive-learning"
-   ],
-   "total_stars": 60839,
-   "homepage": "http://arxiv.org/abs/2604.26962",
-   "readme": "DeepTutor: Lifelong Personalized Tutoring &#32; &#32; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Features · Get Started · Explore · CLI · Ecosystem · Community 🤝 **We're actively recruiting maintainers!** See the Contributing Guide for the roles, requirements and how to apply. 📦 Releases [2026.11.16]** v1.7.3 — Flexible reading and book editing, richer search and agent connections, clearer learning records, and more reliable model streams and desktop upgrades. Past releases (more than 1 week ago) [2026.11.6]** v1.7.2 — Complete desktop downloads, selected-text speech, easier model setup, Korean interface preview, NVIDIA NIM embeddings, a"
+   "stars": "19,469",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "pbakaus/impeccable",
    "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
    "lang": "Rust",
-   "stars": "30,843",
-   "topics": [
-    "agent-skills",
-    "ai",
-    "anti-slop",
-    "design",
-    "slop"
-   ],
-   "total_stars": 113520,
-   "homepage": "https://impeccable.style",
-   "readme": "Impeccable The design vocabulary for your coding agent. Steer with `polish` and `bolder`, review with `critique` and `audit`, and catch AI slop before it ships. From your project root: Reload your coding tool, then run `/impeccable init` in your agent (`$impeccable init` on Codex). Works with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at impeccable.style/docs. | Without Impeccable | With Impeccable | |---|---| | | | Same model (Fable 5.1), same brief: a fourteen-room family guesthouse on the Ligurian coast. Wit"
+   "stars": "30,831",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "sherlock-project/sherlock",
    "desc": "Hunt down social media accounts by username across social networks",
    "lang": "Python",
-   "stars": "20,350",
-   "topics": [
-    "cli",
-    "cti",
-    "cybersecurity",
-    "forensics",
-    "hacktoberfest",
-    "information-gathering"
-   ],
-   "total_stars": 114643,
-   "homepage": "https://sherlockproject.xyz",
-   "readme": "Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Contributing Installation &#8202;&#8202; [!WARNING] Packages for ParrotOS and Ubuntu 24.04, maintained by a third party, appear to be __broken__. Users of these systems should defer to `uv`/`pipx`/`pip` or Docker. | Method | Notes | | - | - | | `pipx install sherlock-project` | `pip` or `uv` may be used in place of `pipx` | | `docker run -it --rm sherlock/sherlock` | | `dnf install sherlock-project` | | Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packag"
+   "stars": "20,748",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "AgriciDaniel/claude-seo",
    "desc": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, inte",
    "lang": "Python",
-   "stars": "11,706",
-   "topics": [
-    "ai",
-    "ai-seo",
-    "claude-code",
-    "claude-code-skill",
-    "marketing-automation",
-    "open-source"
-   ],
-   "total_stars": 30957,
-   "homepage": "skool.com/ai-marketing-hub-pro",
-   "readme": "Claude SEO Free, open-source SEO audits inside Claude Code . Rank higher in Google and get cited by AI search. Install · Demo · Results · Team · Commands · Pricing · FAQ Claude SEO is a free SEO plugin for Claude Code.** Give it any website and it runs a full SEO audit in 10 to 15 minutes, then hands you a clear action plan, sorted by what matters most. It checks everything a good SEO consultant would: Technical SEO.** Crawlability, indexing, sitemaps, robots.txt, redirects, page speed and Core Web Vitals. Content quality.** E-E-A-T (experience, expertise, authority and trust), thin pages and topic coverage. Structured data.** Finds, validates and writes Schema.org markup for rich results. A"
+   "stars": "11,786",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "google-labs-code/stitch-skills",
    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
    "lang": "TypeScript",
-   "stars": "2,107",
+   "stars": "2,406",
    "topics": [],
-   "total_stars": 10748,
-   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
-   "readme": "Stitch Design Skills A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install). Quick Start Install Plugins (Recommended) The fastest way to set up the full Stitch plugin suite globally. Codex Add the Stitch Skills marketplace, then install the plugins you need. Via CLI (recommended) [!TIP] The `--sparse` flags are optional — they limit the checkout to only the listed paths for a faster clone. Omit them to pull the entire repository. Via the Codex UI Navigate to **Settings → Plugin Marketplaces → Add** and fill in: | Field | Valu"
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "heygen-com/hyperframes",
    "desc": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
    "lang": "TypeScript",
-   "stars": "20,032",
-   "topics": [
-    "ai",
-    "ai-agents",
-    "animation",
-    "claude-code",
-    "ffmpeg",
-    "framework"
-   ],
-   "total_stars": 87073,
-   "homepage": "https://hyperframes.heygen.com",
-   "readme": "Write HTML. Render video. Built for agents. Studio | Quickstart | Showcase | Playground | Catalog | Docs | Discord Download the desktop app: macOS · Windows · Linux (.deb) HyperFrames is a free, open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. The HyperFrames Studio app is free to use as well; its Pro plan adds HeyGen's top video, image, voice and music models. Using Claude Code, Codex, Cursor, or another coding agent? Run `npx hyperframes skills update` once, then ask your agent to make a video. Quick Start With"
+   "stars": "19,612",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "elementalsouls/Claude-BugHunter",
    "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure ",
    "lang": "Python",
-   "stars": "6,708",
-   "topics": [
-    "ai-security",
-    "anthropic",
-    "application-security",
-    "bug-bounty",
-    "bugbounty",
-    "bugcrowd"
-   ],
-   "total_stars": 12642,
-   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
-   "readme": "claude-bughunter A self-contained Claude skill bundle for bug hunting and external red-team work · **83 skills** · 15 slash commands · **681 disclosed-report patterns** (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms (DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com). Built by **Sachin Sharma** — Bug Hunting & GenAI Security Research. SPONSORED BY &nbsp;&nbsp;&nbsp;&nbsp; What is this? `claude-bughunter` is a drop-in skill bundle for the Claude Co"
+   "stars": "8,329",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
+   "readme": ""
   },
   {
    "repo": "kajisho5/ffmpeg-skill",
    "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
    "lang": "Python",
-   "stars": "6,206",
-   "topics": [
-    "agent-skills",
-    "ai-agents",
-    "audio-processing",
-    "captions",
-    "claude-code",
-    "codex"
-   ],
-   "total_stars": 8399,
-   "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
+   "stars": "6,641",
+   "topics": [],
+   "total_stars": "",
+   "homepage": "",
    "readme": ""
   },
   {
    "repo": "vercel-labs/agent-browser",
    "desc": "Browser automation CLI for AI agents",
    "lang": "Rust",
-   "stars": "8,717",
+   "stars": "8,855",
    "topics": [],
    "total_stars": "",
    "homepage": "",
