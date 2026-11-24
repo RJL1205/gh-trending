@@ -1,168 +1,255 @@
 {
  "since": "daily",
- "fetched_at": "2026-11-23T01:54:28+00:00",
- "changed_at": "2026-11-23T01:54:28+00:00",
+ "fetched_at": "2026-11-24T05:27:24+00:00",
+ "changed_at": "2026-11-24T05:27:24+00:00",
  "count": 16,
  "items": [
   {
    "repo": "elementalsouls/Claude-BugHunter",
-   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure ",
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure ",
    "lang": "Python",
-   "stars": "1,716",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "2,029",
+   "topics": [
+    "ai-security",
+    "anthropic",
+    "application-security",
+    "bug-bounty",
+    "bugbounty",
+    "bugcrowd"
+   ],
+   "total_stars": 20081,
+   "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
+   "readme": "claude-bughunter A self-contained Claude skill bundle for bug hunting and external red-team work · **84 skills** · 15 slash commands · **681 disclosed-report patterns** (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms (DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com). Built by **Sachin Sharma** — Bug Hunting & GenAI Security Research. SPONSORED BY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What is this? `claude-bughunter` is a drop-in skill bundle for t"
   },
   {
    "repo": "obra/superpowers",
    "desc": "An agentic skills framework &amp; software development methodology that works.",
    "lang": "Shell",
-   "stars": "788",
-   "topics": [],
-   "total_stars": "",
+   "stars": "840",
+   "topics": [
+    "ai",
+    "brainstorming",
+    "coding",
+    "obra",
+    "sdlc",
+    "skills"
+   ],
+   "total_stars": 325256,
    "homepage": "",
-   "readme": ""
+   "readme": "Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. Table of Contents How it works Commercial Services Getting Started Claude Code Antigravity Codex App Codex CLI Cursor Devin CLI Factory Droid Gemini CLI GitHub Copilot CLI Grok Build CLI Kimi Code OpenCode Pi Qwen Code Hermes Agent Muse The Basic Workflow When Something Goes Wrong Community What's Inside Philosophy Contributing Updating License Visual companion telemetry How it works It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, "
   },
   {
    "repo": "HKUDS/CLI-Anything",
    "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
    "lang": "Python",
-   "stars": "699",
+   "stars": "790",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 63901,
+   "homepage": "https://clianything.cc/",
+   "readme": "&nbsp; CLI-Anything: Making ALL Software Agent-Native &#32; &#32; Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software 🌐 CLI-Hub**: `pip install cli-anything-hub` then `cli-hub install ` — browse, install, and manage all community-built CLIs. Want to add your own? Open a PR — the hub updates instantly. 🎬 See Demos**: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more. 🙋 [Become a Contributor, or Request a CLI]**: Join us! Sign up to build a new CLI harness — once reviewed and merge"
   },
   {
    "repo": "jingyaogong/minimind",
    "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
    "lang": "Python",
-   "stars": "473",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "828",
+   "topics": [
+    "artificial-intelligence",
+    "large-language-model"
+   ],
+   "total_stars": 69642,
+   "homepage": "https://jingyaogong.github.io/minimind",
+   "readme": "\"大道至简\" 中文 | English 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。 MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。 MiniMind 同时拓展了视觉模态模型 MiniMind-V、多模态 Omni 模型 MiniMind-O、扩散语言模型（MiniMind-dLM）、线性模型（MiniMind-Linear），详见 Discussion。 项目所有核心算法代码均从 0 使用 PyTorch 原生实现，不依赖第三方库提供的高层抽象接口。 这不仅是一个大语言模型全阶段开源复现项目，也是一套面向 LLM 入门与实践的教程。 希望此项目能为更多人提供一个可复现、可理解、可扩展的起点，一起感受创造的乐趣，并推动更广泛 AI 社区的进步。 注：本项目基于 Apache 2.0 协议开源，完全免费。“2 小时” 指 SFT 阶段在单张 NVIDIA 3090 上跑完 `1 epoch` 的实测耗时，“3 块钱” 指对应时段的 GPU 租用成本。 🔗 在线体验 | 🔗 视频介绍 ❤️ 赞助 MiniMind × "
   },
   {
    "repo": "cursor/plugins",
    "desc": "Cursor plugin specification and official plugins",
    "lang": "TypeScript",
-   "stars": "294",
+   "stars": "397",
    "topics": [],
-   "total_stars": "",
+   "total_stars": 18885,
    "homepage": "",
-   "readme": ""
+   "readme": "Cursor plugins Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest. Plugins | `name` | Plugin | Author | Category | `description` (from marketplace) | |:-------|:-------|:-------|:---------|:-------------------------------------| | `teaching` | Teaching | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | `continual-learning` | Continual Learning | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. | | `cursor-team-kit` | Cursor Team K"
   },
   {
    "repo": "firecrawl/firecrawl",
    "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
    "lang": "TypeScript",
-   "stars": "915",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "924",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "ai-crawler",
+    "ai-scraping",
+    "ai-search",
+    "crawler"
+   ],
+   "total_stars": 208097,
+   "homepage": "https://firecrawl.dev",
+   "readme": "🔥 Firecrawl** Knowledge infrastructure to make your agents smarter. 🔥** You can use Firecrawl three ways. This repo holds the code for Firecrawl Local and the self-hosted server, along with SDKs that work with all three. Firecrawl Local.** Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost. Firecrawl Cloud.** Use the hosted service at firecrawl.dev for everything Local does at scale with nothing to run, plus search and the 550+ data providers in Firecrawl Alexandria for far more knowledge than scraping alone. Self-hosting.** Deploy the full Firecrawl server from `apps/api"
   },
   {
    "repo": "nginx/nginx",
    "desc": "The official NGINX Open Source repository.",
    "lang": "C",
-   "stars": "163",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "174",
+   "topics": [
+    "content-cache",
+    "http",
+    "http2",
+    "http3",
+    "https",
+    "load-balancer"
+   ],
+   "total_stars": 33086,
+   "homepage": "https://nginx.org/",
+   "readme": "NGINX (pronounced \"engine x\" or \"en-jin-eks\") is the world's most popular Web Server, high performance Load Balancer, Reverse Proxy, API Gateway and Content Cache. NGINX is free and open source software, distributed under the terms of a simplified 2-clause BSD-like license. Enterprise distributions, commercial support and training are available from F5, Inc. [!IMPORTANT] The goal of this README is to provide a basic, structured introduction to NGINX for novice users. Please refer to the full NGINX documentation for detailed information on installing, building, configuring, debugging, and more. These documentation pages also contain a more detailed Beginners Guide, How-Tos, Development guide,"
   },
   {
    "repo": "openvinotoolkit/openvino",
    "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
    "lang": "C++",
-   "stars": "158",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "184",
+   "topics": [
+    "ai",
+    "computer-vision",
+    "deep-learning",
+    "deploy-ai",
+    "diffusion-models",
+    "generative-ai"
+   ],
+   "total_stars": 12321,
+   "homepage": "https://docs.openvino.ai",
+   "readme": "Open-source software toolkit for optimizing and deploying deep learning models. Documentation • Blog • Key Features • Tutorials • Integrations • Benchmarks • Generative AI Inference Optimization**: Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks. Flexible Model Support**: Use models trained with popular frameworks such as PyTorch, TensorFlow, ONNX, Keras, PaddlePaddle, and JAX/Flax. Directly integrate models built with transformers and diffusers from the Hugging Face Hub using Optimum Intel. Convert and deploy models without original frameworks. Broad"
   },
   {
    "repo": "cathrynlavery/diagram-design",
-   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
    "lang": "HTML",
-   "stars": "518",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "620",
+   "topics": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "data-visualization",
+    "diagrams",
+    "drawio"
+   ],
+   "total_stars": 71141,
+   "homepage": "https://diagramdesign.dev",
+   "readme": "An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand. 52 diagram types. No shadows. No Mermaid slop.** Website · Gallery · Changelog** Install · What it makes · Quickstart · Match your brand · Import · Export · Contributing npx skills add cathrynlavery/diagram-design Ask your agent in plain words: \"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\"* \"I need a quadrant showing Q2 projects by impact vs effort.\"* \"Give me a sequence of a bearer call with token refresh on 401.\"* \"Onboard diagram-design to https://yoursite.com\"* (pulls your palette and fonts so every diagram after this one matches your site) The agent picks the"
   },
   {
    "repo": "mvanhorn/last30days-skill",
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "lang": "Python",
-   "stars": "668",
-   "topics": [],
-   "total_stars": "",
+   "stars": "797",
+   "topics": [
+    "agent-skills",
+    "artificial-intelligence",
+    "automation",
+    "bot",
+    "command-line",
+    "data-science"
+   ],
+   "total_stars": 73580,
    "homepage": "",
-   "readme": ""
+   "readme": "/last30days English | Français | Deutsch | Español | Português (Brasil) | 日本語 | 简体中文 | العربية | فارسی | Türkçe An AI agent-led search engine scored by upvotes, likes, and real money - not editors.** This README tracks the current v4 pipeline. The runtime skill spec lives in skills/last30days/SKILL.md, which is the source of truth for the latest command and setup behavior. Claude Code (recommended — auto-updates via marketplace):** Codex, Cursor, Copilot, Gemini CLI, or any of 50+ Agent Skills hosts:** (`-g` installs globally for your user, available across all projects. Drop it to scope per-project.) More install options (claude.ai web, OpenClaw, manual) in the Install section below. Zero c"
   },
   {
    "repo": "google-labs-code/stitch-skills",
    "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
    "lang": "TypeScript",
-   "stars": "494",
+   "stars": "422",
    "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "total_stars": 12386,
+   "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
+   "readme": "Stitch Design Skills A collection of agent skills and plugins for Google Stitch, following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install). Quick Start Install Plugins (Recommended) The fastest way to set up the full Stitch plugin suite globally. Codex Add the Stitch Skills marketplace, then install the plugins you need. Via CLI (recommended) [!TIP] The `--sparse` flags are optional — they limit the checkout to only the listed paths for a faster clone. Omit them to pull the entire repository. Via the Codex UI Navigate to **Settings → Plugin Marketplaces → Add** and fill in: | Field | Valu"
   },
   {
    "repo": "mjmirza/app-store-compliance",
    "desc": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, ",
    "lang": "Shell",
-   "stars": "621",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "761",
+   "topics": [
+    "accessibility",
+    "ai-agents",
+    "android",
+    "app-review-guidelines",
+    "app-store",
+    "app-store-connect"
+   ],
+   "total_stars": 5131,
+   "homepage": "https://mjmirza.github.io/app-store-compliance/",
+   "readme": "&nbsp;&nbsp;&nbsp; App Store Compliance Playbook Catch App Store and Google Play rejection causes before the reviewer does. A reference and a pre-submission guard for iOS and Android apps that is plain about what a scan can prove and what still needs a person. It does not guarantee approval. Read it as a website at mjmirza.github.io/app-store-compliance. If this saves you even one rejection, leave a star, fork it, and follow along. That is the whole ask.** Star this repo &nbsp;|&nbsp; Fork it &nbsp;|&nbsp; Follow on GitHub &nbsp;|&nbsp; Follow on X &nbsp;|&nbsp; next8n.com Start here Pick one row. The time shown is for that first step. | You are | Do this first | Time | |---|---|---| | About"
   },
   {
    "repo": "Tracer-Cloud/opensre",
    "desc": "The open-source agent for CI/CD reliability.",
    "lang": "Python",
-   "stars": "399",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "436",
+   "topics": [
+    "alerting",
+    "ci-cd",
+    "cli",
+    "datadog",
+    "devops",
+    "gitlab-ci"
+   ],
+   "total_stars": 14895,
+   "homepage": "https://opensre.com",
+   "readme": "OpenSRE: The open-source agent for CI/CD reliability Your CI tells you it broke, but not why or how to fix it. OpenSRE is a CLI agent that reads the failed run, traces the cause and pushes a fix for you to review. Self-hosted, with your own models. Quickstart · Docs · FAQ · Security 🚧 Public Alpha: Core workflows are usable for early exploration, though not yet fully stable. The project is in active development, and APIs and integrations may evolve. Before you begin Make sure you have: A terminal open in a code project A Git repository (recommended for the full workflow demonstration) Step 1: Install and start opensre macOS or Linux: Windows (PowerShell): Then start OpenSRE: Windows details:"
   },
   {
    "repo": "toeverything/AFFiNE",
    "desc": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
    "lang": "TypeScript",
-   "stars": "542",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "595",
+   "topics": [
+    "app",
+    "crdt",
+    "editor",
+    "electron",
+    "knowledge-base",
+    "markdown"
+   ],
+   "total_stars": 77506,
+   "homepage": "https://affine.pro",
+   "readme": "AFFiNE.Pro Write, Draw and Plan All at Once A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. One hyper-fused platform for wildly creative minds. Home Page | Discord | Live Demo | Blog | Documentation [![All Contributors][all-contributors-badge]](#contributors) [![TypeScript-version-icon]](https://www.typescriptlang.org/) Docs, canvas and tables are hyper-merged with AFFiNE - just like the word affine (əˈfʌɪn | a-fine). Getting started & staying tuned with us. Star us, and you will receive all release notifications from GitHub without any delay! What is AFFiNE AFFiNE is an open-source, all-in-one workspace and an operating system for all the buildin"
   },
   {
    "repo": "XiaoYouChR/Ghost-Downloader-3",
    "desc": "The only downloader you need. 下载器的集大成者。",
    "lang": "Python",
-   "stars": "701",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "1,087",
+   "topics": [
+    "async",
+    "asyncio",
+    "bittorent",
+    "bt",
+    "cross-platform",
+    "download-manager"
+   ],
+   "total_stars": 16544,
+   "homepage": "https://gd.xychr.com/",
+   "readme": "简体中文 | English [!NOTE] Swiftproxy – Premium Global Residential Proxy Network Swiftproxy provides 90M+ real residential IPs across 220+ locations worldwide, helping users access global content and manage location-specific network connections. With rotating and static residential proxies, flexible geo-targeting, and HTTP(S)/SOCKS5 support, Swiftproxy is ideal for cross-region downloads, network testing, and browser automation. Free testing available, with 10% off using code `PROXY90`. The only downloader you need [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![Release][release-shield]][release-url] [![Downloads][downloads-s"
   },
   {
    "repo": "zhouxiaoka/autoclip",
    "desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp; content repurposing.",
    "lang": "Python",
-   "stars": "641",
-   "topics": [],
-   "total_stars": "",
-   "homepage": "",
-   "readme": ""
+   "stars": "907",
+   "topics": [
+    "ai-agent",
+    "ai-video-editor",
+    "content-repurposing",
+    "desktop-app",
+    "douyin",
+    "instagram-reels"
+   ],
+   "total_stars": 14645,
+   "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
+   "readme": "AutoClip 一个链接，一键出片 开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成 视频、封面和发布文案 ， 适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。 软件免费，云端模型按量计费；需要调整时可进入编辑器。 官网** · **下载桌面版** · 案例库 · 研究 · 快速开始 · 文档 · 问题反馈 简体中文** · English · 日本語 · 한국어 · Español · Português · Русский · Français · Türkçe 最新正式版**，桌面、CLI 与 MCP 同步更新。版本以 `autoclip --version` 和 MCP `get_version` 为准。一键出片、字幕分页、人物取景与长视频队列修复见 更新日志。旧版用户请升级。 真实成片 点击截图或「播放」直接观看完整成片；下方语言指成片字幕语言。这里精选 6 条，展开可看另外 10 条。 竖版 · 访谈式与满屏播客式 Bill Gates 访谈式 · 抖音 · 中文 ▶ 播放 1:01 · 原片 AI Experts Debate 访谈式 · Shorts · 英文 ▶ 播放 1:25 · 原片 Tony Robbins 满屏播客 · 抖音 · 中文 ▶ 播放 1:45 · 原片 Andrew Garfield × Amy Poehler 满屏播客 · Shorts · 英文 ▶ 播放 1:01 · 原片 横版 · 保留原画幅 佟丽娅 × 鲁豫 原画幅 · B 站 · 中文 ▶ 播放 1:41 · 原片 S"
   }
  ]
 }
